@@ -1,0 +1,2 @@
+model,variant,seed,parameters,training_seconds,base_training_seconds,correction_training_seconds,frozen_base_parameters,inference_batch_ms,inference_event_ms,retrieval_batch_ms,timing_batch_size,repetitions,memory_total_mb,key_and_response_memory_mb
+RAFT,full,43,2111,29.928364862978924,0.0,28.98280550999334,0,3.777787450235337,0.05902792890992714,1.0159163939533755,64,20,1.10236,0.72912

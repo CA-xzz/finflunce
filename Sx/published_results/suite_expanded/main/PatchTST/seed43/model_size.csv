@@ -1,0 +1,2 @@
+model,variant,seed,parameters,trainable_parameters,frozen_base_parameters,checkpoint_bytes
+PatchTST,full,43,28612,28612,0,128482

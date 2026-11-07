@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "reference_display_name": "Constrained Nearest Neighbor",
+  "reference_mode": "nearest",
+  "events": 2269,
+  "split_counts": {
+    "test": 1297,
+    "train": 678,
+    "validation": 294
+  },
+  "event_ids_unchanged": true,
+  "reference_pairs_byte_identical": true,
+  "all_arrays_except_q_identical": true,
+  "raw_labels_identical_except_version": true,
+  "x_y_normalization_and_quality_scales_unchanged": true,
+  "quality_formula": "max(exp(-balance/s_b - mean_distance/s_d), 1e-8)",
+  "quality_effective_n_factor": false,
+  "quality_neff_factor_enabled": false,
+  "q_rule": "exp_only",
+  "q_uses_pre_event_matching_quality_and_training_medians_only": true,
+  "q_changed_events": 2180,
+  "q_at_floor": 89,
+  "label_version": "nearest_51e5ec0bbd16",
+  "dataset_sha256": "7bbae15f35e02c6ebbfb34e511f9c8f38410d73a02308e36f2912402b45a8d34",
+  "normalization_sha256": "8c47f96acf39f3fe12fe7d77d6f88789188793e7c268d94a214293f629bc0155"
+}

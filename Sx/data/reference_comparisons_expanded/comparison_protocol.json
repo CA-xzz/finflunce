@@ -1,0 +1,29 @@
+{
+  "test_reference": "strict",
+  "common_test_count": 235,
+  "common_training_count": 157,
+  "ready_for_formal_training": true,
+  "canonical_test_hash": "0b4ed3b5fcb080bf2f5f77313e1aeac6a2a7c4441700d09e04bf0823daa08ebd",
+  "models_started": false,
+  "evaluation_scope": "Diagnostic comparison on the common complete strict-reference test subset; does not restrict any source main sample",
+  "training_labels": "Each scheme's original reference construction",
+  "validation_labels": "Each scheme's original reference construction",
+  "intersection_behavior": "Restrict training IDs, refit x/y scales, category vocabulary, and q median scales; original selected controls and their labels remain fixed",
+  "original_coverage_preserved": true,
+  "required_variants": {
+    "strict": "full",
+    "nearest": "full",
+    "expanded_nearest": "full"
+  },
+  "single_reference": true,
+  "quality_effective_n_factor": false,
+  "quality_neff_factor_enabled": false,
+  "q_rule": "exp_only",
+  "quality_formula": "max(exp(-balance/s_b - mean_distance/s_d), 1e-8)",
+  "reference_schemes": {
+    "strict": "Strict Matching",
+    "nearest": "Constrained Nearest Neighbor",
+    "expanded_nearest": "Nearest Neighbor"
+  },
+  "reference_count": 1
+}

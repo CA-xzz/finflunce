@@ -1,0 +1,2 @@
+model,variant,seed,parameters,training_seconds,base_training_seconds,correction_training_seconds,frozen_base_parameters,inference_batch_ms,inference_event_ms,retrieval_batch_ms,timing_batch_size,repetitions,memory_total_mb,key_and_response_memory_mb
+iTransformer,full,41,27620,24.10845242301002,0.0,23.04584978200728,0,2.2506253968458623,0.0351660218257166,,64,20,0.0,0.0

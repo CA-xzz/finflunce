@@ -1,0 +1,2 @@
+model,variant,seed,parameters,trainable_parameters,frozen_base_parameters,checkpoint_bytes
+RAIF,no_quality,43,73973,73973,0,309154

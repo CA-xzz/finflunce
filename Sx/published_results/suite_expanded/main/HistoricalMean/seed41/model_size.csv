@@ -1,0 +1,2 @@
+model,variant,seed,parameters,trainable_parameters,frozen_base_parameters,checkpoint_bytes
+HistoricalMean,full,41,0,0,0,0

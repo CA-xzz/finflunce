@@ -1,0 +1,13 @@
+{
+  "ar_direction_accuracy": 0.5059886118201453,
+  "peak_time_mae": {
+    "AR": 4.026349892008639,
+    "turnover": 3.9667386609071276,
+    "log_volume": 4.360259179265658
+  },
+  "near_flat_true_events": {
+    "AR": 0,
+    "turnover": 0,
+    "log_volume": 0
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "channels": [
+    "AR",
+    "turnover",
+    "log_volume"
+  ],
+  "n_events": 5105,
+  "split_counts": {
+    "train": 2170,
+    "validation": 620,
+    "test": 2315
+  },
+  "length": 10,
+  "horizon": 11,
+  "references_per_event": 1,
+  "market_model_offsets": [
+    -100,
+    -10
+  ],
+  "minimum_market_fit_pairs": 30,
+  "input_offsets": [
+    -10,
+    -1
+  ],
+  "source_dataset_sha256": "313470657a33a77eaed458af7854dc9ac87f0a516dc1614f445488f68c16eb0e",
+  "source_label_version": "expanded_nearest_a60080fcec64",
+  "reference_identities_reselected": false,
+  "source_references_sha256": "6155e6ac31bbf5448b2d926d86a858996874e73e9f1e6e9b13e2c459e51516cc",
+  "original_query_x_preserved": true,
+  "reference_input_has_no_recommendation_condition": true,
+  "scaling_fit_partition": "train",
+  "recommended_target_mean": "training raw Y mean",
+  "recommended_target_scale": "primary training Delta standard deviation",
+  "reference_target_scaling": "training raw B mean and standard deviation",
+  "canonical_delta_source": "Primary float32 standardized y inverse-transformed using primary y_mean/y_std",
+  "raw_trajectories_source": "Primary labels.csv y and baseline; matched to MarketPanel.outcome",
+  "query_x_precision": "Primary float32 standardized x inverse-transformed using primary x_mean/x_std",
+  "reference_x_precision": "Float64 MarketPanel.state pre-event inputs",
+  "future_reference_values_are_targets_only": true,
+  "same_day_recommended_stocks_excluded": true,
+  "raw_delta_vs_canonical_max_absolute_difference": 2.648941475058564e-06,
+  "datasets": {
+    "recommended_full": {
+      "dataset_sha256": "4a023752c497c3ceeeaff2fcc882c692b8cbfdb82bf8da122d31b3b9087ce432",
+      "normalization_sha256": "e78ca8e97ab6ab30a72c5368552c43f3684d712d2d3ae00f1df8e7dc9a4ffbde",
+      "events_sha256": "cc7bc875021400b4db231961c6fe66e1f9440bd5fc444cdee46c12273e48bd60",
+      "label_version": "recommended_full_f8fff32e66f6"
+    },
+    "reference_full": {
+      "dataset_sha256": "8aadaecdfecfebf759b0088e0317dca34702aa474675646e499daabe952f4057",
+      "normalization_sha256": "3debba210a3099d940332892c51e89443dec441a9e7481588013eb3c9a12d34c",
+      "events_sha256": "f7c563f9f74302c39150bce31f7f66f6d8f02352b779d7804e1968c0079684ff",
+      "label_version": "reference_full_ab042f960a0f"
+    }
+  },
+  "script_sha256": "1449be7762479f84bee4657f2b59aee307f6ed890e355e45b8e785aab7687c50"
+}

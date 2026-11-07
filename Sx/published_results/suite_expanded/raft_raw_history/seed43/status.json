@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "mode": "full",
+  "best_epoch": 26,
+  "validation_standardized_mae": 0.6149471402168274,
+  "base_validation_standardized_mae": null,
+  "base_training_seconds": 0.0,
+  "correction_training_seconds": 28.52543381403666,
+  "training_seconds": 29.464295457000844,
+  "gamma": null,
+  "n_memory": 2170,
+  "total_seconds": 32.41669374401681,
+  "finished_unix": 1793951915.8522282,
+  "test_standardized_mae": 0.6611135005950928,
+  "n_test": 2315,
+  "auxiliary_experiment": "RAFT_raw_Y_history",
+  "history_value": "training_standardized_raw_Y",
+  "checkpoint_requires_wrapper": true
+}

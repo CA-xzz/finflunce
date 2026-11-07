@@ -1,0 +1,114 @@
+{
+  "status": "completed",
+  "n_events": 5105,
+  "n_test": 2315,
+  "n_test_dates": 141,
+  "dataset_sha256": "313470657a33a77eaed458af7854dc9ac87f0a516dc1614f445488f68c16eb0e",
+  "normalization_sha256": "afe63d639544efd11ba3afdcb6deeacde3a51baebff271e84a38335b9c760471",
+  "main_runs": 22,
+  "deterministic_baseline_seeds": [
+    41
+  ],
+  "trainable_model_seeds": [
+    41,
+    42,
+    43
+  ],
+  "auxiliary_metric_rows": 32,
+  "group_metric_rows": 414,
+  "source_groups": {
+    "training_source_author_count": 23,
+    "training_vocabulary_author_count": 23,
+    "training_source_only_authors": [],
+    "training_vocabulary_only_authors": [],
+    "seen_definition": "Nonzero author entries in training influencer_vocab; actual retained-training source-author union also recorded.",
+    "source_row_definition": "Zero-based row in filtered source_expanded/original_data/events.csv, not original_source_row.",
+    "interpretation": "Retrospective descriptive grouping only. Multi-source identities and ordering are not asserted to be available at query time and are not model inputs."
+  },
+  "boundary_tests": {
+    "status": "passed",
+    "checks": [
+      "earliest_absolute_tie",
+      "tie_flags",
+      "flat_threshold_inclusive",
+      "flat_peak_error_excluded",
+      "negative_absolute_peak",
+      "zero_sign_accuracy",
+      "20_event_5_date_boundary",
+      "quality_tercile_equality",
+      "per_seed_rmse_before_aggregation",
+      "strict_memory_maturity"
+    ]
+  },
+  "fixed_response_replay_exactly_matches_main": true,
+  "memory_checks": [
+    {
+      "seed": 41,
+      "memory_mode": "fixed",
+      "retrieval_rows": 11575,
+      "update_rows": 0,
+      "strict_end_before_query": true,
+      "nontraining_retrieval_rows": 0
+    },
+    {
+      "seed": 41,
+      "memory_mode": "rolling",
+      "retrieval_rows": 11575,
+      "update_rows": 2861,
+      "strict_end_before_query": true,
+      "nontraining_retrieval_rows": 7088
+    },
+    {
+      "seed": 42,
+      "memory_mode": "fixed",
+      "retrieval_rows": 11575,
+      "update_rows": 0,
+      "strict_end_before_query": true,
+      "nontraining_retrieval_rows": 0
+    },
+    {
+      "seed": 42,
+      "memory_mode": "rolling",
+      "retrieval_rows": 11575,
+      "update_rows": 2861,
+      "strict_end_before_query": true,
+      "nontraining_retrieval_rows": 7107
+    },
+    {
+      "seed": 43,
+      "memory_mode": "fixed",
+      "retrieval_rows": 11575,
+      "update_rows": 0,
+      "strict_end_before_query": true,
+      "nontraining_retrieval_rows": 0
+    },
+    {
+      "seed": 43,
+      "memory_mode": "rolling",
+      "retrieval_rows": 11575,
+      "update_rows": 2861,
+      "strict_end_before_query": true,
+      "nontraining_retrieval_rows": 6809
+    }
+  ],
+  "figure3": {
+    "n_cases": 6,
+    "source_rows": 180,
+    "offsets": [
+      -10,
+      -1
+    ],
+    "selection_seed": 20261105,
+    "uses_existing_case_manifest": true,
+    "new_case_selection": false,
+    "input_precision": "Inverse-transformed float32 prepared model inputs",
+    "same_case_order_as_existing_retrieval_figure": true,
+    "units": {
+      "AR": "decimal return",
+      "turnover": "percentage points",
+      "log_volume": "natural log of traded shares"
+    }
+  },
+  "model_fitting_performed": false,
+  "existing_data_or_reports_modified": false
+}

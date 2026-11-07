@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "mode": "full",
+  "best_epoch": 4,
+  "validation_standardized_mae": 0.611896812915802,
+  "base_validation_standardized_mae": null,
+  "base_training_seconds": 0.0,
+  "correction_training_seconds": 30.703654629993252,
+  "training_seconds": 31.62292192899622,
+  "gamma": null,
+  "n_memory": 2170,
+  "total_seconds": 33.13635400997009,
+  "finished_unix": 1793951419.0539641,
+  "test_standardized_mae": 0.6667715311050415,
+  "n_test": 2315
+}

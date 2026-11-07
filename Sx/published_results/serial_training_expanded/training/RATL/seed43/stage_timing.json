@@ -1,0 +1,36 @@
+[
+  {
+    "stage": "base",
+    "n_train": 1145,
+    "epochs": 33,
+    "best_epoch": 18,
+    "validation_standardized_mae": 0.6332719326019287,
+    "stage_wall_seconds": 19.526100107992534,
+    "monitor_seconds": 0.0,
+    "stage_seconds": 19.526100107992534,
+    "optimization_seconds": 16.805704378231894,
+    "validation_seconds": 2.129534574924037,
+    "training_cache_seconds": 0,
+    "bookkeeping_seconds": 0.5908611548366025,
+    "core_fit_stage_seconds": 19.523558058950584,
+    "optimizer_steps": 594,
+    "total_training_event_visits": 37785
+  },
+  {
+    "stage": "residual",
+    "n_train": 912,
+    "epochs": 38,
+    "best_epoch": 23,
+    "validation_standardized_mae": 0.6399751901626587,
+    "stage_wall_seconds": 21.070044776017312,
+    "monitor_seconds": 0.0,
+    "stage_seconds": 21.070044776017312,
+    "optimization_seconds": 15.630775011144578,
+    "validation_seconds": 4.574562680791132,
+    "training_cache_seconds": 0.42089306080015376,
+    "bookkeeping_seconds": 0.4438140232814476,
+    "core_fit_stage_seconds": 21.066767243028153,
+    "optimizer_steps": 570,
+    "total_training_event_visits": 34656
+  }
+]

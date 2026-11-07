@@ -1,0 +1,7 @@
+group,scheme,dataset,model,variant,n_train,n_validation,n_test,training_label_version,evaluation_label_version,dataset_contract
+full_training,strict,/home/ubuntu/Sx/data/reference_comparisons_expanded/full_training/strict,RAIF,full,278,82,235,strict_fb2263046230,strict_fb2263046230,comparison_06dfc233e792
+full_training,nearest,/home/ubuntu/Sx/data/reference_comparisons_expanded/full_training/nearest,RAIF,full,678,294,235,nearest_51e5ec0bbd16,strict_fb2263046230,comparison_a85efe367dcf
+full_training,expanded_nearest,/home/ubuntu/Sx/data/reference_comparisons_expanded/full_training/expanded_nearest,RAIF,full,2170,620,235,expanded_nearest_a60080fcec64,strict_fb2263046230,comparison_97eec2cb0420
+intersect_training,strict,/home/ubuntu/Sx/data/reference_comparisons_expanded/intersect_training/strict,RAIF,full,157,82,235,strict_fb2263046230,strict_fb2263046230,comparison_918bb10741d0
+intersect_training,nearest,/home/ubuntu/Sx/data/reference_comparisons_expanded/intersect_training/nearest,RAIF,full,157,294,235,nearest_51e5ec0bbd16,strict_fb2263046230,comparison_6b085d7be8ef
+intersect_training,expanded_nearest,/home/ubuntu/Sx/data/reference_comparisons_expanded/intersect_training/expanded_nearest,RAIF,full,157,620,235,expanded_nearest_a60080fcec64,strict_fb2263046230,comparison_8f3f9d9e5e96

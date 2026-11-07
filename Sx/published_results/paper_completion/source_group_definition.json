@@ -1,0 +1,16 @@
+{
+  "training_source_author_count": 23,
+  "training_vocabulary_author_count": 23,
+  "training_source_only_authors": [],
+  "training_vocabulary_only_authors": [],
+  "seen_definition": "Nonzero author entries in training influencer_vocab; actual retained-training source-author union also recorded.",
+  "source_row_definition": "Zero-based row in filtered source_expanded/original_data/events.csv, not original_source_row.",
+  "interpretation": "Retrospective descriptive grouping only. Multi-source identities and ordering are not asserted to be available at query time and are not model inputs.",
+  "earlier_later_cutoff": "2025-10-01",
+  "training_quality_terciles": [
+    0.022090008482336998,
+    0.3212853670120239
+  ],
+  "group_min_events": 20,
+  "group_min_dates": 5
+}

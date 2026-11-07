@@ -1,0 +1,16 @@
+{
+  "calendar_unique_sorted": true,
+  "daily_stock_date_keys_unique": true,
+  "explicit_market_index_returns_loaded": true,
+  "event_calendar_alignment": true,
+  "response_length": 11,
+  "partition_response_windows_disjoint": true,
+  "market_model_estimation_offsets": [
+    -100,
+    -10
+  ],
+  "minimum_estimation_pairs": 30,
+  "suspension_calendar_gaps_not_compressed": true,
+  "attributes_required_for_matching": false,
+  "intraday_publication_timestamps_verified": false
+}

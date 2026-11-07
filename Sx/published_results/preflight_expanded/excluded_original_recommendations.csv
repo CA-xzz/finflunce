@@ -1,0 +1,414 @@
+recommend_date,bigv_name,recommended_stock_code,recommended_stock_name,laiyuan,original_source_row,exclusion_reason
+2023/1/9,股市刀锋,000941,新能源,微博,14,non_equity_index_including_same_numeric_code_collision
+2023/1/9,股市刀锋,300059,财富趋势,微博,16,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/1/11,皮海洲,000001,上证指数,微博,20,non_equity_index_including_same_numeric_code_collision
+2023/1/14,洪榕,005319,上证50指数,微博,40,non_equity_fund_or_index
+2023/1/19,皮海洲,000001,上证指数,微博,67,non_equity_index_including_same_numeric_code_collision
+2023/1/29,发牌手杰克,000819,有色金属,微博,104,non_equity_index_including_same_numeric_code_collision
+2023/1/31,郭施亮,000001,上证指数,微博,128,non_equity_index_including_same_numeric_code_collision
+2023/2/6,皮海洲,000001,上证指数,微博,149,non_equity_index_including_same_numeric_code_collision
+2023/2/7,皮海洲,000001,上证指数,微博,150,non_equity_index_including_same_numeric_code_collision
+2023/3/11,表舅是养基大户,399006,创业板,微博,267,non_equity_index_including_same_numeric_code_collision
+2023/3/15,表舅是养基大户,399006,创业板,微博,287,non_equity_index_including_same_numeric_code_collision
+2023/3/16,表舅是养基大户,399006,创业板,微博,290,non_equity_index_including_same_numeric_code_collision
+2023/3/17,表舅是养基大户,399006,创业板,微博,295,non_equity_index_including_same_numeric_code_collision
+2023/4/4,表舅是养基大户,018177,科创50指数,微博,391,non_equity_fund_or_index
+2023/4/6,郭施亮,006025,诺安优化配置混合A,微博,393,non_equity_fund_or_index
+2023/4/9,股市刀锋,000941,新能源,微博,407,non_equity_index_including_same_numeric_code_collision
+2023/4/14,股市刀锋,506000,科创板基金,微博,423,non_equity_fund_or_index
+2023/4/21,股市刀锋,300023,安恒信息,微博,458,name_code_conflict_no_original_recommendation_to_resolve
+2023/5/5,股市刀锋,399812,养老产业,微博,498,non_equity_index_including_same_numeric_code_collision
+2023/5/10,洪榕,024365,汽车制造,微博,510,fund_or_security_identity_not_verified
+2023/5/11,投行泰山,600065,*ST联谊,微博,513,original_code_delisted_before_study_period
+2023/6/5,表舅是养基大户,588000,科创50ETF,微博,571,non_equity_fund_or_index
+2023/6/9,深蓝财经,005698,华夏全球科技先锋,微博,575,fund_or_security_identity_not_verified
+2023/6/29,发牌手杰克,000001,上证指数,微博,632,non_equity_index_including_same_numeric_code_collision
+2023/8/20,股市刀锋,400280,锦州港A3,微博,692,NEEQ_or_BSE_listing_identity_not_verified
+2023/9/4,表舅是养基大户,399997,中证白酒,微博,706,non_equity_index_including_same_numeric_code_collision
+2023/9/18,洪榕,000941,新能源,微博,725,non_equity_index_including_same_numeric_code_collision
+2023/9/22,表舅是养基大户,563300,华柏中证2000ETF,微博,734,non_equity_fund_or_index
+2023/9/23,深蓝财经,000001,上证指数,微博,736,non_equity_index_including_same_numeric_code_collision
+2023/9/23,深蓝财经,000808,医药生物,微博,737,non_equity_index_including_same_numeric_code_collision
+2023/9/23,深蓝财经,000807,食品饮料,微博,738,non_equity_index_including_same_numeric_code_collision
+2023/10/10,发牌手杰克,000847,腾讯济安,微博,765,non_equity_index_including_same_numeric_code_collision
+2023/10/11,发牌手杰克,000847,腾讯济安,微博,766,non_equity_index_including_same_numeric_code_collision
+2023/10/11,发牌手杰克,399989,中证医疗,微博,767,non_equity_index_including_same_numeric_code_collision
+2023/10/17,发牌手杰克,000001,上证指数,微博,803,non_equity_index_including_same_numeric_code_collision
+2023/10/30,股市刀锋,000941,新能源,微博,834,non_equity_index_including_same_numeric_code_collision
+2023/11/3,洪榕,399432,智能汽车,微博,844,non_equity_index_including_same_numeric_code_collision
+2023/11/22,郭施亮,000001,上证指数,微博,910,non_equity_index_including_same_numeric_code_collision
+2023/11/23,投行泰山,025664,北证50指数,微博,911,non_equity_fund_or_index
+2023/12/4,洪榕,025664,北证50指数,微博,918,non_equity_fund_or_index
+2023/12/11,发牌手杰克,000847,腾讯济安,微博,920,non_equity_index_including_same_numeric_code_collision
+2024/1/12,发牌手杰克,000847,腾讯济安,微博,936,non_equity_index_including_same_numeric_code_collision
+2024/1/18,郭施亮,000001,上证指数,微博,938,non_equity_index_including_same_numeric_code_collision
+2024/1/24,表舅是养基大户,513870,富国纳斯达克100ETF,微博,942,non_equity_fund_or_index
+2024/2/8,郭施亮,000001,上证指数,微博,963,non_equity_index_including_same_numeric_code_collision
+2024/2/20,表舅是养基大户,006373,国富全球科技,微博,976,fund_or_security_identity_not_verified
+2024/3/1,表舅是养基大户,005698,华夏全球科技先锋,微博,992,fund_or_security_identity_not_verified
+2024/3/11,表舅是养基大户,000015,红利指数,微博,1044,non_equity_index_including_same_numeric_code_collision
+2024/4/13,表舅是养基大户,517520,黄金股ETF,微博,1156,non_equity_fund_or_index
+2024/4/16,表舅是养基大户,512890,华泰股份,微博,1169,non_equity_fund_or_index
+2024/4/17,表舅是养基大户,560280,广发证券,微博,1173,non_equity_fund_or_index
+2024/4/18,表舅是养基大户,515020,华宝中证银行ETF,微博,1178,non_equity_fund_or_index
+2024/4/19,表舅是养基大户,512040,华宝股份,微博,1182,non_equity_fund_or_index
+2024/4/22,表舅是养基大户,515800,华泰柏瑞中证500ETF,微博,1189,non_equity_fund_or_index
+2024/4/22,洪榕,000015,红利资产,微博,1190,non_equity_index_including_same_numeric_code_collision
+2024/4/24,但斌,400084,乐视网3,微博,1194,NEEQ_or_BSE_listing_identity_not_verified
+2024/4/24,表舅是养基大户,513180,华夏恒生科技ETF,微博,1202,non_equity_fund_or_index
+2024/4/26,表舅是养基大户,513530,港股通红利ETF,微博,1219,non_equity_fund_or_index
+2024/4/29,表舅是养基大户,007455,富国蓝筹精选,微博,1234,fund_or_security_identity_not_verified
+2024/4/29,表舅是养基大户,588200,嘉实上证科创板芯片ETF,微博,1235,non_equity_fund_or_index
+2024/5/3,郭施亮,000001,上证指数,微博,1240,non_equity_index_including_same_numeric_code_collision
+2024/5/4,洪榕,006202,交银核心资产混合A,微博,1242,non_equity_fund_or_index
+2024/5/5,洪榕,006202,交银核心资产混合A,微博,1244,non_equity_fund_or_index
+2024/5/7,表舅是养基大户,018388,港股红利,微博,1263,fund_or_security_identity_not_verified
+2024/5/10,表舅是养基大户,004532,民生加银港股通高股息A,微博,1276,fund_or_security_identity_not_verified
+2024/5/10,表舅是养基大户,513630,摩根华鑫,微博,1277,non_equity_fund_or_index
+2024/5/10,表舅是养基大户,005051,摩根华鑫,微博,1278,fund_or_security_identity_not_verified
+2024/5/10,洪榕,516520,智能驾驶,微博,1279,non_equity_fund_or_index
+2024/5/17,表舅是养基大户,560860,工业有色ETF,微博,1299,non_equity_fund_or_index
+2024/5/20,深蓝财经,000300,沪深300,微博,1305,non_equity_index_including_same_numeric_code_collision
+2024/5/21,表舅是养基大户,512890,红利低波ETF,微博,1307,non_equity_fund_or_index
+2024/5/27,表舅是养基大户,006748,富国中证价值ETF联接A,微博,1318,non_equity_fund_or_index
+2024/5/31,但斌,515220,煤炭ETF,微博,1323,non_equity_fund_or_index
+2024/5/31,但斌,000847,腾讯济安,微博,1331,non_equity_index_including_same_numeric_code_collision
+2024/6/1,投行小兵,400280,锦州港A3,微博,1333,NEEQ_or_BSE_listing_identity_not_verified
+2024/6/2,表舅是养基大户,512040,价值100ETF,微博,1334,non_equity_fund_or_index
+2024/6/4,表舅是养基大户,006748,富国中证价值ETF联接A,微博,1338,non_equity_fund_or_index
+2024/6/10,洪榕,483009,深港通手机产业链R,微博,1346,fund_or_security_identity_not_verified
+2024/6/18,表舅是养基大户,019455,华泰股份,微博,1367,name_code_conflict_no_original_recommendation_to_resolve
+2024/6/18,表舅是养基大户,560860,工业有色ETF,微博,1368,non_equity_fund_or_index
+2024/6/25,表舅是养基大户,007721,天弘标普500,微博,1388,fund_or_security_identity_not_verified
+2024/6/26,发牌手杰克,000300,沪深300,微博,1391,non_equity_index_including_same_numeric_code_collision
+2024/6/27,表舅是养基大户,515300,红利低波ETF基金,微博,1393,non_equity_fund_or_index
+2024/6/27,表舅是养基大户,007605,嘉实沪深300红利低波动ETF联接A,微博,1394,non_equity_fund_or_index
+2024/7/1,表舅是养基大户,512890,华泰股份,微博,1401,non_equity_fund_or_index
+2024/7/1,表舅是养基大户,515300,嘉实沪深300红利低波动ETF,微博,1402,non_equity_fund_or_index
+2024/7/3,表舅是养基大户,513910,华夏银行,微博,1407,non_equity_fund_or_index
+2024/7/10,郭施亮,588800,科创100ETF华夏,微博,1421,non_equity_fund_or_index
+2024/7/16,表舅是养基大户,520830,华泰股份,微博,1433,non_equity_fund_or_index
+2024/7/17,但斌,000807,食品饮料,微博,1434,non_equity_index_including_same_numeric_code_collision
+2024/7/17,但斌,399441,生物医药,微博,1435,non_equity_index_including_same_numeric_code_collision
+2024/7/22,表舅是养基大户,588200,科创芯片ETF,微博,1456,non_equity_fund_or_index
+2024/8/7,表舅是养基大户,513530,华泰柏瑞港股通红利ETF,微博,1485,non_equity_fund_or_index
+2024/8/12,表舅是养基大户,005319,上证50指数,微博,1493,non_equity_fund_or_index
+2024/8/12,表舅是养基大户,530003,天弘上证50ETF,微博,1494,non_equity_fund_or_index
+2024/8/15,郭施亮,588800,科创100ETF华夏,微博,1499,non_equity_fund_or_index
+2024/8/15,郭施亮,000847,腾讯济安,微博,1500,non_equity_index_including_same_numeric_code_collision
+2024/8/16,郭施亮,000847,腾讯济安,微博,1502,non_equity_index_including_same_numeric_code_collision
+2024/8/18,但斌,000847,腾讯济安,微博,1503,non_equity_index_including_same_numeric_code_collision
+2024/9/2,表舅是养基大户,512040,价值100ETF,微博,1554,non_equity_fund_or_index
+2024/9/20,发牌手杰克,000847,腾讯济安,微博,1609,non_equity_index_including_same_numeric_code_collision
+2024/9/24,郭施亮,588800,科创100ETF华夏,微博,1624,non_equity_fund_or_index
+2024/9/25,郭施亮,517520,黄金股ETF,微博,1626,non_equity_fund_or_index
+2024/9/27,但斌,000015,红利,微博,1630,non_equity_index_including_same_numeric_code_collision
+2024/9/27,洪灝的宏观策略,000001,上证指数,微博,1632,non_equity_index_including_same_numeric_code_collision
+2024/9/28,但斌,000847,腾讯济安,微博,1634,non_equity_index_including_same_numeric_code_collision
+2024/10/3,洪灝的宏观策略,000001,上证指数,微博,1646,non_equity_index_including_same_numeric_code_collision
+2024/10/7,洪灝的宏观策略,000001,上证指数,微博,1657,non_equity_index_including_same_numeric_code_collision
+2024/10/8,洪灝的宏观策略,000001,上证指数,微博,1658,non_equity_index_including_same_numeric_code_collision
+2024/10/9,但斌,000300,沪深300,微博,1659,non_equity_index_including_same_numeric_code_collision
+2024/10/10,郭施亮,588000,科创50ETF,微博,1664,non_equity_fund_or_index
+2024/10/10,郭施亮,588800,科创100ETF华夏,微博,1665,non_equity_fund_or_index
+2024/11/5,郭施亮,000001,上证指数,微博,1711,non_equity_index_including_same_numeric_code_collision
+2024/11/12,表舅是养基大户,022454,嘉实中证A500ETF联接C,微博,1717,non_equity_fund_or_index
+2024/11/26,深蓝财经,022424,广发中证A500ETF,微博,1726,non_equity_fund_or_index
+2024/12/9,郭施亮,512760,半导体芯片,微博,1743,non_equity_fund_or_index
+2024/12/9,郭施亮,008107,医药医疗,微博,1744,fund_or_security_identity_not_verified
+2024/12/29,深蓝财经,000001,上证指数,微博,1785,non_equity_index_including_same_numeric_code_collision
+2025/1/2,表舅是养基大户,022454,嘉实中证A500ETF联接C,微博,1791,non_equity_fund_or_index
+2025/1/6,表舅是养基大户,022454,嘉实中证A500ETF联接C,微博,1792,non_equity_fund_or_index
+2025/2/6,郭施亮,000001,上证指数,微博,1843,non_equity_index_including_same_numeric_code_collision
+2025/2/7,郭施亮,000001,上证指数,微博,1847,non_equity_index_including_same_numeric_code_collision
+2025/2/13,发牌手杰克,512690,酒类ETF,微博,1864,non_equity_fund_or_index
+2025/2/22,表舅是养基大户,000847,腾讯济安,微博,1886,non_equity_index_including_same_numeric_code_collision
+2025/2/27,表舅是养基大户,512150,富时A股自由现金流指数ETF,微博,1889,non_equity_fund_or_index
+2025/3/5,郭施亮,563560,科技成长,微博,1899,non_equity_fund_or_index
+2025/5/16,郭施亮,513780,港股创新药50ETF,微博,1994,non_equity_fund_or_index
+2025/5/20,股市刀锋,000602,金马集团,微博,2007,original_code_delisted_before_study_period
+2025/6/26,深蓝财经,000001,上证指数,微博,2053,non_equity_index_including_same_numeric_code_collision
+2025/6/26,郭施亮,000001,上证指数,微博,2055,non_equity_index_including_same_numeric_code_collision
+2025/6/26,郭施亮,002647,诺德股份,微博,2056,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/6/26,郭施亮,300301,智立方,微博,2057,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/6/26,郭施亮,002939,国盛证券,微博,2060,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/7/1,投行小兵,688765,禾元生物-U,微博,2068,recommendation_precedes_exchange_A_share_listing_2025_10_28
+2025/8/7,洪榕,399441,生物医药,微博,2145,non_equity_index_including_same_numeric_code_collision
+2025/8/12,发牌手杰克,002939,国盛证券,微博,2148,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/8/13,发牌手杰克,002939,国盛证券,微博,2149,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/8/17,洪榕,399699,金融科技,微博,2187,non_equity_index_including_same_numeric_code_collision
+2025/8/24,洪榕,399699,金融科技,微博,2211,non_equity_index_including_same_numeric_code_collision
+2025/8/26,洪榕,000847,腾讯济安,微博,2226,non_equity_index_including_same_numeric_code_collision
+2025/8/27,郭施亮,516100,金融科技ETF华夏,微博,2236,non_equity_fund_or_index
+2025/9/4,郭施亮,515120,创新药ETF,微博,2299,non_equity_fund_or_index
+2025/9/15,郭施亮,605090,中际联合,微博,2372,name_code_conflict_no_original_recommendation_to_resolve
+2025/9/17,城门立木战法,399699,金融科技,微博,2381,non_equity_index_including_same_numeric_code_collision
+2025/9/25,投行泰山,000941,新能源,微博,2423,non_equity_index_including_same_numeric_code_collision
+2025/9/29,洪榕,399699,金融科技,微博,2433,non_equity_index_including_same_numeric_code_collision
+2025/11/23,但斌,000847,腾讯济安,微博,2663,non_equity_index_including_same_numeric_code_collision
+2025/12/1,郭施亮,515180,红利ETF易方达,微博,2705,non_equity_fund_or_index
+2025/12/1,郭施亮,563700,红利价值ETF,微博,2706,non_equity_fund_or_index
+2025/12/3,但斌,000154,沪深300指数,微博,2711,non_equity_fund_or_index
+2025/12/5,股市刀锋,000300,沪深300,微博,2727,non_equity_index_including_same_numeric_code_collision
+2025/12/12,投行泰山,000847,腾讯济安,微博,2783,non_equity_index_including_same_numeric_code_collision
+2023/3/23,雷立刚本人,000977,浪潮软件,微信,3208,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/11/11,金石杂谈,601698,中国国贸,微信,3274,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/5/29,金石杂谈,000015,红利指数,微信,3306,non_equity_index_including_same_numeric_code_collision
+2025/5/29,金石杂谈,000847,腾讯济安,微信,3315,non_equity_index_including_same_numeric_code_collision
+2025/6/10,金石杂谈,871272,理想传媒,微信,3349,NEEQ_or_BSE_listing_identity_not_verified
+2025/6/16,金石杂谈,000847,腾讯济安,微信,3355,non_equity_index_including_same_numeric_code_collision
+2025/6/16,金石杂谈,000847,腾讯济安,微信,3359,non_equity_index_including_same_numeric_code_collision
+2025/6/17,金石杂谈,000847,腾讯济安,微信,3360,non_equity_index_including_same_numeric_code_collision
+2025/7/4,金石杂谈,000406,石油大明,微信,3401,fund_or_security_identity_not_verified
+2025/7/4,金石杂谈,000819,有色金属,微信,3402,non_equity_index_including_same_numeric_code_collision
+2025/8/7,金石杂谈,005225,广发量化多因子混合A,微信,3511,non_equity_fund_or_index
+2025/8/6,金石杂谈,430597,博安通,微信,3533,NEEQ_or_BSE_listing_identity_not_verified
+2025/8/22,金石杂谈,000847,腾讯济安,微信,3610,non_equity_index_including_same_numeric_code_collision
+2025/8/29,金石杂谈,600065,*ST联谊,微信,3614,original_code_delisted_before_study_period
+2025/8/26,金石杂谈,000847,腾讯济安,微信,3617,non_equity_index_including_same_numeric_code_collision
+2025/9/26,金石杂谈,600065,*ST联谊,微信,3720,original_code_delisted_before_study_period
+2025/9/29,金石杂谈,000819,有色金属,微信,3741,non_equity_index_including_same_numeric_code_collision
+2025/10/27,金石杂谈,300308,中际联合,微信,3817,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/11/6,金石杂谈,834699,南通联科,微信,3893,NEEQ_or_BSE_listing_identity_not_verified
+2025/11/19,金石杂谈,000847,腾讯济安,微信,3940,non_equity_index_including_same_numeric_code_collision
+2025/11/29,金石杂谈,000847,腾讯济安,微信,3961,non_equity_index_including_same_numeric_code_collision
+2025/12/26,金石杂谈,600118,中国国贸,微信,4069,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/1/30,金石杂谈,600809,山西焦化,微信,4223,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/1/30,金石杂谈,835540,旭辉股份,微信,4227,NEEQ_or_BSE_listing_identity_not_verified
+2025/6/17,越女事务所,600900,长江投资,微信,4233,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/7/21,越女事务所,600900,长江投资,微信,4243,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/7/18,越女事务所,004010,华泰柏瑞鼎利灵活配置混合A,微信,4244,non_equity_fund_or_index
+2025/8/1,越女事务所,600900,长江投资,微信,4245,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/8/8,越女事务所,600900,长江投资,微信,4247,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/19,越女事务所,601988,中国国贸,微信,4267,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/19,越女事务所,601939,建设机械,微信,4269,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/2/11,越女事务所,600900,长江投资,微信,4275,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/4/1,越女事务所,600900,长江投资,微信,4286,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/4/14,越女事务所,000001,上证指数,微信,4287,non_equity_index_including_same_numeric_code_collision
+2025/11/13,越女事务所,300308,中际联合,微信,4326,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/4/11,猫笔刀,600900,长江投资,微信,4336,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/4/18,猫笔刀,601088,中国国贸,微信,4341,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/4/18,猫笔刀,600900,长江投资,微信,4344,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/4/30,猫笔刀,601127,塞力医疗,微信,4347,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/5/17,猫笔刀,000847,腾讯济安,微信,4352,non_equity_index_including_same_numeric_code_collision
+2024/5/15,猫笔刀,000847,腾讯济安,微信,4353,non_equity_index_including_same_numeric_code_collision
+2024/4/25,猫笔刀,000847,腾讯济安,微信,4354,non_equity_index_including_same_numeric_code_collision
+2024/5/28,猫笔刀,600900,长江投资,微信,4361,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/5/29,猫笔刀,600900,长江投资,微信,4370,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/5/29,猫笔刀,600025,华能国际,微信,4373,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/8/20,猫笔刀,300027,华谊集团,微信,4385,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/8/20,猫笔刀,601939,建设机械,微信,4389,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/12,猫笔刀,000905,中证500,微信,4410,non_equity_index_including_same_numeric_code_collision
+2025/1/21,猫笔刀,600900,长江投资,微信,4415,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/2/21,猫笔刀,001868,招商产业债券C,微信,4426,non_equity_fund_or_index
+2025/3/20,猫笔刀,000847,腾讯济安,微信,4435,non_equity_index_including_same_numeric_code_collision
+2025/4/8,猫笔刀,000300,沪深300,微信,4445,non_equity_index_including_same_numeric_code_collision
+2025/5/15,猫笔刀,000847,腾讯济安,微信,4450,non_equity_index_including_same_numeric_code_collision
+2025/8/14,猫笔刀,000847,腾讯济安,微信,4488,non_equity_index_including_same_numeric_code_collision
+2025/8/25,猫笔刀,600900,长江投资,微信,4499,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/9/2,猫笔刀,000847,腾讯济安,微信,4503,non_equity_index_including_same_numeric_code_collision
+2025/8/30,猫笔刀,600900,长江投资,微信,4532,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/8/30,猫笔刀,600406,国电南自,微信,4541,name_code_conflict_with_equity_master; unresolved_original_intent
+2022/12/6,猫笔刀,000847,腾讯济安,微信,4577,non_equity_index_including_same_numeric_code_collision
+2022/12/14,猫笔刀,000756,新华医疗,微信,4584,name_code_conflict_with_equity_master; unresolved_original_intent
+2022/12/29,猫笔刀,000847,腾讯济安,微信,4588,non_equity_index_including_same_numeric_code_collision
+2023/1/27,猫笔刀,000847,腾讯济安,微信,4611,non_equity_index_including_same_numeric_code_collision
+2023/3/23,猫笔刀,000847,腾讯济安,微信,4629,non_equity_index_including_same_numeric_code_collision
+2023/4/19,猫笔刀,000905,中证500,微信,4637,non_equity_index_including_same_numeric_code_collision
+2023/5/10,猫笔刀,601858,中国国贸,微信,4655,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/5/23,猫笔刀,600809,山西焦化,微信,4669,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/8/20,猫笔刀,600900,长江投资,微信,4703,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/8/20,猫笔刀,601088,中国国贸,微信,4704,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/9/23,猫笔刀,000510,中证A500,微信,4708,non_equity_index_including_same_numeric_code_collision
+2023/10/31,猫笔刀,600900,长江投资,微信,4711,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/12/1,猫笔刀,600900,长江投资,微信,4722,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/1/4,猫笔刀,601088,中国国贸,微信,4738,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/1/4,猫笔刀,000847,腾讯济安,微信,4744,non_equity_index_including_same_numeric_code_collision
+2022/12/23,刘备教授,000847,腾讯济安,微信,4764,non_equity_index_including_same_numeric_code_collision
+2023/1/4,刘备教授,000847,腾讯济安,微信,4779,non_equity_index_including_same_numeric_code_collision
+2023/1/16,刘备教授,000847,腾讯济安,微信,4781,non_equity_index_including_same_numeric_code_collision
+2023/1/3,刘备教授,000300,沪深300,微信,4782,non_equity_index_including_same_numeric_code_collision
+2023/1/30,刘备教授,000847,腾讯济安,微信,4789,non_equity_index_including_same_numeric_code_collision
+2022/12/9,刘备教授,000847,腾讯济安,微信,4791,non_equity_index_including_same_numeric_code_collision
+2022/12/9,刘备教授,000847,腾讯济安,微信,4792,non_equity_index_including_same_numeric_code_collision
+2023/3/27,刘备教授,601088,中国国贸,微信,4816,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/4/17,刘备教授,000686,东北制药,微信,4844,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/5/9,刘备教授,601988,中国国贸,微信,4845,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/5/18,刘备教授,000847,腾讯济安,微信,4853,non_equity_index_including_same_numeric_code_collision
+2023/5/16,刘备教授,006197,华夏中证央企ETF联接C,微信,4855,non_equity_fund_or_index
+2023/5/12,刘备教授,871272,理想传媒,微信,4859,NEEQ_or_BSE_listing_identity_not_verified
+2023/5/11,刘备教授,000847,腾讯济安,微信,4866,non_equity_index_including_same_numeric_code_collision
+2023/5/11,刘备教授,000847,腾讯济安,微信,4867,non_equity_index_including_same_numeric_code_collision
+2023/5/11,刘备教授,000847,腾讯济安,微信,4868,non_equity_index_including_same_numeric_code_collision
+2023/5/11,刘备教授,000847,腾讯济安,微信,4869,non_equity_index_including_same_numeric_code_collision
+2023/5/11,刘备教授,000847,腾讯济安,微信,4870,non_equity_index_including_same_numeric_code_collision
+2023/5/11,刘备教授,000847,腾讯济安,微信,4871,non_equity_index_including_same_numeric_code_collision
+2023/5/11,刘备教授,000847,腾讯济安,微信,4872,non_equity_index_including_same_numeric_code_collision
+2023/4/27,刘备教授,600406,国电南自,微信,4878,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/4/27,刘备教授,600900,长江投资,微信,4880,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/4/27,刘备教授,600893,航发科技,微信,4883,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/7/17,刘备教授,601088,中国国贸,微信,4910,name_code_conflict_with_equity_master; unresolved_original_intent
+2023/11/17,刘备教授,000847,腾讯济安,微信,4950,non_equity_index_including_same_numeric_code_collision
+2023/11/7,刘备教授,871272,理想传媒,微信,4956,NEEQ_or_BSE_listing_identity_not_verified
+2024/1/20,刘备教授,000847,腾讯济安,微信,4966,non_equity_index_including_same_numeric_code_collision
+2024/1/22,刘备教授,000847,腾讯济安,微信,4973,non_equity_index_including_same_numeric_code_collision
+2024/3/5,刘备教授,000847,腾讯济安,微信,4984,non_equity_index_including_same_numeric_code_collision
+2024/3/25,刘备教授,601088,中国国贸,微信,4991,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/3/23,刘备教授,873147,万物信息,微信,4996,NEEQ_or_BSE_listing_identity_not_verified
+2024/4/24,刘备教授,000847,腾讯济安,微信,5020,non_equity_index_including_same_numeric_code_collision
+2024/5/16,刘备教授,000847,腾讯济安,微信,5027,non_equity_index_including_same_numeric_code_collision
+2024/6/7,刘备教授,000847,腾讯济安,微信,5031,non_equity_index_including_same_numeric_code_collision
+2024/5/24,刘备教授,000847,腾讯济安,微信,5035,non_equity_index_including_same_numeric_code_collision
+2024/6/28,刘备教授,000847,腾讯济安,微信,5037,non_equity_index_including_same_numeric_code_collision
+2024/7/12,刘备教授,000847,腾讯济安,微信,5054,non_equity_index_including_same_numeric_code_collision
+2024/8/15,刘备教授,000847,腾讯济安,微信,5061,non_equity_index_including_same_numeric_code_collision
+2024/9/25,刘备教授,000847,腾讯济安,微信,5087,non_equity_index_including_same_numeric_code_collision
+2024/10/28,刘备教授,601088,中国国贸,微信,5097,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/10/24,刘备教授,600050,中国国贸,微信,5102,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/10/30,刘备教授,601088,中国国贸,微信,5118,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/10/30,刘备教授,000847,腾讯济安,微信,5121,non_equity_index_including_same_numeric_code_collision
+2024/11/14,刘备教授,600050,中国国贸,微信,5128,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/11/15,刘备教授,000847,腾讯济安,微信,5130,non_equity_index_including_same_numeric_code_collision
+2024/12/16,刘备教授,000847,腾讯济安,微信,5141,non_equity_index_including_same_numeric_code_collision
+2024/12/20,刘备教授,000847,腾讯济安,微信,5142,non_equity_index_including_same_numeric_code_collision
+2025/1/10,刘备教授,000847,腾讯济安,微信,5149,non_equity_index_including_same_numeric_code_collision
+2025/2/18,刘备教授,000847,腾讯济安,微信,5164,non_equity_index_including_same_numeric_code_collision
+2025/2/19,刘备教授,000847,腾讯济安,微信,5167,non_equity_index_including_same_numeric_code_collision
+2025/2/11,刘备教授,600065,*ST联谊,微信,5172,original_code_delisted_before_study_period
+2025/2/14,刘备教授,000847,腾讯济安,微信,5174,non_equity_index_including_same_numeric_code_collision
+2025/2/14,刘备教授,000847,腾讯济安,微信,5176,non_equity_index_including_same_numeric_code_collision
+2025/2/27,刘备教授,871272,理想传媒,微信,5183,NEEQ_or_BSE_listing_identity_not_verified
+2025/2/27,刘备教授,000847,腾讯济安,微信,5184,non_equity_index_including_same_numeric_code_collision
+2025/3/14,刘备教授,000847,腾讯济安,微信,5187,non_equity_index_including_same_numeric_code_collision
+2025/3/20,刘备教授,000847,腾讯济安,微信,5188,non_equity_index_including_same_numeric_code_collision
+2025/3/21,刘备教授,000847,腾讯济安,微信,5190,non_equity_index_including_same_numeric_code_collision
+2025/3/31,刘备教授,601988,中国国贸,微信,5203,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/3/31,刘备教授,601939,建设机械,微信,5204,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/4/23,刘备教授,871272,理想传媒,微信,5222,NEEQ_or_BSE_listing_identity_not_verified
+2025/5/21,刘备教授,000847,腾讯济安,微信,5230,non_equity_index_including_same_numeric_code_collision
+2025/5/15,刘备教授,000847,腾讯济安,微信,5232,non_equity_index_including_same_numeric_code_collision
+2025/5/15,刘备教授,000847,腾讯济安,微信,5233,non_equity_index_including_same_numeric_code_collision
+2025/6/23,刘备教授,872833,鹰君股份,微信,5244,NEEQ_or_BSE_listing_identity_not_verified
+2025/7/2,刘备教授,000847,腾讯济安,微信,5245,non_equity_index_including_same_numeric_code_collision
+2025/7/31,刘备教授,002379,*ST联谊,微信,5262,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/7/21,刘备教授,000847,腾讯济安,微信,5274,non_equity_index_including_same_numeric_code_collision
+2025/7/21,刘备教授,600065,*ST联谊,微信,5277,original_code_delisted_before_study_period
+2025/8/14,刘备教授,000847,腾讯济安,微信,5280,non_equity_index_including_same_numeric_code_collision
+2025/8/25,刘备教授,000847,腾讯济安,微信,5281,non_equity_index_including_same_numeric_code_collision
+2025/8/13,刘备教授,000847,腾讯济安,微信,5290,non_equity_index_including_same_numeric_code_collision
+2025/8/29,刘备教授,871272,理想传媒,微信,5297,NEEQ_or_BSE_listing_identity_not_verified
+2025/9/10,刘备教授,600050,中国国贸,微信,5303,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/11/14,刘备教授,000847,腾讯济安,微信,5352,non_equity_index_including_same_numeric_code_collision
+2025/12/31,刘备教授,000847,腾讯济安,微信,5369,non_equity_index_including_same_numeric_code_collision
+2023/1/19,财马晚评,000847,腾讯济安,微信,5412,non_equity_index_including_same_numeric_code_collision
+2023/2/8,财马晚评,000847,腾讯济安,微信,5413,non_equity_index_including_same_numeric_code_collision
+2023/7/28,财马晚评,000688,科创50,微信,5432,non_equity_index_including_same_numeric_code_collision
+2023/8/22,财马晚评,000001,上证指数,微信,5434,non_equity_index_including_same_numeric_code_collision
+2024/1/9,财马晚评,000819,有色金属,微信,5449,non_equity_index_including_same_numeric_code_collision
+2024/4/24,财马晚评,000847,腾讯济安,微信,5462,non_equity_index_including_same_numeric_code_collision
+2024/10/10,财马晚评,006248,创业环保,微信,5472,name_code_conflict_no_original_recommendation_to_resolve
+2024/10/10,财马晚评,006249,创业环保,微信,5473,name_code_conflict_no_original_recommendation_to_resolve
+2025/3/20,财马晚评,000847,腾讯济安,微信,5493,non_equity_index_including_same_numeric_code_collision
+2025/4/4,财马晚评,000001,上证指数,微信,5496,non_equity_index_including_same_numeric_code_collision
+2025/4/4,财马晚评,000300,沪深300,微信,5497,non_equity_index_including_same_numeric_code_collision
+2025/4/29,财马晚评,601939,建设机械,微信,5500,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/5/13,财马晚评,000847,腾讯济安,微信,5501,non_equity_index_including_same_numeric_code_collision
+2025/5/15,财马晚评,000847,腾讯济安,微信,5502,non_equity_index_including_same_numeric_code_collision
+2025/5/17,财马晚评,000847,腾讯济安,微信,5503,non_equity_index_including_same_numeric_code_collision
+2025/5/21,财马晚评,601939,建设机械,微信,5505,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/5/21,财马晚评,601988,中国国贸,微信,5506,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/7/2,财马晚评,601939,建设机械,微信,5508,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/8/8,财马晚评,601988,中国国贸,微信,5526,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/8/8,财马晚评,601939,建设机械,微信,5527,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/9/26,财马晚评,000847,腾讯济安,微信,5546,non_equity_index_including_same_numeric_code_collision
+2025/11/21,财马晚评,601988,中国国贸,微信,5550,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/6/17,郭施亮,000847,腾讯济安,微信,5568,non_equity_index_including_same_numeric_code_collision
+2024/12/6,郭施亮,601939,建设机械,微信,5579,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/6,郭施亮,601988,中国国贸,微信,5581,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/26,郭施亮,601939,建设机械,微信,5585,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/26,郭施亮,601988,中国国贸,微信,5587,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/2/2,面包财经,000847,腾讯济安,微信,5617,non_equity_index_including_same_numeric_code_collision
+2025/8/4,面包财经,601229,上海机场,微信,5627,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/1/11,易简财经,000847,腾讯济安,微信,5634,non_equity_index_including_same_numeric_code_collision
+2025/3/14,易简财经,000847,腾讯济安,微信,5691,non_equity_index_including_same_numeric_code_collision
+2025/4/26,易简财经,000847,腾讯济安,微信,5718,non_equity_index_including_same_numeric_code_collision
+2025/4/26,易简财经,835599,创科股份,微信,5720,NEEQ_or_BSE_listing_identity_not_verified
+2025/4/26,易简财经,871272,理想传媒,微信,5722,NEEQ_or_BSE_listing_identity_not_verified
+2025/6/18,易简财经,000847,腾讯济安,微信,5733,non_equity_index_including_same_numeric_code_collision
+2025/12/10,易简财经,300308,中际联合,微信,5778,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/9/27,刀锋2020,300308,中际联合,微信,5942,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/10/10,刀锋2020,002190,中航成飞,微信,5996,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/4/8,刀锋2020,600900,长江投资,微信,6003,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/4/26,刀锋2020,601088,中国国贸,微信,6076,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/6/19,刀锋2020,300308,中际联合,微信,6156,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/12/6,刀锋2020,000300,沪深300,微信,6267,non_equity_index_including_same_numeric_code_collision
+2025/11/25,刀锋2020,000847,腾讯济安,微信,6276,non_equity_index_including_same_numeric_code_collision
+2025/12/2,刀锋2020,000547,航天机电,微信,6282,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/12/11,刀锋2020,300308,中际联合,微信,6304,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/1/8,刀锋2020,000547,航天机电,微信,6408,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/1/23,刀锋2020,000847,腾讯济安,微信,6469,non_equity_index_including_same_numeric_code_collision
+2024/12/25,水皮More,601988,中国国贸,微信,6477,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/25,水皮More,601939,建设机械,微信,6478,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/6/24,水皮More,000847,腾讯济安,微信,6484,non_equity_index_including_same_numeric_code_collision
+2025/9/6,水皮More,300308,中际联合,微信,6504,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/9/10,水皮More,600065,*ST联谊,微信,6521,original_code_delisted_before_study_period
+2025/10/28,水皮More,300308,中际联合,微信,6614,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/10/30,水皮More,300308,中际联合,微信,6622,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/12/23,水皮More,300308,中际联合,微信,6665,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/12/23,水皮More,601088,中国国贸,微信,6672,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/1/28,市值风云,300432,富临运业,微信,6676,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/1/28,市值风云,300432,富临运业,微信,6678,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/1/27,市值风云,603049,福达合金,微信,6696,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/1/27,市值风云,688380,中微公司,微信,6699,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/1/27,市值风云,688091,上海机场,微信,6702,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/2/3,市值风云,300308,中际联合,微信,6769,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/2/3,市值风云,601991,大唐电信,微信,6778,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/10/11,市值风云,300810,中科曙光,微信,6870,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/10/11,市值风云,300678,中科曙光,微信,6871,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/10/11,市值风云,832168,中科曙光,微信,6879,name_code_conflict_no_original_recommendation_to_resolve
+2024/10/13,市值风云,000300,沪深300,微信,6880,non_equity_index_including_same_numeric_code_collision
+2024/10/15,市值风云,002532,天山股份,微信,6897,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/10/17,市值风云,430549,天弘激光,微信,6949,NEEQ_or_BSE_listing_identity_not_verified
+2024/10/17,市值风云,001617,天弘中证电子ETF联接A,微信,6950,non_equity_fund_or_index
+2024/10/17,市值风云,430549,天弘激光,微信,6951,NEEQ_or_BSE_listing_identity_not_verified
+2024/10/23,市值风云,601168,西部黄金,微信,6971,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/10/25,市值风云,300308,中际联合,微信,6992,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/11/28,市值风云,688028,沃尔核材,微信,7001,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/11/29,市值风云,300775,三角轮胎,微信,7006,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/14,市值风云,008809,安信种苗,微信,7026,name_code_conflict_no_original_recommendation_to_resolve
+2024/12/14,市值风云,601607,上海机场,微信,7027,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/24,市值风云,601939,建设机械,微信,7064,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/24,市值风云,601988,中国国贸,微信,7066,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/25,市值风云,600900,长江投资,微信,7084,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/31,市值风云,600900,长江投资,微信,7092,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/24,市值风云,002683,广东明珠,微信,7104,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/24,市值风云,600185,格力电器,微信,7110,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/28,市值风云,300775,三角轮胎,微信,7135,name_code_conflict_with_equity_master; unresolved_original_intent
+2024/12/28,市值风云,600893,航发科技,微信,7140,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/1/7,市值风云,301358,湖南天雁,微信,7148,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/1/1,市值风云,831896,思考股份,微信,7196,NEEQ_or_BSE_listing_identity_not_verified
+2025/1/27,市值风云,300308,中际联合,微信,7199,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/2/6,市值风云,600406,国电南自,微信,7200,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/2/6,市值风云,300308,中际联合,微信,7221,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/2/8,市值风云,000977,浪潮软件,微信,7256,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/2/8,市值风云,300308,中际联合,微信,7258,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/6/11,市值风云,301577,千禧龙纤,微信,7291,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/7/12,市值风云,600901,江苏索普,微信,7318,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/7/23,市值风云,601005,重庆路桥,微信,7326,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/7/26,市值风云,300308,中际联合,微信,7346,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/7/23,市值风云,601868,中国国贸,微信,7354,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/7/23,市值风云,600326,西藏药业,微信,7357,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/7/23,市值风云,600406,国电南自,微信,7363,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/8/2,市值风云,300308,中际联合,微信,7376,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/8/26,市值风云,300308,中际联合,微信,7400,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/9/13,市值风云,300876,新恒汇,微信,7437,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/9/13,市值风云,001314,绿联科技,微信,7438,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/9/29,市值风云,000510,中证A500,微信,7458,non_equity_index_including_same_numeric_code_collision
+2025/11/5,市值风云,300308,中际联合,微信,7543,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/11/28,市值风云,601939,建设机械,微信,7576,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/11/28,市值风云,601988,中国国贸,微信,7577,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/11/28,市值风云,300308,中际联合,微信,7581,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/12/11,市值风云,688796,百奥泰,微信,7591,name_code_conflict_with_equity_master; unresolved_original_intent
+2025/12/6,市值风云,000847,腾讯济安,微信,7605,non_equity_index_including_same_numeric_code_collision
+2026/1/16,市值风云,600176,中国国贸,微信,7687,name_code_conflict_with_equity_master; unresolved_original_intent
+2026/1/20,市值风云,601991,大唐电信,微信,7688,name_code_conflict_with_equity_master; unresolved_original_intent

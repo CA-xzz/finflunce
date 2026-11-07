@@ -1,0 +1,23 @@
+{
+  "sample_flow.csv": "fd955d2ef81bdf100bfbf9ae56eb1f7ade1e81eeee6825787eaea50ac2f6b91c",
+  "matching_diagnostics.csv": "e11a77e351c4fec648ec8a1f29b774b3c266fec6ef5d596f8838a0ce85ac62a3",
+  "labels.csv": "74221bbcc497996c9782652b96610e8e1b635ba3d227f688895f4a06040df48c",
+  "coverage.csv": "ce5de35e0b1772721e6996b37772faadec695edff6f4eabcec7fb36ef476dbf0",
+  "reference_quality.csv": "fefc6ee1118f25eb3d60608d43b156c586a21c294e2696e769ba8e40fadd1136",
+  "dataset.npz": "029e150330c8acd97a295b431e349e66787fbac379b72976c1925b52329afb7c",
+  "reference_tuning_protocol.json": "ca6496212058844fd271a4b426b43bd8ae3a2ce29167c72675c2070224f6c93a",
+  "config.json": "6c8cd4b96093552ea3fabcd55983413a6064707f61ccf61b13d36b9534aaef3a",
+  "source_manifest.csv": "07cf659934b9be527c0e863532d0e1ac68ac510a6d5a03c8c15f9aa6fb7a18fe",
+  "industry_recovery_outcomes.csv": "1daf28f22fb6d85b3430e9dae1e3c18ab0c22eb7521af53c3d123ea2744ff034",
+  "reference_tuning.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "normalization.json": "ddbb9842f795922d682f2a310dd126b4964daec806f5b4f09a077ad74ddf3d64",
+  "industry_recovery_summary.json": "f4be62b7e658d6c6bca9a1dee7e668aa7859d31749a42b3fb0a46075a4f69a33",
+  "market_data_timing_checks.json": "648ad43decc8e0bc920563af4bcc48650af3fef83a11d0a53741596b07ba4957",
+  "industry_assignments.csv": "5c1becb619c472fc0fb85fa151ac2d19b84beee33380b85e42134a68d2e0d25b",
+  "reference_pairs.csv": "6155e6ac31bbf5448b2d926d86a858996874e73e9f1e6e9b13e2c459e51516cc",
+  "events.csv": "3bf5f7a704dd3b9c9c63bdbfb723cb1664865b2895f14fe9b8a0ee567f666fb7",
+  "evaluation_manifest.csv": "bd6d004151aaddca99642f0cae7116f44a0ddd29f814208675d60248196ec3e8",
+  "preparation_summary.json": "5669cd66028b1e85eee96f8dd3f9f0a360e22212b75853115fc0350a5755bf96",
+  "industry_recovery_verification.csv": "9eca5ce09e28871a8911e7e4cd83a1f4f4b679d04c28e0329db0bd6ca48a0a30",
+  "exclusions.csv": "c5e8ae50ea2f92982b4fd158941719cde4195ae7687f1bc3a19056e58d53d8e4"
+}

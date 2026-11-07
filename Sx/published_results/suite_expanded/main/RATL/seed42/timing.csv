@@ -1,0 +1,2 @@
+model,variant,seed,parameters,training_seconds,base_training_seconds,correction_training_seconds,frozen_base_parameters,inference_batch_ms,inference_event_ms,retrieval_batch_ms,timing_batch_size,repetitions,memory_total_mb,key_and_response_memory_mb
+RATL,full,42,48294,38.49315484095132,17.90159861498978,19.65446528198663,27620,7.05314455262851,0.11020538363482046,2.040031208889559,64,20,0.74784,0.470592

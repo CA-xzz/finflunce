@@ -1,0 +1,4560 @@
+[
+  {
+    "stage": "before_cuda_allocation",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952031.9704087,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 2.0,
+    "torch_reserved_mib": null,
+    "context_mib": null,
+    "expected_memory_mib": null,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": null,
+    "excess_memory_mib": null,
+    "owned_reported_pid": null,
+    "pid_ownership_method": "not_observed",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "owned_cuda_context_after_library_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 594.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952034.9056327,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 594.0,
+    "torch_reserved_mib": 64.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 594.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 850.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_HistoricalMean",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952035.4668546,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_HistoricalMean/seed41",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 596.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952037.0166013,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 596.0,
+    "torch_reserved_mib": 66.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 596.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 852.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952038.568245,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952040.2938244,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_DLinear",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952041.877466,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952043.1292512,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_training",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 3.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952074.7171319,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 3.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952081.675265,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_DLinear/seed41",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952083.3771923,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952084.8616662,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952087.4401753,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_DLinear",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952089.1701114,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952090.4825628,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 3.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952111.4055417,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_DLinear/seed42",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952113.072535,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952114.630802,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952117.1005828,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_DLinear",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952118.6035166,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952120.0256188,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 3.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952131.4783852,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_DLinear/seed43",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952133.112969,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952134.6013014,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 2.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952137.004231,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_PatchTST",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952138.6668165,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952140.159463,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_training",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 616.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952171.642148,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 616.0,
+    "torch_reserved_mib": 86.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 616.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 872.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 616.0,
+    "utilization": 6.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952181.4484138,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 616.0,
+    "torch_reserved_mib": 86.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 616.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 872.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_PatchTST/seed41",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952183.1138868,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952184.7301652,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 5.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952187.963307,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_PatchTST",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952189.4640436,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952190.775763,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_training",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 616.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952222.255467,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 616.0,
+    "torch_reserved_mib": 86.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 616.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 872.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 616.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952228.9654894,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 616.0,
+    "torch_reserved_mib": 86.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 616.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 872.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_PatchTST/seed42",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952230.6609783,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952232.2688844,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 5.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952235.8587275,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_PatchTST",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952237.433872,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952238.7391086,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_training",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 616.0,
+    "utilization": 7.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952270.1296067,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 616.0,
+    "torch_reserved_mib": 86.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 616.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 872.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 616.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952272.2677724,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 616.0,
+    "torch_reserved_mib": 86.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 616.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 872.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_PatchTST/seed43",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952273.829271,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952275.4559503,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952278.7892177,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_iTransformer",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952280.4405522,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952281.7886934,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 620.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952306.7468946,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 620.0,
+    "torch_reserved_mib": 90.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 620.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 876.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_iTransformer/seed41",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952308.4657776,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952310.3405209,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 5.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952313.5858123,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_iTransformer",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952315.547491,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952317.0837493,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 620.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952345.5522058,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 620.0,
+    "torch_reserved_mib": 90.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 620.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 876.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_iTransformer/seed42",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952347.0895886,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952348.5910244,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952351.755754,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_iTransformer",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952353.4151523,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952354.8402038,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 620.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952382.862285,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 620.0,
+    "torch_reserved_mib": 90.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 620.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 876.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_iTransformer/seed43",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952384.460678,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952385.8541076,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 5.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952388.8258646,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_ECT",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952390.4679277,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 598.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952391.85101,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 598.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 0.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 624.0,
+    "utilization": 3.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952414.4991844,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 624.0,
+    "torch_reserved_mib": 92.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 622.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 878.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_ECT/seed41",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952416.1086721,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952417.7302923,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952421.0672066,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_ECT",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952422.59866,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952424.0346801,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 624.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952453.8100667,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 624.0,
+    "torch_reserved_mib": 92.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 622.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 878.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_ECT/seed42",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952455.4077158,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952457.1528747,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 5.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952460.4783592,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_ECT",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952462.283076,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952463.653389,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 624.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952487.9319959,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 624.0,
+    "torch_reserved_mib": 92.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 622.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 878.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_ECT/seed43",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952489.6908174,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952491.305232,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 5.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952494.7053573,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_RAFT",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952496.4065967,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952497.8335204,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952519.264969,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_RAFT/seed41",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952521.0744874,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952522.7698379,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 9.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952527.6066203,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_RAFT",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952529.257026,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952530.635676,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952559.092138,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_RAFT/seed42",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952560.7725918,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952562.3566628,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 8.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952567.812931,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_RAFT",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952569.634903,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952570.9988866,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 5.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952601.8462865,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_RAFT/seed43",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952603.7689774,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952605.4728963,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 9.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952610.5244281,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_RATL",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952612.3079138,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "base_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 600.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952613.7585487,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 600.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "base_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 622.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952630.9265072,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 622.0,
+    "torch_reserved_mib": 90.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 620.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 876.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "residual_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 622.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952632.3236446,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 622.0,
+    "torch_reserved_mib": 90.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 620.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 876.0,
+    "excess_memory_mib": 2.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "residual_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 700.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952650.929321,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 700.0,
+    "torch_reserved_mib": 166.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 696.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 952.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "gamma_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 700.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952652.4222348,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 700.0,
+    "torch_reserved_mib": 166.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 696.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 952.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "gamma_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 700.0,
+    "utilization": 7.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952655.1398785,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 700.0,
+    "torch_reserved_mib": 166.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 696.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 952.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_RATL/seed41",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 606.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952656.8374054,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 606.0,
+    "torch_reserved_mib": 72.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 602.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 858.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 606.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952658.772675,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 606.0,
+    "torch_reserved_mib": 72.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 602.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 858.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 606.0,
+    "utilization": 7.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952666.5890882,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 606.0,
+    "torch_reserved_mib": 72.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 602.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 858.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_RATL",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952668.2364006,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "base_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952669.6662364,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "base_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 624.0,
+    "utilization": 2.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952689.1140134,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 624.0,
+    "torch_reserved_mib": 90.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 620.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 876.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "residual_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 624.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952690.581116,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 624.0,
+    "torch_reserved_mib": 90.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 620.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 876.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "residual_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 700.0,
+    "utilization": 6.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952712.2408016,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 700.0,
+    "torch_reserved_mib": 166.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 696.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 952.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "gamma_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 700.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952713.720405,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 700.0,
+    "torch_reserved_mib": 166.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 696.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 952.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "gamma_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 700.0,
+    "utilization": 10.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952716.3299198,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 700.0,
+    "torch_reserved_mib": 166.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 696.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 952.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_RATL/seed42",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 604.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952718.1198452,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 604.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 604.0,
+    "utilization": 1.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952719.839335,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 604.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 604.0,
+    "utilization": 7.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952727.5750878,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 604.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_RATL",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952729.3055072,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "base_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952730.7001235,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "base_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 624.0,
+    "utilization": 3.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952751.7811618,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 624.0,
+    "torch_reserved_mib": 90.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 620.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 876.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "residual_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 624.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952753.2726827,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 624.0,
+    "torch_reserved_mib": 90.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 620.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 876.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "residual_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 700.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952775.9157152,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 700.0,
+    "torch_reserved_mib": 166.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 696.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 952.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "gamma_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 700.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952777.557044,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 700.0,
+    "torch_reserved_mib": 166.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 696.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 952.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "gamma_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 700.0,
+    "utilization": 7.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952780.4362154,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 700.0,
+    "torch_reserved_mib": 166.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 696.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 952.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_RATL/seed43",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952782.4811082,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 604.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952784.5223796,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 604.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 604.0,
+    "utilization": 7.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952792.377394,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 604.0,
+    "torch_reserved_mib": 70.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 600.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 856.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_RAIF",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952794.162039,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952795.599794,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 4.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_training",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 636.0,
+    "utilization": 7.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952827.334235,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 636.0,
+    "torch_reserved_mib": 100.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 630.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 886.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 636.0,
+    "utilization": 5.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952830.6341455,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 636.0,
+    "torch_reserved_mib": 100.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 630.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 886.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_RAIF/seed41",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 608.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952832.3680315,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 608.0,
+    "torch_reserved_mib": 72.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 602.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 858.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 628.0,
+    "utilization": 5.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952834.19307,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 628.0,
+    "torch_reserved_mib": 92.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 622.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 878.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 628.0,
+    "utilization": 8.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952840.398745,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 628.0,
+    "torch_reserved_mib": 92.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 622.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 878.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_RAIF",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 604.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952842.0984,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 604.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 604.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952843.5852072,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 604.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_training",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 636.0,
+    "utilization": 5.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952875.2797284,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 636.0,
+    "torch_reserved_mib": 100.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 630.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 886.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 636.0,
+    "utilization": 4.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952881.6391091,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 636.0,
+    "torch_reserved_mib": 100.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 630.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 886.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_RAIF/seed42",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 608.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952883.4499614,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 608.0,
+    "torch_reserved_mib": 72.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 602.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 858.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 628.0,
+    "utilization": 7.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952885.1339679,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 628.0,
+    "torch_reserved_mib": 92.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 622.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 878.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 628.0,
+    "utilization": 8.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952891.3646264,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 628.0,
+    "torch_reserved_mib": 92.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 622.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 878.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_initialization_RAIF",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 604.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952893.1082528,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 604.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_start",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 604.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952894.693917,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 604.0,
+    "torch_reserved_mib": 68.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 598.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 854.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_training",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 636.0,
+    "utilization": 5.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952926.85886,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 636.0,
+    "torch_reserved_mib": 100.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 630.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 886.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "main_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 636.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952933.9806435,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 636.0,
+    "torch_reserved_mib": 100.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 630.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 886.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "before_main_checkpoint_RAIF/seed43",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 608.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952935.9514155,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 608.0,
+    "torch_reserved_mib": 72.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 602.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 858.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 628.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952937.9131815,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 628.0,
+    "torch_reserved_mib": 92.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 622.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 878.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 628.0,
+    "utilization": 8.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952944.2308962,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 628.0,
+    "torch_reserved_mib": 92.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 622.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 878.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  },
+  {
+    "stage": "all_runs_finished",
+    "index": 0,
+    "uuid": "GPU-5d8d636c-0d25-36a6-b325-4e6c593bf08c",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 602.0,
+    "utilization": 0.0,
+    "pids": [
+      1025761
+    ],
+    "observed_unix": 1793952946.0536938,
+    "local_pid": 127066,
+    "namespace_pids": [
+      127066
+    ],
+    "pid_candidates": [
+      127066
+    ],
+    "actual_memory_mib": 602.0,
+    "torch_reserved_mib": 66.0,
+    "context_mib": 530.0,
+    "expected_memory_mib": 596.0,
+    "memory_margin_mib": 256.0,
+    "maximum_memory_mib": 852.0,
+    "excess_memory_mib": 6.0,
+    "owned_reported_pid": 1025761,
+    "pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
+    "additional_reported_pids": [],
+    "exclusivity_limitation": "PID mapping or a unique new PID after an idle start supports process attribution; it does not prove absolute GPU exclusivity"
+  }
+]

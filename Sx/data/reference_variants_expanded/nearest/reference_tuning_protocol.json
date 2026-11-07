@@ -1,0 +1,7 @@
+{
+  "objective": "User-adopted single-reference construction; fixed reference identities and distance fit retained",
+  "outcome_labels_used": false,
+  "quality_effective_n_factor": false,
+  "quality_formula": "max(exp(-balance/s_b - mean_distance/s_d), 1e-8)",
+  "q_scales_fitted_on": "training events only"
+}

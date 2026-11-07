@@ -1,0 +1,250 @@
+{
+  "primary_protocol": "expanded_nearest",
+  "dataset_sha256": "313470657a33a77eaed458af7854dc9ac87f0a516dc1614f445488f68c16eb0e",
+  "source_sha256": {
+    "data/prepared_expanded/events.csv": "caf41a742a83e6212ef8c0d55b27b335dd0a2d3a8f07c8a105fd6ffb413982c7",
+    "results/preflight_expanded/events_manifest.csv": "6ed4af5f3275e924f378e176b162c5842ba0cb6e501342beae408ee123ab781a",
+    "data/prepared_expanded/sample_flow.csv": "fd955d2ef81bdf100bfbf9ae56eb1f7ade1e81eeee6825787eaea50ac2f6b91c",
+    "data/source_expanded/original_data/events.csv": "7e331ceadb861d20b880725257b4716db6d24c8f9f162781ebfcb72d1588eb33",
+    "data/supplemental_market/all_event_decisions.csv": "dda3e9098f66fd0811b772861d0b2fece60d0cf75261be8002c042745cea0ad2",
+    "data/prepared_expanded/coverage.csv": "ce5de35e0b1772721e6996b37772faadec695edff6f4eabcec7fb36ef476dbf0",
+    "results/report_expanded/overall_metrics.csv": "feb180cc2eeed42c7f5f2b46c6a67888a21a0f8f07b93b1d3015e7f44646dc12",
+    "results/report_expanded/horizon_metrics.csv": "f416ed81997e05b550676a10ece2622ac415677f9384b8661f2448bb04711f1d",
+    "results/report_expanded/step_metrics_seeds.csv": "28e8c773e46cab1b82dd5e16a1a17190c787ef168889abec134481240e5f69bd",
+    "results/suite_expanded/ablation_metrics.csv": "04468e636ce014fa141f82e128ef4fbd60be6a9dedc9479864f9b9659ba11340",
+    "results/suite_expanded/main/RAIF/seed41/model_size.csv": "01b481652dee9093a9021f81b8de1965ae674a8cd3e1163723fc04ffd4d8cd3e",
+    "results/suite_expanded/main/RAIF/seed42/model_size.csv": "205291ea1a694f3ddcccac8ada9f99673220307ff69492488a5da08702f0b750",
+    "results/suite_expanded/main/RAIF/seed43/model_size.csv": "a65b0edd979858d29dc1da87a9d0de7f153eef1b3ec76a1af95fe5ada0a9c8e1",
+    "results/suite_expanded/ablation/no_retrieval/seed41/model_size.csv": "5f6bb960be48ba017321dc014b2f031973ad22e8db4e596055904d7dfcf8cf9b",
+    "results/suite_expanded/ablation/no_retrieval/seed42/model_size.csv": "7f49b8c9f7d3da1af5b3dc30476ad4381a660082f7db9cf2852d793283126959",
+    "results/suite_expanded/ablation/no_retrieval/seed43/model_size.csv": "6640e0972a843a06f164226f15837fde203ccab3b8b931916bd9ab2a911e83bd",
+    "results/suite_expanded/ablation/no_response/seed41/model_size.csv": "a8ae5eab594cb9ab42028a454f32fa5a79754611428041efff86f98689a4f048",
+    "results/suite_expanded/ablation/no_response/seed42/model_size.csv": "5978bac6d9b344a4b42bb84673fc2285044efdc20358bcd9018787be921112c7",
+    "results/suite_expanded/ablation/no_response/seed43/model_size.csv": "17d967208f367075ec683b73429f771c6265d2f17ef7b8bfe6f518f48e85e6b7",
+    "results/suite_expanded/ablation/no_events/seed41/model_size.csv": "04e30ab10fac83006b32c80bf5c2884fd17bceab6db6877f541cee6ab888f0ad",
+    "results/suite_expanded/ablation/no_events/seed42/model_size.csv": "e604e13d1e1deacb5d1c60060fa7db91edbeb2dfe2d87da854755b1922e4caa9",
+    "results/suite_expanded/ablation/no_events/seed43/model_size.csv": "c2a8888c9665a20fc523ac43131e2245a2e04f35df12f9de5a46686367dcafe9",
+    "results/suite_expanded/ablation/no_quality/seed41/model_size.csv": "17b63957b7e38ca6bb7963d8f757c526cc97b225c1388c81057f4bd35fc1eab7",
+    "results/suite_expanded/ablation/no_quality/seed42/model_size.csv": "636e4650991ce72ef802f1f798c3e91af44d9aee532fdb5e412e77622624d315",
+    "results/suite_expanded/ablation/no_quality/seed43/model_size.csv": "29b5c4081479e4d0ceecdd332d06bd11770a69e475aff30c19f9783d95a48a76",
+    "results/suite_expanded/ablation/no_attention/seed41/model_size.csv": "b2dc862eba0d9cdc572bd6b450ec7a13d11888e5ebe1145fe5f4c1aa0e214c1d",
+    "results/suite_expanded/ablation/no_attention/seed42/model_size.csv": "0e2c2a283f20d2220fa72b3f8b2ff57f0ddd91883cdd4421f14c6907c6804eea",
+    "results/suite_expanded/ablation/no_attention/seed43/model_size.csv": "bdf7e5f317b7b889542acc9f17e3c3b4e6ac2ac6dcf6df8bbaf824fd798170cf",
+    "results/suite_expanded/retrieval_metrics.csv": "d023266d1f7ec983c92fcaff71f735c75fb43e33d68dd6324ebbbf1453746a31",
+    "results/report_expanded/frozen_retrieval_metrics.csv": "e115dd76687c32334dac99344c3c7ce1775c1a1576490dac019a3e6f9ec45acd",
+    "data/reference_comparisons_expanded/comparison_plan.csv": "ab76337f84c56aaf8a15f23a61ae0cfcc6b1ae4b13e933de893d02eea6ebac68",
+    "results/references_expanded/reference_metrics.csv": "dbace5b526096f6dd39f98206dc7c2edf698ec68a3fabe735f326afe1b21c23b",
+    "data/prepared_expanded/reference_quality.csv": "e90a1dff4502882274c883ce5ae88542f90605c30d92981084373c00f1735f7c",
+    "data/prepared_expanded/config.json": "8d3c510c9dd164707f2a867b861c3d89253381ab184369f7fa303431af685063",
+    "data/reference_variants_expanded/nearest/reference_quality.csv": "454fbe99dfacb356864a558e70cc531409624845f7486117ed8286e113528bd1",
+    "data/reference_variants_expanded/nearest/coverage.csv": "7b18a88be274782734fefa0e6b3c9a2dde29c7d0fc2e79810645cea0a27492d9",
+    "data/reference_variants_expanded/nearest/config.json": "809b7ee7d96d66ad48644c9e5295e5cbc5807294cf76a97c53ec5fc32eae0bbd",
+    "data/reference_variants_expanded/strict/reference_quality.csv": "fd61f151eb85f4abde62d1e156a17a81f59e078bfe9f87de598bbc9a80337185",
+    "data/reference_variants_expanded/strict/coverage.csv": "f0399813f77a40c85b479172f05e932199f40905725fc35ad601e0b47c2e97bd",
+    "data/reference_variants_expanded/strict/config.json": "a277560cd253edff4aba00abb019450ec712cb33ecdfdb6550f35a88abd23fe2",
+    "data/reference_comparisons_expanded/full_training/strict/events.csv": "5328edd13078ae7f8c5eef0b6c8109472c8f2dbf0f57c02996864c65a7fb1ddc",
+    "data/reference_comparisons_expanded/full_training/strict/reference_quality.csv": "f96f75c07c6c46825a2db83a8ad69d39cefacb929609ba9455c5f5ca0fe6df9c",
+    "data/reference_comparisons_expanded/full_training/nearest/events.csv": "e28e1764afe18e4fd838020387d1b85f35278015cb040480d2ccf4930716f3c0",
+    "data/reference_comparisons_expanded/full_training/nearest/reference_quality.csv": "6df3c1546327c5f63e32a301bb7c829b3406378d55fe3f5bae5472446df9fffc",
+    "data/reference_comparisons_expanded/full_training/expanded_nearest/events.csv": "a5757bc5f35c35dcad1665985520cb99989a166851ff2c9775eda67314d39419",
+    "data/reference_comparisons_expanded/full_training/expanded_nearest/reference_quality.csv": "56fa8ae8f3bb7701677f883d838948ae6d4c900c3ba73ca6030a6f65d84b092f",
+    "data/reference_comparisons_expanded/intersect_training/strict/events.csv": "a6ca268a616ba5070cf8d2dc39b7bd71a0c56d5a85693d2ec195b866b1412546",
+    "data/reference_comparisons_expanded/intersect_training/strict/reference_quality.csv": "d96cefaa181dcfe9aca2bbb8c980747373aefbab5f5d2a1fe3c13e2caf98b095",
+    "data/reference_comparisons_expanded/intersect_training/nearest/events.csv": "62340d49b592ebc05bf395dd9444f959ac869333c6bd8648384734a9e2c57da9",
+    "data/reference_comparisons_expanded/intersect_training/nearest/reference_quality.csv": "65720be9f0d2aa9fdd935484a4c0859792b765be7123ead80ec120b7aff8accd",
+    "data/reference_comparisons_expanded/intersect_training/expanded_nearest/events.csv": "4e5cb552f472e3f685f295212a69321a9d24fa51c6a397f1c6edddca7798e5b8",
+    "data/reference_comparisons_expanded/intersect_training/expanded_nearest/reference_quality.csv": "3581a574dc7ee0ca0d176df1b3161a0dd8c2aab5f5155a884c9b9e1e4d0d5ab0",
+    "results/parameters_expanded/sweep_metrics.csv": "4c12aab47adc06695e5f35052913cd108121bf8f44c8b64bdee93ecdd6916772",
+    "data/quality_comparisons_expanded/retention.csv": "4a23e85424b57c77f80fab32bac24ff97757ecf7a7c248b7c79970d722d3e02d",
+    "results/report_expanded/group_metrics.csv": "6d17d0f150dea2f3b7f5bad91768541a761860530eeb8617de4015d3ac80aff7",
+    "results/paper_completion/auxiliary_metrics.csv": "227d91e368c26c2f62cb59b6b25bb04ebcd8d7bc770ad4d22e3db3dfa0368dac",
+    "results/paper_completion/memory_group_metrics.csv": "1114689fe7b473d7f7a788a0c8b528720dc27af741e48c66941e3e0a61e4aa26",
+    "results/report_expanded/rolling_metrics.csv": "d3d77fd6f23888a1b1ebffe4d81d9c41e1aa7a478cfd0cc9c2688bcb66fe11b0",
+    "results/paper_completion/group_counts.csv": "5b44a698662e65771e867ce3be642d1d67b0f93bb252c8a24dd7482f0c2f3371",
+    "results/serial_training_expanded/training_timing.csv": "307fa37e54145eda5bb986c687680b3980469d411570a68b98a6b16cea8a8e3a",
+    "results/serial_training_expanded/batch1_timing.csv": "539c7debd661076fa0964b310a698cc92ff6903cfa6cfd346eeaa1b2717971af",
+    "results/serial_training_expanded/summary.csv": "6536b7491bf93bbea44c0846544a33d02ad9e7c8b62d8dc253af3da116b85705",
+    "results/suite_expanded/main/HistoricalMean/seed41/model_size.csv": "2e3d95efb42609cfe33a78bb9b2e125968512c3df090de1ac249ead9e2d302de",
+    "results/suite_expanded/main/DLinear/seed41/model_size.csv": "198fd6a31f51b3b299f0027efa06edef0be45373994fa719c0f57cbb6607b5fc",
+    "results/suite_expanded/main/PatchTST/seed41/model_size.csv": "69fad45a5603aaa42b42a8dee23a5f24a8fee5b0940edf33b355fa79dd557700",
+    "results/suite_expanded/main/iTransformer/seed41/model_size.csv": "2edf8f92f93a614387011c2e5944c0d281987b3efbb22c6a1c8b501d89d16c41",
+    "results/suite_expanded/main/ECT/seed41/model_size.csv": "5084d3e97146d88af75e089f1fbc3adde20509d7cea7a0160e40319913ebef65",
+    "results/suite_expanded/main/RAFT/seed41/model_size.csv": "cb1ef91009adc8d8569f1f086fdd3ff425367d15d11a4e7a4592eb77807cf67f",
+    "results/suite_expanded/main/RATL/seed41/model_size.csv": "56b8d62e25c6e34fd47e4a722e21fd062c38e7cd5ad43ed731f941236b082a01",
+    "results/efficiency_aligned_expanded/aligned_timing.csv": "6cf69541d0b087f77ef623305ebcaa250e879fc1f1e824a6cebebd5d45829bbc",
+    "results/efficiency_aligned_expanded/summary.csv": "1982e27de525e8b8667b741f21e9af42fe0899ad9f827aa0e10d809508d4cf23",
+    "results/efficiency_aligned_expanded/accuracy_summary.csv": "4593f55c1a1ca8eae10e0991c64979ec1ca80d3868bc9565c899c91f8806a1e9",
+    "results/efficiency_aligned_expanded/horizon_metrics.csv": "c686d6d08e5994e2f1c00a1c1f7f9129b493794f4503bda362eb2bfa4b374101",
+    "results/efficiency_aligned_expanded/HistoricalMean/seed41/batch1_samples.csv": "8ae9395f73ac0549e16c6111a87053c333ee73f822dc078344c6e9b006a7c386",
+    "results/efficiency_aligned_expanded/DLinear/seed41/batch1_samples.csv": "c7fea835c910bd3f88f8f05539c4af0f49537486da955cd301318c0842f13d6d",
+    "results/efficiency_aligned_expanded/DLinear/seed42/batch1_samples.csv": "48a20a5c3ca5f32074d629288c973e3011dd8a2f50988716469ef66e89e0b4e0",
+    "results/efficiency_aligned_expanded/DLinear/seed43/batch1_samples.csv": "9a18a84af7e2336bb9fbd62a6ddd107a23d5716eaec1d388547662d64ef77b18",
+    "results/efficiency_aligned_expanded/PatchTST/seed41/batch1_samples.csv": "d95e1d6b8c990f47d3a0162dc93da25ec56a5a2e416da8ebe89c02db26038c7c",
+    "results/efficiency_aligned_expanded/PatchTST/seed42/batch1_samples.csv": "6d3a974b3fd508ddce2fe9c095115df99e6d746e468284dd1f79b4ad9e1fd1ff",
+    "results/efficiency_aligned_expanded/PatchTST/seed43/batch1_samples.csv": "8b94e131e1b866fa7020cfe45b283e31ee45a5b7279ecd01270d6174e7b2d0e0",
+    "results/efficiency_aligned_expanded/iTransformer/seed41/batch1_samples.csv": "a27b66deadf982d97f6988e41811140fb4425621ee98158c46801f4859a0adf9",
+    "results/efficiency_aligned_expanded/iTransformer/seed42/batch1_samples.csv": "574ea24e2ac1d6bd935e61a3df8c4187df622d7952b4571a7c50d08b3c5413aa",
+    "results/efficiency_aligned_expanded/iTransformer/seed43/batch1_samples.csv": "bb27c9643b4be79661ed753ba7e8b35381a9121d89a8d14570fa51483b4cbc81",
+    "results/efficiency_aligned_expanded/ECT/seed41/batch1_samples.csv": "20b10ac146385d174452cec0889f38b7fca06e4e91f18d569575079edffffa72",
+    "results/efficiency_aligned_expanded/ECT/seed42/batch1_samples.csv": "976b0d12e4b058f8dd48557d8312bb20fb943ef48a1290b42885ccb3ecf0e351",
+    "results/efficiency_aligned_expanded/ECT/seed43/batch1_samples.csv": "ac54edbe5cbe7dd9b0d92917c04e72a0bd02bda58198404223953b66b0302df0",
+    "results/efficiency_aligned_expanded/RAFT/seed41/batch1_samples.csv": "6ce99d9767aa4320a4eadc80190f4f43071a2c61e34fc3b2f6840420ddc1ef3c",
+    "results/efficiency_aligned_expanded/RAFT/seed42/batch1_samples.csv": "e7c2be13fbf9eafb490ec1df2abea26aa7346cc87a69237e38a8e3dc1e03c05d",
+    "results/efficiency_aligned_expanded/RAFT/seed43/batch1_samples.csv": "a774737985f8b09828d34422b8c87e6918c0473b9cec35db0ebbb9f1b2d9909d",
+    "results/efficiency_aligned_expanded/RATL/seed41/batch1_samples.csv": "3ab1566e866a018617bceb3ff3b913365f42cd40df589b48ff4d8cfad60a5f89",
+    "results/efficiency_aligned_expanded/RATL/seed42/batch1_samples.csv": "413bedb9b9cc50c00e34eee199e503fe4a03c159d9c9b127b9a164a7751b470b",
+    "results/efficiency_aligned_expanded/RATL/seed43/batch1_samples.csv": "ad5a9fe812e76ebbd35427a4a2c397f6ae52d09d4d998e82cd3f13b10be87b62",
+    "results/efficiency_aligned_expanded/RAIF/seed41/batch1_samples.csv": "ef62b4b46477df6e52329b627f407853d490e4fc653086cdb7f1c5f9cef301f5",
+    "results/efficiency_aligned_expanded/RAIF/seed42/batch1_samples.csv": "b2f6fcd89674fc85ee31e198d854f786d203a1bd52727b3b4275b0ead3bda60d",
+    "results/efficiency_aligned_expanded/RAIF/seed43/batch1_samples.csv": "2f19c013ebd977d7c714ddda0c3e850656f63eee0a68969a61f4831563ac51e7"
+  },
+  "files": [
+    {
+      "file": "table1_data.csv",
+      "sha256": "030f1e2a1247b9af05d4c0566ea1eeb138f448d3f7f677424196aafbabe00b17",
+      "rows": 13
+    },
+    {
+      "file": "table1_sample_flow.csv",
+      "sha256": "fd955d2ef81bdf100bfbf9ae56eb1f7ade1e81eeee6825787eaea50ac2f6b91c",
+      "rows": 30
+    },
+    {
+      "file": "table1_splits.csv",
+      "sha256": "ce5de35e0b1772721e6996b37772faadec695edff6f4eabcec7fb36ef476dbf0",
+      "rows": 3
+    },
+    {
+      "file": "table2_overall.csv",
+      "sha256": "fc4e0e65c4701fcc1a675d9009003aa119b518b065bc5502e5228909992389e2",
+      "rows": 8
+    },
+    {
+      "file": "table3_horizons.csv",
+      "sha256": "2137d7786862f2c0e19dc3fdfc00313224a601914c5061603a780bd8e28b3f81",
+      "rows": 40
+    },
+    {
+      "file": "table3_step_metrics_seeds.csv",
+      "sha256": "c06252f68094f576bef01281d71bb370e5de184b95090a186d566c8a8134d115",
+      "rows": 1452
+    },
+    {
+      "file": "table4_ablation.csv",
+      "sha256": "e95c15baebc1eb5bef665d48faec447670e2b5d8e88faad227dd6166ebc5bf40",
+      "rows": 6
+    },
+    {
+      "file": "table5a_retrieval.csv",
+      "sha256": "3098122a1b146b918af88aa6bd759622203ba16bab1df5021024017e0c1e8251",
+      "rows": 8
+    },
+    {
+      "file": "table5b_reference.csv",
+      "sha256": "16c74574384f8aba303fc102c2d64683d166490c5c2bd7755be7bd2df09cfa9a",
+      "rows": 6
+    },
+    {
+      "file": "quality_retention_metrics_seeds.csv",
+      "sha256": "e3712f3d258d451935c9f5b1b8b080294b45eba15c5d7f80daa17b39abe0a1b0",
+      "rows": 72
+    },
+    {
+      "file": "parameter_metrics_seeds.csv",
+      "sha256": "4c12aab47adc06695e5f35052913cd108121bf8f44c8b64bdee93ecdd6916772",
+      "rows": 216
+    },
+    {
+      "file": "table7_original_condition_groups.csv",
+      "sha256": "d142b9a168ced25d88cd7c182f987c8885de38379fa4a995ec1a55a9c585060b",
+      "rows": 528
+    },
+    {
+      "file": "auxiliary_metrics.csv",
+      "sha256": "490dcc0c2c7b798f3194ce59a728d2b2d905ab295a4c6d95c64501f4cf6dd5a3",
+      "rows": 32
+    },
+    {
+      "file": "table7_generalization.csv",
+      "sha256": "f10208d9a0f6a9326f202bb7efa695050a655cadffc064c582f803eefaa6e7ed",
+      "rows": 72
+    },
+    {
+      "file": "table7_group_counts.csv",
+      "sha256": "5b44a698662e65771e867ce3be642d1d67b0f93bb252c8a24dd7482f0c2f3371",
+      "rows": 23
+    },
+    {
+      "file": "table6_training_seeds.csv",
+      "sha256": "9a0261d39fc065646dc7c55d956f3f8046664ba7fd9af51764d1a56a47131fac",
+      "rows": 22
+    },
+    {
+      "file": "table6_batch1_seeds.csv",
+      "sha256": "6941e931de8f0348e3d3042eda0ed1b09233209732e6ba8d2ae5f40c6bf8a8ec",
+      "rows": 22
+    },
+    {
+      "file": "table6_measurements.csv",
+      "sha256": "1ccf2e3eb9c5190ce3314b82b9ec0fb3c13314b2f416cb488490dd97a1d125e8",
+      "rows": 91
+    },
+    {
+      "file": "table6_separate_training_and_original_checkpoint_cost.csv",
+      "sha256": "53b5420055c2ce038e9ca322c780d284fa7204cfa9970cb0b5624b23daa5fe2a",
+      "rows": 8
+    },
+    {
+      "file": "table6_aligned_cost_seeds.csv",
+      "sha256": "e7ff4228e7c5689e51069ec9c0a5df42db8f1f02cf854fa0a124024d632ae3e2",
+      "rows": 22
+    },
+    {
+      "file": "table6_same_capacity_accuracy.csv",
+      "sha256": "b5fa16440ab4f8fb2b8f379e9d0517c37095bafa1ad0dd508c30e3bec1effb0e",
+      "rows": 240
+    },
+    {
+      "file": "table6_cost.csv",
+      "sha256": "c2f7c747b7e9effcdd9edbde9180189e7c0a3a91495a71450add850c8403cea2",
+      "rows": 8
+    }
+  ],
+  "reference_revision": "single_reference",
+  "reference_verification": {
+    "status": "passed",
+    "revision": "single_reference",
+    "schemes": [
+      "strict",
+      "nearest",
+      "expanded_nearest"
+    ],
+    "validated_runs": 18,
+    "q_rule": "exp_only",
+    "quality_neff_factor_enabled": false,
+    "canonical_test_events": 235,
+    "canonical_test_dates": 97,
+    "common_training_events": 157,
+    "strict_complete_events": 640,
+    "strict_split_counts": {
+      "test": 280,
+      "train": 278,
+      "validation": 82
+    },
+    "strict_ar_correlation_minimum": 0.7,
+    "strict_dataset_sha256": "c9cb10053ec4322e9e46aa074983a9dab686a0d439ffcdfd05ca5001b4d028e5",
+    "comparison_protocol_sha256": "c7cf239f89050cf7ccb2bbdbd340410c0f6a19a22747db713d5d9f8b0bbe3f69",
+    "reference_metrics_sha256": "dbace5b526096f6dd39f98206dc7c2edf698ec68a3fabe735f326afe1b21c23b",
+    "independent_prediction_metric_recomputation": true
+  },
+  "quality_rule": {
+    "q_rule": "exp_only",
+    "lower_floor": 1e-08,
+    "quality_neff_factor_enabled": false,
+    "events_verified": 5105,
+    "dataset_sha256": "313470657a33a77eaed458af7854dc9ac87f0a516dc1614f445488f68c16eb0e"
+  },
+  "reference_coverage_definition": "Complete labelled events retained across all temporal partitions divided by 5686 merged stock/trading-date events; test error is evaluated on the same 235 canonical strict-reference events.",
+  "reference_attribute_scope": "Strict Matching uses historical effective industry intervals and AR correlation >=0.7; first-publication dates remain unverified. Constrained Nearest Neighbor retains its source-update availability filter. Nearest Neighbor does not restrict industry or capitalization. Every event uses one fixed control.",
+  "manuscript_modified": false
+}

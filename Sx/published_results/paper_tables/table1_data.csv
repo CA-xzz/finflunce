@@ -1,0 +1,14 @@
+item,value,unit
+original_recommendation_rows,7690.0,rows
+identity_accepted_recommendation_rows,7277.0,rows
+identity_excluded_recommendation_rows,413.0,rows
+original_influencer_identifiers,27.0,identifiers
+identity_accepted_influencer_identifiers,26.0,identifiers
+merged_stock_trading_date_events,5686.0,events
+retained_model_events,5105.0,events
+retained_over_all_merged_events,89.7819205065072,percent
+retained_over_temporally_eligible_events,96.32075471698113,percent
+temporal_exclusion_test_embargo,132.0,events
+temporal_exclusion_response_crosses_training_boundary,111.0,events
+temporal_exclusion_response_crosses_validation_boundary,81.0,events
+temporal_exclusion_validation_embargo,62.0,events

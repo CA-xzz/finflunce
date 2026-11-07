@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "role": "raft_direct",
+  "model": "RAFT",
+  "seed": 42,
+  "best_epoch": 39,
+  "validation_standardized_mae": 0.543021995187618,
+  "validation_objective": "standardized_incremental_MAE_with_frozen_predicted_B",
+  "training_seconds": 26.200316274014767,
+  "total_seconds": 30.23104930698173,
+  "finished_unix": 1793959301.2419748,
+  "checkpoint_sha256": "3755ef5c8422cb463fdf5a764bb3cf1728f9ec129719172c56defbccbcc44250",
+  "query_future_inputs": false,
+  "validation_predictions_sha256": "7fa6d8cdf9ad0421ede2061b190404cde620770fcef8d199ea1cf0cfc7cbd3a1",
+  "test_predictions_sha256": "58b57ffd8eb64e30bc350d766ea292a5c015d1b515a5e2f6b1ac6bab9f1f20c3"
+}

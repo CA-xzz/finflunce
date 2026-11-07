@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "finished_unix": 1793951217.0812342,
+  "datasets": 6,
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "shared_test_reference": "strict",
+  "hyperparameters": "Frozen main RAIF validation-selected configuration; no reference-test-based selection."
+}

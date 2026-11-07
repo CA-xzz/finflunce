@@ -1,0 +1,2 @@
+model,variant,seed,parameters,trainable_parameters,frozen_base_parameters,checkpoint_bytes
+DLinear,full,43,1739,1739,0,11874

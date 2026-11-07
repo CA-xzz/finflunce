@@ -1,0 +1,8 @@
+*.py text eol=lf
+*.md text eol=lf
+*.npz binary
+*.parquet binary
+
+# Preserve published data and measurement hashes across platforms.
+Sx/data/** -text
+Sx/published_results/** -text

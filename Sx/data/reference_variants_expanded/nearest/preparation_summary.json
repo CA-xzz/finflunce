@@ -1,0 +1,14 @@
+{
+  "status": "prepared",
+  "n_events": 2269,
+  "split_counts": {
+    "test": 1297,
+    "train": 678,
+    "validation": 294
+  },
+  "seconds": 36.85585864301538,
+  "label_version": "nearest_51e5ec0bbd16",
+  "ready_for_formal_training": true,
+  "quality_revision": "single_reference_no_effective_n_factor",
+  "reference_display_name": "Constrained Nearest Neighbor"
+}

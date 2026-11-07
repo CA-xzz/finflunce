@@ -1,0 +1,7 @@
+model,seed,variant,split,label_version,memory_mode,n_memory,evaluation_kind,checkpoint_sha256,channel,horizon,metric,value,n_events,n_dates
+HistoricalMean,41,full,test,expanded_nearest_a60080fcec64,fixed_common_training,912,same_capacity_efficiency_checkpoint,,AR,11,MAE,0.030538127180316257,2315,141
+HistoricalMean,41,full,test,expanded_nearest_a60080fcec64,fixed_common_training,912,same_capacity_efficiency_checkpoint,,AR,11,RMSE,0.04542852269672273,2315,141
+HistoricalMean,41,full,test,expanded_nearest_a60080fcec64,fixed_common_training,912,same_capacity_efficiency_checkpoint,,turnover,11,MAE,3.9999615112913958,2315,141
+HistoricalMean,41,full,test,expanded_nearest_a60080fcec64,fixed_common_training,912,same_capacity_efficiency_checkpoint,,turnover,11,RMSE,6.683685740251128,2315,141
+HistoricalMean,41,full,test,expanded_nearest_a60080fcec64,fixed_common_training,912,same_capacity_efficiency_checkpoint,,log_volume,11,MAE,0.762934067834751,2315,141
+HistoricalMean,41,full,test,expanded_nearest_a60080fcec64,fixed_common_training,912,same_capacity_efficiency_checkpoint,,log_volume,11,RMSE,0.993166990965143,2315,141

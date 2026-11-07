@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "active_reference_schemes": [
+    "expanded_nearest",
+    "nearest",
+    "strict"
+  ],
+  "comparison_datasets": 6,
+  "reference_runs": 18,
+  "legacy_reference_paths_absent": true,
+  "local_data_directories": [
+    "external",
+    "prepared_expanded",
+    "quality_comparisons_expanded",
+    "reference_comparisons_expanded",
+    "reference_variants_expanded",
+    "source_expanded",
+    "supplemental_market",
+    "window_comparisons_expanded"
+  ],
+  "local_results_directories": [
+    "efficiency_aligned_expanded",
+    "frozen_retrieval_expanded",
+    "industry_recovery",
+    "paper_completion",
+    "paper_tables",
+    "parameters_expanded",
+    "preflight_expanded",
+    "references_expanded",
+    "report_expanded",
+    "rolling_expanded",
+    "serial_timing_expanded",
+    "serial_training_expanded",
+    "single_reference_revision",
+    "suite_expanded"
+  ],
+  "remaining_paper_experiments": [],
+  "completed_source_summary_hash_matches": true,
+  "manuscript_modified": false,
+  "server_active_three_schemes": true,
+  "server_pipeline_completed": true,
+  "allocated_gpu_indices": [
+    0,
+    2,
+    3
+  ],
+  "allocated_gpus_idle_after_completion": true,
+  "figures_visually_checked": [
+    "results/paper_completion/figure3_query_prestate.png",
+    "results/report_expanded/cases.png"
+  ]
+}

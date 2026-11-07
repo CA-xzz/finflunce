@@ -1,0 +1,1362 @@
+[
+  {
+    "stage": "before_cuda_allocation",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952951.1865306
+  },
+  {
+    "stage": "before_cuda_allocation",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952951.5654252
+  },
+  {
+    "stage": "before_efficiency_checkpoint_HistoricalMean/seed41",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952954.7692692
+  },
+  {
+    "stage": "before_efficiency_checkpoint_HistoricalMean/seed41",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952955.2056742
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952956.4927852
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952957.023758
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952958.4685922
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952958.9864435
+  },
+  {
+    "stage": "before_efficiency_checkpoint_DLinear/seed41",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952959.9765527
+  },
+  {
+    "stage": "before_efficiency_checkpoint_DLinear/seed41",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952960.357793
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952961.6111512
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952962.1048958
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952964.1263602
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952964.609696
+  },
+  {
+    "stage": "before_efficiency_checkpoint_DLinear/seed42",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952965.7125309
+  },
+  {
+    "stage": "before_efficiency_checkpoint_DLinear/seed42",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952966.1271062
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952967.1407628
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952967.5940638
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952969.5203125
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952969.9821715
+  },
+  {
+    "stage": "before_efficiency_checkpoint_DLinear/seed43",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952971.14006
+  },
+  {
+    "stage": "before_efficiency_checkpoint_DLinear/seed43",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952971.5354497
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952972.6709926
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952973.059948
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952974.9528942
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952975.4415777
+  },
+  {
+    "stage": "before_efficiency_checkpoint_PatchTST/seed41",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952976.5872931
+  },
+  {
+    "stage": "before_efficiency_checkpoint_PatchTST/seed41",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952977.0523517
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952978.3272812
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952978.7401288
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952981.4880767
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952981.9470341
+  },
+  {
+    "stage": "before_efficiency_checkpoint_PatchTST/seed42",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952983.0549164
+  },
+  {
+    "stage": "before_efficiency_checkpoint_PatchTST/seed42",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952983.5126016
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952984.7530982
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952985.1707687
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952987.9735343
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952988.3853424
+  },
+  {
+    "stage": "before_efficiency_checkpoint_PatchTST/seed43",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952989.5586913
+  },
+  {
+    "stage": "before_efficiency_checkpoint_PatchTST/seed43",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952989.9559364
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952991.0893664
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952991.617155
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952994.3119633
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952994.7433126
+  },
+  {
+    "stage": "before_efficiency_checkpoint_iTransformer/seed41",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952995.8008165
+  },
+  {
+    "stage": "before_efficiency_checkpoint_iTransformer/seed41",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952996.267586
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952997.4986641
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793952997.9830413
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953000.725504
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953001.1561465
+  },
+  {
+    "stage": "before_efficiency_checkpoint_iTransformer/seed42",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953002.2845325
+  },
+  {
+    "stage": "before_efficiency_checkpoint_iTransformer/seed42",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953002.6764343
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953003.8881776
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953004.3658686
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953007.0004213
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953007.4308856
+  },
+  {
+    "stage": "before_efficiency_checkpoint_iTransformer/seed43",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953008.5617716
+  },
+  {
+    "stage": "before_efficiency_checkpoint_iTransformer/seed43",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953008.9632099
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953010.2613645
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953010.6464057
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953013.2534623
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953013.7328784
+  },
+  {
+    "stage": "before_efficiency_checkpoint_ECT/seed41",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953014.7597427
+  },
+  {
+    "stage": "before_efficiency_checkpoint_ECT/seed41",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953015.1728938
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953016.2771323
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953016.7323182
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953019.5002892
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953019.9030948
+  },
+  {
+    "stage": "before_efficiency_checkpoint_ECT/seed42",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953021.1057265
+  },
+  {
+    "stage": "before_efficiency_checkpoint_ECT/seed42",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953021.5278008
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953022.8099515
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953023.1915638
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953025.9752123
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953026.3706503
+  },
+  {
+    "stage": "before_efficiency_checkpoint_ECT/seed43",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953027.490984
+  },
+  {
+    "stage": "before_efficiency_checkpoint_ECT/seed43",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953027.942886
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953029.2107072
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953029.6207888
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953032.4518592
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953032.8553174
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAFT/seed41",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953034.0948954
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAFT/seed41",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953034.5295355
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953035.9878263
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953036.4504838
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953040.7584312
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953041.1745863
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAFT/seed42",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953042.3597624
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAFT/seed42",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953042.80197
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953044.1542704
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953044.6316679
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953048.8136892
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953049.2494693
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAFT/seed43",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953050.4728699
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAFT/seed43",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953050.9479535
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953052.3229666
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953052.8285823
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953057.3674355
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953057.8265657
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RATL/seed41",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953059.004575
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RATL/seed41",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953059.4644601
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953061.1055925
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953061.5063903
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953068.5667536
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953069.0516963
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RATL/seed42",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953070.2769768
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RATL/seed42",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953070.7875128
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953072.4378574
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953072.8361988
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953079.7438383
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953080.2652829
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RATL/seed43",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953081.5804906
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RATL/seed43",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953082.0722759
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953083.8834639
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953084.314922
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953091.427301
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953091.9043968
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAIF/seed41",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953093.0627306
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAIF/seed41",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953093.5620022
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953095.1558468
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953095.5828164
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953101.0463185
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953101.5956428
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAIF/seed42",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953102.8028636
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAIF/seed42",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953103.2715478
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953104.8905532
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953105.3909378
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953110.8528428
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953111.3612335
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAIF/seed43",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953112.600242
+  },
+  {
+    "stage": "before_efficiency_checkpoint_RAIF/seed43",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953113.0363233
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953114.7420583
+  },
+  {
+    "stage": "batch1_after_warmup",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953115.1717517
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953120.6069615
+  },
+  {
+    "stage": "batch1_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953121.0977166
+  },
+  {
+    "stage": "aligned_finished",
+    "index": 2,
+    "uuid": "GPU-cbe4e03e-cb12-8552-bae4-6746d8aa8522",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953122.3627186
+  },
+  {
+    "stage": "aligned_finished",
+    "index": 3,
+    "uuid": "GPU-757567bd-a18c-c669-7638-92313c9c272e",
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 2.0,
+    "utilization": 0.0,
+    "pids": [],
+    "observed_unix": 1793953122.8147745
+  }
+]

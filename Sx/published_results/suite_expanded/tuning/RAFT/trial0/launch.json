@@ -1,0 +1,33 @@
+{
+  "command": [
+    "/home/ubuntu/Sx/envs/Sx/bin/python",
+    "/home/ubuntu/Sx/train.py",
+    "--data",
+    "/home/ubuntu/Sx/data/prepared_expanded",
+    "--output",
+    "/home/ubuntu/Sx/results/suite_expanded/tuning/RAFT/trial0",
+    "--model",
+    "RAFT",
+    "--seed",
+    "40",
+    "--epochs",
+    "100",
+    "--patience",
+    "15",
+    "--threads",
+    "2",
+    "--batch-size",
+    "64",
+    "--timeout-seconds",
+    "7200",
+    "--hidden",
+    "32",
+    "--lr",
+    "0.001",
+    "--validation-only"
+  ],
+  "gpu": 0,
+  "pid": 118639,
+  "started_unix": 1793950017.9387665,
+  "hard_timeout_seconds": 7200
+}

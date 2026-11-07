@@ -1,0 +1,19 @@
+[
+  {
+    "stage": "main",
+    "n_train": 2170,
+    "epochs": 19,
+    "best_epoch": 4,
+    "validation_standardized_mae": 0.6105626225471497,
+    "stage_wall_seconds": 21.1103947639931,
+    "monitor_seconds": 0.0,
+    "stage_seconds": 21.1103947639931,
+    "optimization_seconds": 19.397609693871345,
+    "validation_seconds": 1.1987810469581746,
+    "training_cache_seconds": 0,
+    "bookkeeping_seconds": 0.5140040231635794,
+    "core_fit_stage_seconds": 21.108458977018017,
+    "optimizer_steps": 646,
+    "total_training_event_visits": 41230
+  }
+]

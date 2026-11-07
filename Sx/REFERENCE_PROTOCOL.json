@@ -1,0 +1,62 @@
+{
+  "primary": {
+    "scheme": "expanded_nearest",
+    "name_zh": "单近邻",
+    "name_en": "Nearest Neighbor",
+    "events": 5105,
+    "splits": {
+      "train": 2170,
+      "validation": 620,
+      "test": 2315
+    }
+  },
+  "schemes": [
+    {
+      "scheme": "strict",
+      "name_zh": "严格匹配",
+      "name_en": "Strict Matching",
+      "events": 640,
+      "splits": {
+        "train": 278,
+        "validation": 82,
+        "test": 280
+      },
+      "ar_correlation_minimum": 0.7,
+      "industry_policy": "historical_effective_interval"
+    },
+    {
+      "scheme": "nearest",
+      "name_zh": "受约束单近邻",
+      "name_en": "Constrained Nearest Neighbor",
+      "events": 2269,
+      "splits": {
+        "train": 678,
+        "validation": 294,
+        "test": 1297
+      },
+      "industry_policy": "source_update_proxy"
+    },
+    {
+      "scheme": "expanded_nearest",
+      "name_zh": "单近邻",
+      "name_en": "Nearest Neighbor",
+      "events": 5105,
+      "splits": {
+        "train": 2170,
+        "validation": 620,
+        "test": 2315
+      },
+      "industry_policy": "not_a_candidate_constraint"
+    }
+  ],
+  "references_per_event": 1,
+  "reference_weight": 1,
+  "quality_formula": "max(exp(-balance/s_b - distance/s_d),1e-8)",
+  "q_rule": "exp_only",
+  "quality_neff_factor_enabled": false,
+  "common_test_events": 235,
+  "common_test_dates": 97,
+  "common_training_events": 157,
+  "paper_is_managed_in_another_chat": true,
+  "counts_are_measured_not_proportional_estimates": true
+}

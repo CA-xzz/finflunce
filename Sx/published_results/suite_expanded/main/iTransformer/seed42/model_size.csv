@@ -1,0 +1,2 @@
+model,variant,seed,parameters,trainable_parameters,frozen_base_parameters,checkpoint_bytes
+iTransformer,full,42,27620,27620,0,124258

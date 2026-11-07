@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "role": "ect_direct",
+  "model": "ECT",
+  "seed": 41,
+  "best_epoch": 36,
+  "validation_standardized_mae": 0.5339522787606935,
+  "validation_objective": "standardized_incremental_MAE_with_frozen_predicted_B",
+  "training_seconds": 55.97780504898401,
+  "total_seconds": 57.314000788959675,
+  "finished_unix": 1793959261.8786469,
+  "checkpoint_sha256": "ca4d9b469edc78bd8db1075d664c8bf712464f43cfed388ad78012d6b51f33fd",
+  "query_future_inputs": false,
+  "validation_predictions_sha256": "d847bc8c76683eb837c608887a92ea5d0629b1f8da4cf29a3250fc568d70d493",
+  "test_predictions_sha256": "1e79b93d3c733407e5d52389a5f478856c68a63f2648db6c29403e322d7c0804"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "tests": {
+    "data_boundary_tests": 4,
+    "component_tests": 14
+  },
+  "remote_component_tests": 14,
+  "remote_component_test_log": "logs/trajectory_component_tests.log",
+  "code_hashes": {
+    "test_trajectory_component.py": "3b1d4c78e477e27b64fe7b09612c0f6fc602211740eb6dbc90b89edd25d21eb6",
+    "train_trajectory_component.py": "3144b58fe0ebcf9508611443db7f8a39f2c15ee5309567dc060ea732944a83b9",
+    "run_trajectory_comparison.py": "7e2875a512e8c6762bdb136942bd0ea417aefaf3a570928ad11576ad8e8750cc",
+    "prepare_trajectory_comparison.py": "1449be7762479f84bee4657f2b59aee307f6ed890e355e45b8e785aab7687c50"
+  }
+}

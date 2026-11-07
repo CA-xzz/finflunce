@@ -1,0 +1,29 @@
+{
+  "cases": 6,
+  "rows": 180,
+  "input_offsets": [
+    -10,
+    -1
+  ],
+  "selection": "Uses the existing fixed platform/quality-stratified case manifest; no new outcome-based selection",
+  "units": {
+    "AR": "decimal return",
+    "turnover": "percentage points",
+    "log_volume": "natural log of traded shares"
+  },
+  "precision": "Inverse-transformed float32 model inputs",
+  "sources": [
+    {
+      "path": "/home/ubuntu/Sx/data/prepared_expanded/dataset.npz",
+      "sha256": "313470657a33a77eaed458af7854dc9ac87f0a516dc1614f445488f68c16eb0e"
+    },
+    {
+      "path": "/home/ubuntu/Sx/data/prepared_expanded/normalization.json",
+      "sha256": "afe63d639544efd11ba3afdcb6deeacde3a51baebff271e84a38335b9c760471"
+    },
+    {
+      "path": "/home/ubuntu/Sx/results/report_expanded/case_manifest.csv",
+      "sha256": "f811fb80e1d5d1724d4a8e03ce73f69b5e8cd8b631232b2d18ba194c6803370f"
+    }
+  ]
+}

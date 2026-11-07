@@ -1,0 +1,14 @@
+{
+  "status": "prepared",
+  "n_events": 640,
+  "split_counts": {
+    "test": 280,
+    "train": 278,
+    "validation": 82
+  },
+  "seconds": 11.447087084001396,
+  "label_version": "strict_fb2263046230",
+  "ready_for_formal_training": true,
+  "quality_revision": "single_reference_no_effective_n_factor",
+  "reference_display_name": "Strict Matching"
+}

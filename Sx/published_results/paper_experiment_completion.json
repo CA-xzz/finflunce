@@ -1,0 +1,124 @@
+{
+  "status": "completed",
+  "updated_utc": "2026-11-06T08:28:56.245361+00:00",
+  "primary_protocol": "expanded_nearest",
+  "n_events": 5105,
+  "n_train": 2170,
+  "n_validation": 620,
+  "n_test": 2315,
+  "dataset_sha256": "313470657a33a77eaed458af7854dc9ac87f0a516dc1614f445488f68c16eb0e",
+  "all_requested_experiment_categories_covered": true,
+  "active_reference_revision": "single_reference",
+  "reference_comparison": {
+    "status": "passed",
+    "revision": "single_reference",
+    "schemes": [
+      "strict",
+      "nearest",
+      "expanded_nearest"
+    ],
+    "validated_runs": 18,
+    "q_rule": "exp_only",
+    "quality_neff_factor_enabled": false,
+    "canonical_test_events": 235,
+    "canonical_test_dates": 97,
+    "common_training_events": 157,
+    "strict_complete_events": 640,
+    "strict_split_counts": {
+      "test": 280,
+      "train": 278,
+      "validation": 82
+    },
+    "strict_ar_correlation_minimum": 0.7,
+    "strict_dataset_sha256": "c9cb10053ec4322e9e46aa074983a9dab686a0d439ffcdfd05ca5001b4d028e5",
+    "comparison_protocol_sha256": "c7cf239f89050cf7ccb2bbdbd340410c0f6a19a22747db713d5d9f8b0bbe3f69",
+    "reference_metrics_sha256": "dbace5b526096f6dd39f98206dc7c2edf698ec68a3fabe735f326afe1b21c23b",
+    "independent_prediction_metric_recomputation": true
+  },
+  "reference_revision_provenance": {
+    "data_migration_verification": {
+      "path": "results/single_reference_revision/data_migration_verification.json",
+      "sha256": "ef9cb86436f25702390e4d47f3f1db716c711ffb38cf65915e7dbc73d22d7205"
+    },
+    "independent_predictions_validation": {
+      "path": "results/single_reference_revision/independent_predictions_validation.json",
+      "sha256": "3df0755fe454f6726d40d529d4a19da4d036092b0f57c8f40caa1e154a192ea1"
+    }
+  },
+  "q_rule": "exp_only",
+  "quality_neff_factor_enabled": false,
+  "run_counts": {
+    "training_selection_and_deterministic_baseline": 114,
+    "validation_only_total": 14,
+    "reference_training": 18,
+    "efficiency_retraining": 21,
+    "deterministic_training_cost_records": 1,
+    "rolling_prediction_evaluations": 3,
+    "frozen_retrieval_evaluations": 12,
+    "batch64_timing_model_seed_records": 22,
+    "batch1_original_checkpoint_timing_records": 22,
+    "efficiency_aligned_prediction_and_batch1_records": 22,
+    "additional_component_training": 9,
+    "training_selection_and_deterministic_baseline_including_additions": 123
+  },
+  "expected_trainable_seeds": [
+    41,
+    42,
+    43
+  ],
+  "historical_mean_seed_count": 1,
+  "efficiency": {
+    "gpu": "NVIDIA GeForce RTX 4090, physical GPU 0",
+    "train_batch": 64,
+    "inference_batch": 1,
+    "memory_events": 912,
+    "inference_queries": 128,
+    "repeats_per_query": 5,
+    "no_observed_contention": true,
+    "whole_host_exclusivity_claimed": false,
+    "training_source": "separate same-capacity retraining",
+    "table6_inference_and_accuracy_source": "the same common-capacity checkpoints",
+    "additional_inference_source": "original main checkpoints with common memory",
+    "preprocessing_measurement_scope": "original_reference_construction_measurement",
+    "preprocessing_includes_quality_revision": false,
+    "reference_selection_recomputed_for_quality_revision": false
+  },
+  "remaining_execution_tasks": [],
+  "manuscript_modified": false,
+  "scope_notes": [
+    "Primary Nearest Neighbor uses one fixed control for each of 5105 events.",
+    "The three reference schemes are Strict Matching, Constrained Nearest Neighbor, and Nearest Neighbor.",
+    "Reference comparisons use 235 canonical strict-reference test targets and 157 common training events.",
+    "Strict Matching uses historical effective industry intervals and AR correlation >=0.7; first-publication dates remain unverified. Constrained Nearest Neighbor retains its source-update availability filter. Nearest Neighbor does not restrict industry or capitalization. Every event uses one fixed control.",
+    "The correlation minimum 0.7 was user-adopted after coverage review; it is not a preregistered threshold.",
+    "Reference quality is max(exp(-balance/scale_balance-distance/scale_distance),1e-8), with training-fitted scales.",
+    "Historical industry effective dates do not establish first-publication availability. Intraday recommendation timestamps remain unavailable.",
+    "RATL and other baselines are documented task adaptations.",
+    "The manuscript is maintained separately from the experiment artifacts."
+  ],
+  "evidence": {
+    "primary_summary": "results/report_expanded/supplementary_summary.json",
+    "auxiliary_summary": "results/paper_completion/summary.json",
+    "efficiency_status": "results/serial_training_expanded/status.json",
+    "aligned_efficiency_status": "results/efficiency_aligned_expanded/status.json",
+    "training_validation": "results/serial_training_expanded/independent_validation.json",
+    "aligned_validation": "results/efficiency_aligned_expanded/independent_validation.json",
+    "reference_status": "results/references_expanded/status.json",
+    "reference_verification": "results/paper_tables/reference_verification.json",
+    "file_manifest": "results/paper_experiment_manifest.csv",
+    "table_validation": "results/single_reference_revision/table_validation.json",
+    "main_markdown": "论文主表数据.md",
+    "active_inventory": "results/single_reference_revision/final_active_inventory.json"
+  },
+  "final_tables_verified": true,
+  "main_markdown_sha256": "80544e2ae35f5c46bb5f7534369e157b49a36c66fa731027e9db23d63f748fe2",
+  "additional_experiments": {
+    "trajectory_comparison": {
+      "status": "completed",
+      "completion": "results/trajectory_comparison/completion.json",
+      "table": "results/trajectory_comparison/table2_trajectory_comparison.csv",
+      "new_component_training_runs": 9,
+      "final_method_seed_results": 15
+    }
+  }
+}

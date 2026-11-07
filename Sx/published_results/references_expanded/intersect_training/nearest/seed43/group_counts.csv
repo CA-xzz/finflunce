@@ -1,0 +1,12 @@
+group_type,group,n_events,n_dates,report_metrics
+period,2025Q3,95,36,True
+period,2025Q4,91,42,True
+period,2026Q1,49,19,True
+platform,__UNKNOWN__,9,9,False
+platform,微信,182,82,True
+platform,微博,44,29,True
+quality,high,55,41,True
+quality,low,109,66,True
+quality,middle,71,51,True
+influencer_status,seen,133,68,True
+influencer_status,unknown_or_unseen,102,61,True

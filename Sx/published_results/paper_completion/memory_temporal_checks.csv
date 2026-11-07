@@ -1,0 +1,7 @@
+seed,memory_mode,retrieval_rows,update_rows,strict_end_before_query,nontraining_retrieval_rows
+41,fixed,11575,0,True,0
+41,rolling,11575,2861,True,7088
+42,fixed,11575,0,True,0
+42,rolling,11575,2861,True,7107
+43,fixed,11575,0,True,0
+43,rolling,11575,2861,True,6809

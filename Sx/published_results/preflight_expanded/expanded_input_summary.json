@@ -1,0 +1,32 @@
+{
+  "original_recommendations": 7690,
+  "kept_recommendations": 7277,
+  "excluded_recommendations": 413,
+  "exclusion_counts": {
+    "non_equity_index_including_same_numeric_code_collision": 170,
+    "name_code_conflict_with_equity_master; unresolved_original_intent": 132,
+    "non_equity_fund_or_index": 65,
+    "NEEQ_or_BSE_listing_identity_not_verified": 19,
+    "fund_or_security_identity_not_verified": 12,
+    "name_code_conflict_no_original_recommendation_to_resolve": 7,
+    "original_code_delisted_before_study_period": 7,
+    "recommendation_precedes_exchange_A_share_listing_2025_10_28": 1
+  },
+  "canonical_code_changes": 14,
+  "stocks": 5160,
+  "stock_rows": 4264268,
+  "stock_daily_sha256": "62808b774f096870203716f6ebbd5e18fa94fa5abdd52ae414b5e853d69ab685",
+  "calendar_first": "2022-09-01",
+  "calendar_last": "2026-03-20",
+  "events": 5686,
+  "split_counts": {
+    "test": 2433,
+    "train": 2218,
+    "validation": 649,
+    "excluded": 386
+  },
+  "stock_policy": "Original series preserved; only entirely absent stocks added from separately documented source.",
+  "index_policy": "Original observations preserved; only missing dates added after overlapping observations agree within source rounding bounds.",
+  "price_adjustment_limitation": "New stocks use Eastmoney qfq; existing stocks use Baostock forward adjustment. No stock mixes providers; both are retrospective downloads.",
+  "recommendation_time_precision": "date only"
+}

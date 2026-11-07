@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/home/ubuntu/Sx/envs/Sx/bin/python",
+    "/home/ubuntu/Sx/train.py",
+    "--data",
+    "/home/ubuntu/Sx/data/prepared_expanded",
+    "--output",
+    "/home/ubuntu/Sx/results/suite_expanded/main/RATL/seed43",
+    "--model",
+    "RATL",
+    "--seed",
+    "43",
+    "--epochs",
+    "100",
+    "--patience",
+    "15",
+    "--threads",
+    "2",
+    "--batch-size",
+    "64",
+    "--timeout-seconds",
+    "7200",
+    "--hidden",
+    "32",
+    "--lr",
+    "0.001"
+  ],
+  "gpu": 2,
+  "pid": 120357,
+  "started_unix": 1793950373.5359986,
+  "hard_timeout_seconds": 7200
+}

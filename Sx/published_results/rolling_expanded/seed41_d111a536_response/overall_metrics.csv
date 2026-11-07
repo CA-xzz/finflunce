@@ -1,0 +1,7 @@
+model,variant,seed,split,label_version,memory_mode,retrieval,evaluation_kind,source_run,channel,horizon,metric,value,n_events,n_dates
+RAIF,full,41,test,expanded_nearest_a60080fcec64,rolling,response,frozen_encoder_rolling_memory,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed41,AR,11,MAE,0.030575130863736952,2315,141
+RAIF,full,41,test,expanded_nearest_a60080fcec64,rolling,response,frozen_encoder_rolling_memory,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed41,AR,11,RMSE,0.045474435708992865,2315,141
+RAIF,full,41,test,expanded_nearest_a60080fcec64,rolling,response,frozen_encoder_rolling_memory,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed41,turnover,11,MAE,3.637544974324749,2315,141
+RAIF,full,41,test,expanded_nearest_a60080fcec64,rolling,response,frozen_encoder_rolling_memory,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed41,turnover,11,RMSE,6.576093973494426,2315,141
+RAIF,full,41,test,expanded_nearest_a60080fcec64,rolling,response,frozen_encoder_rolling_memory,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed41,log_volume,11,MAE,0.7332971768459757,2315,141
+RAIF,full,41,test,expanded_nearest_a60080fcec64,rolling,response,frozen_encoder_rolling_memory,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed41,log_volume,11,RMSE,0.9619357250528413,2315,141

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "reference_display_name": "Strict Matching",
+  "reference_mode": "strict",
+  "events": 640,
+  "split_counts": {
+    "test": 280,
+    "train": 278,
+    "validation": 82
+  },
+  "event_ids_unchanged": true,
+  "reference_pairs_byte_identical": true,
+  "all_arrays_except_q_identical": true,
+  "raw_labels_identical_except_version": true,
+  "x_y_normalization_and_quality_scales_unchanged": true,
+  "quality_formula": "max(exp(-balance/s_b - mean_distance/s_d), 1e-8)",
+  "quality_effective_n_factor": false,
+  "quality_neff_factor_enabled": false,
+  "q_rule": "exp_only",
+  "q_uses_pre_event_matching_quality_and_training_medians_only": true,
+  "q_changed_events": 628,
+  "q_at_floor": 12,
+  "label_version": "strict_fb2263046230",
+  "dataset_sha256": "c9cb10053ec4322e9e46aa074983a9dab686a0d439ffcdfd05ca5001b4d028e5",
+  "normalization_sha256": "cdda33db83a3fdac916a3690d47fba768978f516376897150c4d7146e579858b",
+  "frozen_distance_fit_embedded": true
+}

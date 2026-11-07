@@ -1,0 +1,57 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-11-06T10:07:55.592376+00:00",
+  "title": "Comparison of Full-Trajectory and Incremental-Response Forecasting",
+  "planned_manuscript_placement": "After Section 5.3 overall forecasting performance; manuscript maintained separately",
+  "new_component_training_runs": 9,
+  "new_components": {
+    "shared_reference_ECT": 3,
+    "ECT_recommended_full": 3,
+    "RAFT_recommended_full": 3
+  },
+  "reused_incremental_model_seed_runs": 9,
+  "final_method_seed_results": 15,
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "n_train": 2170,
+  "n_validation": 620,
+  "n_test": 2315,
+  "n_test_dates": 141,
+  "all_methods_evaluated_on_identical_canonical_incremental_responses": true,
+  "shared_predicted_reference_exact_for_both_direct_branches": true,
+  "test_reference_truth_never_used_for_prediction": true,
+  "RAFT_test_retrieval_identities_equal": true,
+  "lowest_mean_metrics": {
+    "AR": {
+      "MAE": "RAIF",
+      "RMSE": "RAIF"
+    },
+    "turnover": {
+      "MAE": "ECT-Direct",
+      "RMSE": "ECT-Direct"
+    },
+    "log_volume": {
+      "MAE": "ECT-Direct",
+      "RMSE": "ECT-Direct"
+    }
+  },
+  "numeric_results_are_descriptive_not_significance_tests": true,
+  "remaining_tasks": [],
+  "manuscript_modified": false,
+  "files": {
+    "trajectory_comparison.md": "9d080e40b02f880a6dbfd07bc048b5b630a819e334baaa29ac866c1cdb917484",
+    "results/trajectory_comparison/table2_trajectory_comparison.csv": "2a23aaa4edf487e7aa49dcfa1570883ee0cb762357ce81bdaa1933312cc08a65",
+    "results/trajectory_comparison/table2_trajectory_comparison.tex": "2d867d11f6c93d2ea6965e6b5a22201bbe7f07fe36f7b0e5d7246479bc9648df",
+    "results/trajectory_comparison/metrics_seeds.csv": "f375e2feebf6d4a1e8cb58b1441d16cbb5f1c58e3ad6cabde4e8fa62193f1f98",
+    "results/trajectory_comparison/independent_validation.json": "cbf782c906742e991d68c98f4aa1f38689effe75e7b30032ad450362df9c7065",
+    "results/trajectory_comparison/experiment_protocol.json": "29a3c264d3684edb68b0e73004b0afbf434284260fa5b43f1364704ceb597722",
+    "run_trajectory_comparison.py": "7e2875a512e8c6762bdb136942bd0ea417aefaf3a570928ad11576ad8e8750cc",
+    "train_trajectory_component.py": "3144b58fe0ebcf9508611443db7f8a39f2c15ee5309567dc060ea732944a83b9",
+    "prepare_trajectory_comparison.py": "1449be7762479f84bee4657f2b59aee307f6ed890e355e45b8e785aab7687c50",
+    "export_trajectory_comparison.py": "1d47a8fc1a3db4985c24b6b5c50f56805567a4742d518d8e1c83cd13adb22312",
+    "verify_trajectory_comparison.py": "eb8c77cfd708c67df8333f18505b5217256f1a0be0564fabfcff0f60c1cfa35b"
+  }
+}

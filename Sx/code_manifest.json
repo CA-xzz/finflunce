@@ -1,0 +1,270 @@
+{
+  "files": [
+    {
+      "path": "assemble_event_attributes.py",
+      "sha256": "fa09473faaa4c3dbb6c1110382cfc19a71849a2ac4bb863426cdf985fca90f52",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "benchmark_serial_training.py",
+      "sha256": "080947a570b4aba1c612226d42549bef79ca3212fee07d63ee0d7aadf7040a5a",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "build_expanded_inputs.py",
+      "sha256": "a61cfe6a1091946532d702b0541c3f77a91c14f00cde4b48bd5687261bb6af7e",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "check_dataset.py",
+      "sha256": "1224080f6fa446f2e956d374a26e6f45e5e71f0ed311e56efbacb3d0f31e7a73",
+      "original_experiment_source_unchanged": false
+    },
+    {
+      "path": "complete_paper_outputs.py",
+      "sha256": "84c851c1c78f9b0ad8242167baf9ed64c52a84e42367c7a3f3eb6cc49552e5fb",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "evaluate_efficiency_outputs.py",
+      "sha256": "ac7d14a80ebd1c86f1662bbc799dbae841f6022d6f9ce8f41382f9a70330f942",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "evaluate_extras.py",
+      "sha256": "444530dd0824add62c5a03d57ba6d35f539ee2c84968da6da7f48c4db2beb5bd",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "evaluate_suite_extras.py",
+      "sha256": "6df379bd8a14bf6a9de0cff22ec3d77dce23f4d25cbc06891c09bde088f83872",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "export_case_inputs.py",
+      "sha256": "def251a988514ae67ecbcd42d1c11cdb0a030a150ef3dd354f13d977c81a229b",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "export_paper_tables.py",
+      "sha256": "be783e0ef29fa5d87d120677718639346e74f80395a56d48382616e79625b00e",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "export_trajectory_comparison.py",
+      "sha256": "1d47a8fc1a3db4985c24b6b5c50f56805567a4742d518d8e1c83cd13adb22312",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "fetch_market_cap.py",
+      "sha256": "28af844e2b464b6e5489946798377ff90294338b57b770f505e00182d59941f3",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "fetch_supplemental_market.py",
+      "sha256": "3d1b2e587bc629b50e0965a8652eb3716ee3a43af57fa2c8150940022ae10261",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "finalize_paper_experiments.py",
+      "sha256": "2d395b07d0bb2573f65b35e5342237c2e4e517f1b7f809a3caf26849609f307f",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "migrate_single_reference.py",
+      "sha256": "a458a31b9f5389a0c2e5f73c9a6382d44ba856becd28378773436032581e08bf",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "models.py",
+      "sha256": "3c5fac04e7c094237db269de2a86105dcbb15ad5294b572f88a54d1d2c58d8c9",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "normalize_industry.py",
+      "sha256": "61777734d1efc028a539ffb9ec056a0d9fd61ff989bee0fe9769a2137201e4fa",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "preflight.py",
+      "sha256": "676bc525f920dfbfa645980b8325025d6e54e08de1b1129b3904ee6067edfec3",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "prepare.py",
+      "sha256": "0a39b42db10a219767f5887056842afc17dda9099cdee75ed6396573d86fb1cf",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "prepare_quality.py",
+      "sha256": "c031c0bb139bcb2065918bfe8d6fc7cae77f35e9d7bb9ccb517e4d905750fde2",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "prepare_trajectory_comparison.py",
+      "sha256": "1449be7762479f84bee4657f2b59aee307f6ed890e355e45b8e785aab7687c50",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "prepare_windows.py",
+      "sha256": "5c857573fb4a0d0cfc88ed9696675f67785d14278dd8f7520968c15e2b5ef564",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "reference_experiments.py",
+      "sha256": "02def9c9416602d3ab44174289a72e6b11f87196321de006e452bc4cfc443ea7",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "replay_main_predictions.py",
+      "sha256": "847141fa68bedbccadee7b2756a9672e7a25418aadbef14371922296eabe57ea",
+      "original_experiment_source_unchanged": false
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "810845beda69ee5e55f33b4f86767bb499a88cb42bffef5bcab2f5fb19079e77",
+      "original_experiment_source_unchanged": false
+    },
+    {
+      "path": "run_parameters.py",
+      "sha256": "07087a261b0104a14645fd45e004ed7cb2a0564d50b978331c8f8bae33ce277c",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "run_references.py",
+      "sha256": "4463e820d642ed06acb7993474dcbcff6db3e2c7fae4621ab4b9a5b474eee719",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "run_suite.py",
+      "sha256": "af5a0de0d116e2f1a07cff45b1935851fd63827a7333967211b4a9fff8c9b3ce",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "run_trajectory_comparison.py",
+      "sha256": "7e2875a512e8c6762bdb136942bd0ea417aefaf3a570928ad11576ad8e8750cc",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "screen_event_assets.py",
+      "sha256": "92cff6f4fafe548de8c311f5a8e8f4711efa5e75d71890e76bb3e64c8d93fbd4",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "summarize_results.py",
+      "sha256": "530fcca14e74eec74bfa8e1b05968e61319d991b7957f37146b67b40f66065ba",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "summarize_supplementary.py",
+      "sha256": "49904db26a15da0806e7de0a1787bc68d457e74bf35803d825377c647fa45593",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_benchmark_serial_training.py",
+      "sha256": "e27c7894e116d72d0145f6f9e525bd95ede61a58c1e8eaf3cb1466a703eba847",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_build_expanded_inputs.py",
+      "sha256": "b653e7be77466335c3ce51f328de4c43a26cd20d1ebf749d91fd75b73524a325",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_evaluate_efficiency_outputs.py",
+      "sha256": "b200de8ee9ab001bbc6d95a913c0987d86ac6f6320c431b5a58f5bb7691e457b",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_evaluate_extras.py",
+      "sha256": "33ad525b4fa372848bfd5860163be2575deaabdfc75bc6a8dd02baf582ae815d",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_models.py",
+      "sha256": "7e8d267f8732ba2335ec26025bd4adcb93ca60534936f59df4651a8a8078337f",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_prepare.py",
+      "sha256": "d84e1bdb66678faaa9cc9b9c19638b44838ea99869421765a9116d0cddf0598b",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_raft_raw_history.py",
+      "sha256": "d78ac5db3b4750bbae9e9331e70217987db64fe6895df599cbe77208b4ac16b0",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_run_references.py",
+      "sha256": "ed3de5efaea6df437b6d1407681fc40e075321f9dd4ffeac9d4b966808d6067f",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_single_reference.py",
+      "sha256": "f9529bf870e675f23273c3423a30d0a1e6ed7a103a19f24a42429982d1c911a3",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_summarize_supplementary.py",
+      "sha256": "e8c55541dc801b872eb0b809e36d395fb1628b1eb21a29f1fd6f1e2e2f1af745",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_trajectory_comparison_data.py",
+      "sha256": "ad28118499ec035fafb953332a3e5fd919a6d98f9b7ab8029d7d2a5658488822",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "test_trajectory_component.py",
+      "sha256": "70148f187878f5de6c8424ab4807f0c323cb2c6ec14271a4ebf0fec8c3b57736",
+      "original_experiment_source_unchanged": false
+    },
+    {
+      "path": "train.py",
+      "sha256": "2f59d8dd002239793b9bfd690dd4dcad3bf9a5a7a8f1c002e6f67fdf2bd18ef3",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "train_raft_raw_history.py",
+      "sha256": "584aa3de93190cb886c9c20c21c142c30a0c9b05b6ff87ad17767921dcb7029a",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "train_trajectory_component.py",
+      "sha256": "3144b58fe0ebcf9508611443db7f8a39f2c15ee5309567dc060ea732944a83b9",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "validate_external.py",
+      "sha256": "eb427f5c9b4d67470df01297524462fe7fdee8441f06cb921674bca940821564",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "verify_efficiency_artifacts.py",
+      "sha256": "0e3e5f0be761ed847add1d74a76a1172f6ca732c7270bc7e5296d6703f2fa564",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "verify_single_reference_predictions.py",
+      "sha256": "4697d1a0d28aaeb68937e1e662464ca2a05a712e33bfdaa2506aa2efcc95bfe2",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "verify_trajectory_comparison.py",
+      "sha256": "eb8c77cfd708c67df8333f18505b5217256f1a0be0564fabfcff0f60c1cfa35b",
+      "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "write_main_tables_md.py",
+      "sha256": "4b7a1a0128f764aa408014fa49969340bf7e55f40607fad7bab1fe155749401b",
+      "original_experiment_source_unchanged": true
+    }
+  ],
+  "publication_helpers": [
+    "check_dataset.py",
+    "reproduce.py",
+    "replay_main_predictions.py"
+  ],
+  "test_fixture_change": "test_trajectory_component.py reads published_results configs in a clean clone"
+}

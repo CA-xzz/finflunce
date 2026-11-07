@@ -1,0 +1,14 @@
+{
+  "reason": "References finish first; reuse released GPUs 2 and 3 for remaining parameters",
+  "paused_scheduler_pid": 122606,
+  "paused_unix": 1793951158.7027907,
+  "active_training_child_not_stopped": true,
+  "model_and_training_configuration_unchanged": true,
+  "paused_training_child_completed": true,
+  "stopped_scheduler_unix": 1793951214.4164624,
+  "resume_gpus": [
+    0,
+    2,
+    3
+  ]
+}

@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+Sx/envs/
+Sx/logs/
+Sx/results/
+Sx/data/source_expanded/control_stock_finder/data/A_share_daily.parquet
+*.restoring
+.env
+.env.*
+
+# Raw market inputs stay outside the published repository.
+Sx/data/external/
+Sx/data/source_expanded/control_stock_finder/
+Sx/data/supplemental_market/indices/
+Sx/data/supplemental_market/raw/
+Sx/data/supplemental_market/stocks/
+**/historical_market_cap*
+Sx/published_results/preflight_expanded/indices.parquet
+Sx/published_results/industry_recovery/*.csv
+Sx/published_results/industry_recovery/*.parquet

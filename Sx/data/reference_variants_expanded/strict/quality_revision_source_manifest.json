@@ -1,0 +1,17 @@
+{
+  "labels.csv": "a7d763a7f3c949ae1032a6fc5483e7536d19db9b033bab50aa83f86a43ca8c59",
+  "coverage.csv": "f0399813f77a40c85b479172f05e932199f40905725fc35ad601e0b47c2e97bd",
+  "reference_quality.csv": "74fe0bd8d41b2d543f6147caf644e9fcf07479da8dcc3eeb466f1e581565fc9a",
+  "dataset.npz": "e9398924e2d31bd8cd4374635745d74ab863612d1bc44954d9d7c49b60670dc5",
+  "reference_tuning_protocol.json": "ca6496212058844fd271a4b426b43bd8ae3a2ce29167c72675c2070224f6c93a",
+  "config.json": "5fe32841696ddfa5300a8a76159e566fcc22619ca1d26db492bbb9d15eb24e76",
+  "source_manifest.csv": "f5066edb033687c2843f389a5631991921cd7c7914da8be42e54f1d83e3cb84d",
+  "reference_tuning.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "normalization.json": "8d0655d47c0caa65323c49ac28885e358dc62d599126c2a57e46c0983932c353",
+  "reference_pairs.csv": "029cc2932cfc46565eb13f4eb96dfeac8dfa1a227f6f9cbc910194995eee8f7a",
+  "events.csv": "b2fca298abbd0ffcb62086f3b3c1216bb779ad630cbeb4f22d4775ef8f4c3c3c",
+  "verification.json": "6ae8819ec34dfe0c9d68e4d70738ad10c2ce8110ab30bdebcdac5f6aa6be1009",
+  "evaluation_manifest.csv": "5b76a1eb965e40c38d1859028c0105201f50a6e0f61f6a6475f5024a75a8db65",
+  "preparation_summary.json": "512b8655fc238a80250ce51ae12aaa2de93eb2944e640435c6dbf93c5f21c09e",
+  "exclusions.csv": "6df6d92c065c0cc72f0bc9c4acfe105adf1bd60eeabd32ebf739d89bd837ba33"
+}

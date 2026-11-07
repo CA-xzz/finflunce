@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "tests": {
+    "test_prepare.py": 25,
+    "test_single_reference.py": 4
+  },
+  "test_logs": [
+    "logs/test_prepare_single_reference.log",
+    "logs/test_single_reference.log"
+  ],
+  "code_hashes": {
+    "prepare.py": "0a39b42db10a219767f5887056842afc17dda9099cdee75ed6396573d86fb1cf",
+    "prepare_windows.py": "5c857573fb4a0d0cfc88ed9696675f67785d14278dd8f7520968c15e2b5ef564",
+    "reference_experiments.py": "02def9c9416602d3ab44174289a72e6b11f87196321de006e452bc4cfc443ea7",
+    "migrate_single_reference.py": "a458a31b9f5389a0c2e5f73c9a6382d44ba856becd28378773436032581e08bf",
+    "test_single_reference.py": "f9529bf870e675f23273c3423a30d0a1e6ed7a103a19f24a42429982d1c911a3"
+  },
+  "comparison_mode": "--single-reference",
+  "expected_comparison_datasets": 6,
+  "expected_training_runs_at_three_seeds": 18,
+  "real_comparison_prepared": true,
+  "q_rule": "exp_only",
+  "quality_neff_factor_enabled": false,
+  "prepared_comparison_validation": "results/single_reference_revision/active_data_validation.json"
+}

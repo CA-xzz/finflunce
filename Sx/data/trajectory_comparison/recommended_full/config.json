@@ -1,0 +1,44 @@
+{
+  "channels": [
+    "AR",
+    "turnover",
+    "log_volume"
+  ],
+  "n_events": 5105,
+  "split_counts": {
+    "train": 2170,
+    "validation": 620,
+    "test": 2315
+  },
+  "length": 10,
+  "horizon": 11,
+  "references_per_event": 1,
+  "market_model_offsets": [
+    -100,
+    -10
+  ],
+  "minimum_market_fit_pairs": 30,
+  "input_offsets": [
+    -10,
+    -1
+  ],
+  "source_dataset_sha256": "313470657a33a77eaed458af7854dc9ac87f0a516dc1614f445488f68c16eb0e",
+  "source_label_version": "expanded_nearest_a60080fcec64",
+  "reference_identities_reselected": false,
+  "source_references_sha256": "6155e6ac31bbf5448b2d926d86a858996874e73e9f1e6e9b13e2c459e51516cc",
+  "original_query_x_preserved": true,
+  "reference_input_has_no_recommendation_condition": true,
+  "scaling_fit_partition": "train",
+  "recommended_target_mean": "training raw Y mean",
+  "recommended_target_scale": "primary training Delta standard deviation",
+  "reference_target_scaling": "training raw B mean and standard deviation",
+  "canonical_delta_source": "Primary float32 standardized y inverse-transformed using primary y_mean/y_std",
+  "raw_trajectories_source": "Primary labels.csv y and baseline; matched to MarketPanel.outcome",
+  "query_x_precision": "Primary float32 standardized x inverse-transformed using primary x_mean/x_std",
+  "reference_x_precision": "Float64 MarketPanel.state pre-event inputs",
+  "future_reference_values_are_targets_only": true,
+  "same_day_recommended_stocks_excluded": true,
+  "raw_delta_vs_canonical_max_absolute_difference": 2.648941475058564e-06,
+  "trajectory_role": "recommended_full",
+  "label_version": "recommended_full_f8fff32e66f6"
+}

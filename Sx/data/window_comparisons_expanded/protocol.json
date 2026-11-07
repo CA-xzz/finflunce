@@ -1,0 +1,18 @@
+{
+  "reference_label_source": "Sx/data/prepared_expanded",
+  "common_events": 5087,
+  "split_counts": {
+    "test": 2302,
+    "train": 2165,
+    "validation": 620
+  },
+  "lengths": [
+    5,
+    10,
+    20
+  ],
+  "reference_length_fixed": 10,
+  "source_reference_mode": "expanded_nearest",
+  "reference_weights_and_raw_targets_unchanged": true,
+  "scales_fit_on_common_training_events": true
+}

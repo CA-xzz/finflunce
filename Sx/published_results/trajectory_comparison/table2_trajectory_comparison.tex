@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{Comparison of Full-Trajectory and Incremental-Response Forecasting}
+\label{tab:incremental_comparison}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{llrrrrrr}
+\toprule
+Method & Prediction & \multicolumn{2}{c}{AR} & \multicolumn{2}{c}{Turnover} & \multicolumn{2}{c}{Log Volume} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+ & & MAE & RMSE & MAE & RMSE & MAE & RMSE \\
+\midrule
+ECT-Direct & Full & 0.030789 $\pm$ 0.000080 & 0.045656 $\pm$ 0.000121 & 3.108760 $\pm$ 0.022613 & 5.661019 $\pm$ 0.056123 & 0.507059 $\pm$ 0.001847 & 0.686292 $\pm$ 0.003548 \\
+ECT-Incremental & Incremental & 0.030577 $\pm$ 0.000021 & 0.045515 $\pm$ 0.000028 & 3.436803 $\pm$ 0.045170 & 6.146669 $\pm$ 0.036472 & 0.719782 $\pm$ 0.005619 & 0.940169 $\pm$ 0.007241 \\
+RAFT-Direct & Full & 0.030990 $\pm$ 0.000047 & 0.045895 $\pm$ 0.000060 & 3.215418 $\pm$ 0.057743 & 5.833760 $\pm$ 0.061711 & 0.517970 $\pm$ 0.001663 & 0.701749 $\pm$ 0.002688 \\
+RAFT-Incremental & Incremental & 0.030707 $\pm$ 0.000047 & 0.045636 $\pm$ 0.000038 & 3.409538 $\pm$ 0.030569 & 6.093510 $\pm$ 0.025600 & 0.735662 $\pm$ 0.000887 & 0.957480 $\pm$ 0.002223 \\
+RAIF & Incremental & 0.030544 $\pm$ 0.000026 & 0.045481 $\pm$ 0.000040 & 3.608403 $\pm$ 0.014148 & 6.556614 $\pm$ 0.028840 & 0.730515 $\pm$ 0.002526 & 0.959032 $\pm$ 0.002274 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\linewidth}\footnotesize
+All methods are evaluated on incremental responses. Full-trajectory methods separately predict recommended-stock and reference-stock trajectories and subtract the predictions. Values are mean $\pm$ sample standard deviation across seeds 41, 42, and 43 on 2,315 test events.
+\end{minipage}
+\end{table}

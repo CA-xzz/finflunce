@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/home/ubuntu/Sx/envs/Sx/bin/python",
+    "/home/ubuntu/Sx/train.py",
+    "--data",
+    "/home/ubuntu/Sx/data/prepared_expanded",
+    "--output",
+    "/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed41",
+    "--model",
+    "RAIF",
+    "--seed",
+    "41",
+    "--epochs",
+    "100",
+    "--patience",
+    "15",
+    "--threads",
+    "2",
+    "--batch-size",
+    "64",
+    "--timeout-seconds",
+    "7200",
+    "--hidden",
+    "64",
+    "--lr",
+    "0.0003"
+  ],
+  "gpu": 0,
+  "pid": 120431,
+  "started_unix": 1793950393.5634518,
+  "hard_timeout_seconds": 7200
+}

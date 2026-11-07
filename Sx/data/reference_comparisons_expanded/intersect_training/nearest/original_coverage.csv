@@ -1,0 +1,4 @@
+split,n_events,n_dates,first_date,last_date
+test,1297,138,2025-07-16,2026-02-13
+train,678,248,2022-12-07,2024-12-17
+validation,294,75,2025-01-20,2025-06-16

@@ -1,0 +1,81 @@
+{
+  "status": "completed",
+  "scope": "Exactly three single-reference schemes; keep other prediction evaluation families",
+  "strict_events": 640,
+  "strict_correlation_minimum": 0.7,
+  "strict_splits": [
+    278,
+    82,
+    280
+  ],
+  "quality_effective_n_factor": false,
+  "recoverable_cleanup_directory": "/Users/caxzz/.Trash/Sx/single_reference_20261106",
+  "paper_backup_complete": true,
+  "updated_utc": "2026-11-06T08:30:21.460760+00:00",
+  "completed": [
+    "main_suite",
+    "parameters_and_references",
+    "raw_history_baseline",
+    "rolling_frozen_and_batch_timing",
+    "serial_training_and_batch1",
+    "aligned_efficiency",
+    "main_report",
+    "supplementary_report",
+    "completed_main_report",
+    "case_inputs",
+    "auxiliary_and_groups",
+    "report_precision_refresh",
+    "table_export",
+    "main_markdown",
+    "independent_final_validation",
+    "active_file_cleanup"
+  ],
+  "remaining": [],
+  "paper_managed_elsewhere": true,
+  "main_markdown": "论文主表数据.md",
+  "main_markdown_sha256": "80544e2ae35f5c46bb5f7534369e157b49a36c66fa731027e9db23d63f748fe2",
+  "table_csv_count": 22,
+  "markdown_table_count": 35,
+  "primary_events": 5105,
+  "primary_scheme": "expanded_nearest",
+  "q_rule": "exp_only",
+  "quality_neff_factor_enabled": false,
+  "manuscript_modified": false,
+  "checks": {
+    "data_migration": {
+      "path": "results/single_reference_revision/data_migration_verification.json",
+      "sha256": "ef9cb86436f25702390e4d47f3f1db716c711ffb38cf65915e7dbc73d22d7205",
+      "status": "passed"
+    },
+    "active_data": {
+      "path": "results/single_reference_revision/active_data_validation.json",
+      "sha256": "3e80eb1ec7b9c54ca904e5f7779ce03acdbb9089939144564b9978615a2a7717",
+      "status": "passed"
+    },
+    "predictions": {
+      "path": "results/single_reference_revision/independent_predictions_validation.json",
+      "sha256": "3df0755fe454f6726d40d529d4a19da4d036092b0f57c8f40caa1e154a192ea1",
+      "status": "passed"
+    },
+    "tables": {
+      "path": "results/single_reference_revision/table_validation.json",
+      "sha256": "75ba4070da798b648e439e42dbb503d89c4828b8f9ca4e6f508953e1e964d337",
+      "status": "passed"
+    },
+    "active_inventory": {
+      "path": "results/single_reference_revision/final_active_inventory.json",
+      "sha256": "f135ec9e9925cc9c0d3caebe7ecaf0148db6084764b9a17b5af3ffaaea69a5f1",
+      "status": "passed"
+    },
+    "serial_efficiency": {
+      "path": "results/serial_training_expanded/independent_validation.json",
+      "sha256": "cb7bb6396beedffe0d56c1215608164adef5dca4a91f6ad1808bc286945676e1",
+      "status": "passed"
+    },
+    "aligned_efficiency": {
+      "path": "results/efficiency_aligned_expanded/independent_validation.json",
+      "sha256": "30a31623f00d6251bbb620d394ed32b9cf1f93dc60bd43e2f29b545bee9b0cb6",
+      "status": "passed"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "status": "completed",
+  "started_unix": 1793959132.817277,
+  "pid": 130316,
+  "expected_new_component_fits": 9,
+  "incremental_checkpoints_reused": 9,
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "gpus": [
+    0,
+    2,
+    3
+  ],
+  "completed_components": [
+    {
+      "role": "reference",
+      "seed": 41,
+      "gpu": 0
+    },
+    {
+      "role": "reference",
+      "seed": 42,
+      "gpu": 2
+    },
+    {
+      "role": "reference",
+      "seed": 43,
+      "gpu": 3
+    },
+    {
+      "role": "ect_direct",
+      "seed": 42,
+      "gpu": 2
+    },
+    {
+      "role": "ect_direct",
+      "seed": 41,
+      "gpu": 0
+    },
+    {
+      "role": "ect_direct",
+      "seed": 43,
+      "gpu": 3
+    },
+    {
+      "role": "raft_direct",
+      "seed": 42,
+      "gpu": 2
+    },
+    {
+      "role": "raft_direct",
+      "seed": 41,
+      "gpu": 0
+    },
+    {
+      "role": "raft_direct",
+      "seed": 43,
+      "gpu": 3
+    }
+  ],
+  "phase": null,
+  "finished_unix": 1793959338.2951193
+}

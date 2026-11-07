@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "aligned_runs": 22,
+  "test_events_per_run": 2315,
+  "memory_events": 912,
+  "channel_horizon_metric_values_recomputed": 660,
+  "maximum_metric_csv_roundtrip_error": 8.881784197001252e-16,
+  "maximum_cost_csv_roundtrip_error": 0.0,
+  "batch1_samples": 14080,
+  "checkpoint_hashes_unchanged": true,
+  "checkpoint_mtimes_precede_evaluation": true,
+  "dataset_sha256": "313470657a33a77eaed458af7854dc9ac87f0a516dc1614f445488f68c16eb0e",
+  "normalization_sha256": "afe63d639544efd11ba3afdcb6deeacde3a51baebff271e84a38335b9c760471",
+  "gpu_checks": 69,
+  "companion_gpu_checks": 136,
+  "observed_gpu_index": 0,
+  "companion_gpu_indices": [
+    2,
+    3
+  ],
+  "whole_host_exclusivity_claimed": false,
+  "validator_sha256": "0e3e5f0be761ed847add1d74a76a1172f6ca732c7270bc7e5296d6703f2fa564",
+  "frozen_checkpoint_bytes_unchanged_during_validation": true,
+  "source_dataset_and_normalization_unchanged_during_validation": true
+}

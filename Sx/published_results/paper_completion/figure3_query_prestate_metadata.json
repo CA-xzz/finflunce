@@ -1,0 +1,18 @@
+{
+  "n_cases": 6,
+  "source_rows": 180,
+  "offsets": [
+    -10,
+    -1
+  ],
+  "selection_seed": 20261105,
+  "uses_existing_case_manifest": true,
+  "new_case_selection": false,
+  "input_precision": "Inverse-transformed float32 prepared model inputs",
+  "same_case_order_as_existing_retrieval_figure": true,
+  "units": {
+    "AR": "decimal return",
+    "turnover": "percentage points",
+    "log_volume": "natural log of traded shares"
+  }
+}

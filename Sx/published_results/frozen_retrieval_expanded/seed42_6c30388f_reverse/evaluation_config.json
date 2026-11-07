@@ -1,0 +1,19 @@
+{
+  "model": "RAIF",
+  "variant": "full",
+  "seed": 42,
+  "split": "test",
+  "label_version": "expanded_nearest_a60080fcec64",
+  "memory_mode": "fixed",
+  "retrieval": "reverse",
+  "evaluation_kind": "frozen_retrieval_replacement",
+  "source_run": "/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed42",
+  "checkpoint_sha256": "88a5a60ed03ad8e67833ccedf9b5afdaddd9fe9ed9d628869849f9ba6cacb82f",
+  "dataset_sha256": "313470657a33a77eaed458af7854dc9ac87f0a516dc1614f445488f68c16eb0e",
+  "parameters_updated": false,
+  "normalization_updated": false,
+  "origin_split_preserved": true,
+  "n_test": 2315,
+  "validation_memory_rule": "Validation events are observed chronologically and promoted only when end_day < query_day",
+  "timing_meaning": "This mode reports prediction accuracy, not exclusive latency"
+}

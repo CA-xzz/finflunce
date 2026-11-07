@@ -1,0 +1,58 @@
+{
+  "DLinear": {
+    "trial": 0,
+    "config": {
+      "hidden": 32,
+      "lr": 0.001
+    },
+    "validation_mae": 0.614290177822113
+  },
+  "PatchTST": {
+    "trial": 0,
+    "config": {
+      "hidden": 32,
+      "lr": 0.001
+    },
+    "validation_mae": 0.6216816306114197
+  },
+  "iTransformer": {
+    "trial": 0,
+    "config": {
+      "hidden": 32,
+      "lr": 0.001
+    },
+    "validation_mae": 0.6274284720420837
+  },
+  "ECT": {
+    "trial": 0,
+    "config": {
+      "hidden": 32,
+      "lr": 0.001
+    },
+    "validation_mae": 0.6110579371452332
+  },
+  "RAFT": {
+    "trial": 0,
+    "config": {
+      "hidden": 32,
+      "lr": 0.001
+    },
+    "validation_mae": 0.6169962882995605
+  },
+  "RATL": {
+    "trial": 0,
+    "config": {
+      "hidden": 32,
+      "lr": 0.001
+    },
+    "validation_mae": 0.6307502388954163
+  },
+  "RAIF": {
+    "trial": 1,
+    "config": {
+      "hidden": 64,
+      "lr": 0.0003
+    },
+    "validation_mae": 0.6104967594146729
+  }
+}

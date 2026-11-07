@@ -1,0 +1,23 @@
+{
+  "source_directory": "/home/ubuntu/Sx/data/external/industry_recovery",
+  "events_verified": 1773,
+  "stocks_verified": 609,
+  "effective_record_comparison_passed": true,
+  "publication_times_verified": 0,
+  "matching_features_changed": false,
+  "verification_scope": "Effective classification, interval bounds, original code and source update agree; original publication times remain unknown",
+  "n_included": 1690,
+  "n_excluded": 83,
+  "n_absent_from_current_manifest": 56,
+  "excluded_reasons": {
+    "not_in_current_event_manifest": 56,
+    "fewer_than_30_market_model_observations": 11,
+    "incomplete_fixed_reference_or_query_response": 9,
+    "incomplete_adjacent_session_pre_event_channels": 7
+  },
+  "included_by_split": {
+    "train": 1017,
+    "test": 500,
+    "validation": 173
+  }
+}

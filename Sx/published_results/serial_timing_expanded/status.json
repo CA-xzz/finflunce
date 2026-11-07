@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "mode": "timing",
+  "runs": [
+    "/home/ubuntu/Sx/results/suite_expanded/main/HistoricalMean/seed41",
+    "/home/ubuntu/Sx/results/suite_expanded/main/DLinear/seed41",
+    "/home/ubuntu/Sx/results/suite_expanded/main/DLinear/seed42",
+    "/home/ubuntu/Sx/results/suite_expanded/main/DLinear/seed43",
+    "/home/ubuntu/Sx/results/suite_expanded/main/PatchTST/seed41",
+    "/home/ubuntu/Sx/results/suite_expanded/main/PatchTST/seed42",
+    "/home/ubuntu/Sx/results/suite_expanded/main/PatchTST/seed43",
+    "/home/ubuntu/Sx/results/suite_expanded/main/iTransformer/seed41",
+    "/home/ubuntu/Sx/results/suite_expanded/main/iTransformer/seed42",
+    "/home/ubuntu/Sx/results/suite_expanded/main/iTransformer/seed43",
+    "/home/ubuntu/Sx/results/suite_expanded/main/ECT/seed41",
+    "/home/ubuntu/Sx/results/suite_expanded/main/ECT/seed42",
+    "/home/ubuntu/Sx/results/suite_expanded/main/ECT/seed43",
+    "/home/ubuntu/Sx/results/suite_expanded/main/RAFT/seed41",
+    "/home/ubuntu/Sx/results/suite_expanded/main/RAFT/seed42",
+    "/home/ubuntu/Sx/results/suite_expanded/main/RAFT/seed43",
+    "/home/ubuntu/Sx/results/suite_expanded/main/RATL/seed41",
+    "/home/ubuntu/Sx/results/suite_expanded/main/RATL/seed42",
+    "/home/ubuntu/Sx/results/suite_expanded/main/RATL/seed43",
+    "/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed41",
+    "/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed42",
+    "/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed43"
+  ],
+  "finished_unix": 1793952028.4616878,
+  "dataset_modified": false,
+  "checkpoint_modified": false,
+  "evaluation_code_sha256": "444530dd0824add62c5a03d57ba6d35f539ee2c84968da6da7f48c4db2beb5bd"
+}
