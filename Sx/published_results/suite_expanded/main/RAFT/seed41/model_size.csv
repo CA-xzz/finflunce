@@ -1,2 +1,0 @@
-model,variant,seed,parameters,trainable_parameters,frozen_base_parameters,checkpoint_bytes
-RAFT,full,41,2111,2111,0,15266

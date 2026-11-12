@@ -39,7 +39,7 @@ def main():
         results.mkdir(parents=True, exist_ok=True)
         # Fixed preprocessing inputs, used by table and figure exporters.
         if not (results / 'preflight_expanded').exists():
-            shutil.copytree(root / 'published_results/preflight_expanded', results / 'preflight_expanded')
+            shutil.copytree(root / 'data/market_preflight', results / 'preflight_expanded')
     for stage in STAGES if args.stage == 'all' else (args.stage,):
         if stage == 'suite':
             run('run_suite.py', '--data', data, '--output', suite, '--gpus', args.gpu, '--phase', 'all')

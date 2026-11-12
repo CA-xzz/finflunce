@@ -1,7 +1,0 @@
-model,variant,seed,split,label_version,memory_mode,retrieval,channel,horizon,metric,value,n_events,n_dates
-RAIF,full,43,test,comparison_6b085d7be8ef,fixed,response,AR,11,MAE,0.02235694882063769,235,97
-RAIF,full,43,test,comparison_6b085d7be8ef,fixed,response,AR,11,RMSE,0.03568266382018873,235,97
-RAIF,full,43,test,comparison_6b085d7be8ef,fixed,response,turnover,11,MAE,2.8355325884717577,235,97
-RAIF,full,43,test,comparison_6b085d7be8ef,fixed,response,turnover,11,RMSE,4.9180154017531725,235,97
-RAIF,full,43,test,comparison_6b085d7be8ef,fixed,response,log_volume,11,MAE,0.7847324866750385,235,97
-RAIF,full,43,test,comparison_6b085d7be8ef,fixed,response,log_volume,11,RMSE,1.0221490164026272,235,97

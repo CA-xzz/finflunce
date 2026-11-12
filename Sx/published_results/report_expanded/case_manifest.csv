@@ -1,7 +1,0 @@
-case_id,event_id,event_date,platform,quality_group,q,selection_seed,selection_rule
-1,605305_2025-08-28,2025-08-28,微博,middle,0.052834745,20261105,"random stratum order, shuffled event IDs, round-robin; no prediction values used"
-2,688256_2025-10-29,2025-10-29,__UNKNOWN__,low,0.0018556848,20261105,"random stratum order, shuffled event IDs, round-robin; no prediction values used"
-3,601318_2025-08-14,2025-08-14,__UNKNOWN__,high,0.653942,20261105,"random stratum order, shuffled event IDs, round-robin; no prediction values used"
-4,688525_2025-10-27,2025-10-27,微信,low,0.0001902843,20261105,"random stratum order, shuffled event IDs, round-robin; no prediction values used"
-5,601288_2025-10-23,2025-10-23,__UNKNOWN__,middle,0.20836294,20261105,"random stratum order, shuffled event IDs, round-robin; no prediction values used"
-6,688626_2025-12-29,2025-12-29,微博,low,0.012930616,20261105,"random stratum order, shuffled event IDs, round-robin; no prediction values used"

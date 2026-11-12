@@ -1,8 +1,0 @@
-{
-  "status": "completed",
-  "completed_runs": 22,
-  "no_observed_contention": true,
-  "finished_unix": 1793953122.8192928,
-  "gpu_pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup",
-  "same_checkpoint_accuracy_training_and_inference": true
-}

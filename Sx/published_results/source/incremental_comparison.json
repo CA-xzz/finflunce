@@ -1,0 +1,86 @@
+{
+  "status": "author_supplied_experimental",
+  "supplied_on": "2026-11-06",
+  "title": "Comparison of Full-Trajectory and Incremental-Response Forecasting",
+  "header": [
+    "Method",
+    "Prediction",
+    "AR MAE",
+    "AR RMSE",
+    "Turnover MAE",
+    "Turnover RMSE",
+    "Log Volume MAE",
+    "Log Volume RMSE"
+  ],
+  "rows": [
+    [
+      "ECT-Direct",
+      "Full",
+      "0.03005 ± 0.00013",
+      "0.04505 ± 0.00016",
+      "3.670 ± 0.050",
+      "6.480 ± 0.070",
+      "0.751 ± 0.006",
+      "0.990 ± 0.008"
+    ],
+    [
+      "ECT-Incremental",
+      "Incremental",
+      "0.02878 ± 0.00011",
+      "0.04295 ± 0.00013",
+      "3.490 ± 0.041",
+      "6.190 ± 0.058",
+      "0.722 ± 0.005",
+      "0.950 ± 0.007"
+    ],
+    [
+      "RAFT-Direct",
+      "Full",
+      "0.02955 ± 0.00012",
+      "0.04415 ± 0.00015",
+      "3.580 ± 0.047",
+      "6.330 ± 0.066",
+      "0.737 ± 0.006",
+      "0.970 ± 0.008"
+    ],
+    [
+      "RAFT-Incremental",
+      "Incremental",
+      "0.02842 ± 0.00010",
+      "0.04253 ± 0.00012",
+      "3.430 ± 0.044",
+      "6.100 ± 0.061",
+      "0.712 ± 0.005",
+      "0.937 ± 0.006"
+    ],
+    [
+      "RAIF",
+      "Incremental",
+      "0.02702 ± 0.00009",
+      "0.04061 ± 0.00012",
+      "3.220 ± 0.030",
+      "5.800 ± 0.048",
+      "0.686 ± 0.004",
+      "0.903 ± 0.006"
+    ]
+  ],
+  "evaluation": "Incremental-response MAE and RMSE for all methods",
+  "design": {
+    "direct_prediction": "Predicted recommended-stock trajectory minus predicted matched-reference trajectory",
+    "shared_reference_predictor": [
+      "ECT-Direct",
+      "RAFT-Direct"
+    ],
+    "reference_predictor_input": "Matched reference stock history before the event",
+    "raft_matched_settings": [
+      "Top-K",
+      "history length",
+      "retrieval distance"
+    ],
+    "raft_memory": {
+      "RAFT-Direct": "Original market trajectories",
+      "RAFT-Incremental": "Historical incremental trajectories"
+    },
+    "raif_memory": "Response-relevant historical incremental trajectories"
+  }
+}

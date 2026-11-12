@@ -3,6 +3,41 @@
   "scope": "Prepared training datasets and event accounting records; excludes raw stock/index market data, historical market capitalization and source downloads",
   "files": [
     {
+      "path": "data/market_preflight/asset_classification_decisions.csv",
+      "bytes": 1218046,
+      "sha256": "dda3e9098f66fd0811b772861d0b2fece60d0cf75261be8002c042745cea0ad2"
+    },
+    {
+      "path": "data/market_preflight/calendar.csv",
+      "bytes": 12754,
+      "sha256": "266b841734f2919879ccbf02ef601137ec3ba507066fcdc63e60e6826060f813"
+    },
+    {
+      "path": "data/market_preflight/events_manifest.csv",
+      "bytes": 670321,
+      "sha256": "6ed4af5f3275e924f378e176b162c5842ba0cb6e501342beae408ee123ab781a"
+    },
+    {
+      "path": "data/market_preflight/excluded_original_recommendations.csv",
+      "bytes": 45052,
+      "sha256": "99d4508bbd71615d2731f38fe4a906f95090828eee28ae36c5aa7407208261ac"
+    },
+    {
+      "path": "data/market_preflight/expanded_input_summary.json",
+      "bytes": 1452,
+      "sha256": "4daa8c411f41a3a6bd7eef610a1046572ad7d7c739fdb588b8f2024b4bc47c65"
+    },
+    {
+      "path": "data/market_preflight/source_event_decisions.csv",
+      "bytes": 646328,
+      "sha256": "55458be1ee6764ebe1a9777418ab65e8aedbb2d7ac4d8d7043de961c3186e5e4"
+    },
+    {
+      "path": "data/market_preflight/source_manifest.csv",
+      "bytes": 1352,
+      "sha256": "950dfdc23614c65e7b3d14f1ffc808450e6f9a2be662141b0bb306adf15281c3"
+    },
+    {
       "path": "data/prepared_expanded/config.json",
       "bytes": 64875,
       "sha256": "8d3c510c9dd164707f2a867b861c3d89253381ab184369f7fa303431af685063"

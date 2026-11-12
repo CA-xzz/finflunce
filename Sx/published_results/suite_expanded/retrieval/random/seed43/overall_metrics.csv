@@ -1,7 +1,0 @@
-model,variant,seed,split,label_version,memory_mode,retrieval,channel,horizon,metric,value,n_events,n_dates
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,AR,11,MAE,0.03052126054139519,2315,141
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,AR,11,RMSE,0.04550579140078005,2315,141
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,turnover,11,MAE,3.5934373459731965,2315,141
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,turnover,11,RMSE,6.5357858064349275,2315,141
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,log_volume,11,MAE,0.7289193668505274,2315,141
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,log_volume,11,RMSE,0.9577829776078362,2315,141

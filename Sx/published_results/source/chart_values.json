@@ -1,0 +1,2117 @@
+{
+  "source_sha256": "6859658b73a196ebecedade0df200e73728953e0bb7e2e18141c8b588caf34c7",
+  "series": [
+    {
+      "figure": "horizons",
+      "source_panel": 3,
+      "row_key": "ECT",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        3.58,
+        3.3099999999999996,
+        3.125,
+        2.91,
+        2.878
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 3,
+      "row_key": "RAFT（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        3.49,
+        3.2399999999999998,
+        3.06,
+        2.876,
+        2.842
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 3,
+      "row_key": "RATL（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        3.47,
+        3.2099999999999995,
+        3.0429999999999997,
+        2.86,
+        2.826
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 3,
+      "row_key": "RAIF",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        3.2649999999999997,
+        3.0429999999999997,
+        2.904,
+        2.733,
+        2.702
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 4,
+      "row_key": "ECT",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        5.489999999999999,
+        5.04,
+        4.760000000000001,
+        4.375,
+        4.295
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 4,
+      "row_key": "RAFT（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        5.41,
+        5.0,
+        4.71,
+        4.333,
+        4.253
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 4,
+      "row_key": "RATL（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        5.390000000000001,
+        4.9799999999999995,
+        4.692,
+        4.314,
+        4.234
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 4,
+      "row_key": "RAIF",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        5.13,
+        4.77,
+        4.485,
+        4.138,
+        4.061
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 5,
+      "row_key": "ECT",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        4.03,
+        3.83,
+        3.71,
+        3.52,
+        3.49
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 5,
+      "row_key": "RAFT（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        3.97,
+        3.77,
+        3.65,
+        3.46,
+        3.43
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 5,
+      "row_key": "RATL（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        3.93,
+        3.73,
+        3.61,
+        3.44,
+        3.41
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 5,
+      "row_key": "RAIF",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        3.69,
+        3.5,
+        3.4,
+        3.24,
+        3.22
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 6,
+      "row_key": "ECT",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        6.83,
+        6.62,
+        6.48,
+        6.25,
+        6.19
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 6,
+      "row_key": "RAFT（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        6.75,
+        6.52,
+        6.4,
+        6.17,
+        6.1
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 6,
+      "row_key": "RATL（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        6.73,
+        6.49,
+        6.37,
+        6.14,
+        6.112
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 6,
+      "row_key": "RAIF",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        6.38,
+        6.14,
+        6.02,
+        5.86,
+        5.8
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 7,
+      "row_key": "ECT",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        0.728,
+        0.701,
+        0.705,
+        0.721,
+        0.722
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 7,
+      "row_key": "RAFT（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        0.717,
+        0.693,
+        0.697,
+        0.711,
+        0.712
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 7,
+      "row_key": "RATL（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        0.714,
+        0.689,
+        0.692,
+        0.707,
+        0.708
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 7,
+      "row_key": "RAIF",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        0.689,
+        0.662,
+        0.665,
+        0.684,
+        0.686
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 8,
+      "row_key": "ECT",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        0.981,
+        0.929,
+        0.933,
+        0.949,
+        0.95
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 8,
+      "row_key": "RAFT（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        0.97,
+        0.918,
+        0.923,
+        0.936,
+        0.937
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 8,
+      "row_key": "RATL（适配）",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        0.967,
+        0.912,
+        0.917,
+        0.932,
+        0.941
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "horizons",
+      "source_panel": 8,
+      "row_key": "RAIF",
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "values": [
+        0.944,
+        0.871,
+        0.876,
+        0.901,
+        0.903
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "前期（2025-10-01 前）",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        3.02
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "前期（2025-10-01 前）",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.8400000000000003
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "后期（2025-10-01 起）",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.784
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "后期（2025-10-01 起）",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.611
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微博",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.955
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微博",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.785
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微信",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.841
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微信",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.6679999999999997
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "多个平台",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        3.3619999999999997
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "多个平台",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        3.0429999999999997
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "低质量",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        3.85
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "低质量",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        3.64
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "中质量",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.4
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "中质量",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.25
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "高质量",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        1.672
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "高质量",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        1.526
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部已见",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.8449999999999998
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部已见",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.665
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部未见",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        3.05
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部未见",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.9000000000000004
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "已见与未见混合",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        3.087
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "已见与未见混合",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.915
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "总体",
+        "全测试集",
+        "ECT"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.878
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "总体",
+        "全测试集",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        3
+      ],
+      "values": [
+        2.702
+      ],
+      "scale": 100.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "前期（2025-10-01 前）",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.39
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "前期（2025-10-01 前）",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.05
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "后期（2025-10-01 起）",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.556
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "后期（2025-10-01 起）",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.333
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微博",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.9
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微博",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.6
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微信",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.35
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微信",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.1
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "多个平台",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        4.31
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "多个平台",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.679
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "低质量",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        5.09
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "低质量",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        4.72
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "中质量",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        2.58
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "中质量",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        2.38
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "高质量",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        1.67
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "高质量",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        1.496
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部已见",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.425
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部已见",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.16
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部未见",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.86
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部未见",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.58
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "已见与未见混合",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.771
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "已见与未见混合",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.403
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "总体",
+        "全测试集",
+        "ECT"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.49
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "总体",
+        "全测试集",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        4
+      ],
+      "values": [
+        3.22
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "前期（2025-10-01 前）",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.736
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "前期（2025-10-01 前）",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.696
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "后期（2025-10-01 起）",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.713
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "测试时期",
+        "后期（2025-10-01 起）",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.679
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微博",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.749
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微博",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.706
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微信",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.707
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "仅微信",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.674
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "多个平台",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.954
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "来源平台",
+        "多个平台",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.886
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "低质量",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.87
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "低质量",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.842
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "中质量",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.669
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "中质量",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.626
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "高质量",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.512
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "参考质量",
+        "高质量",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.47
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部已见",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.714
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部已见",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.679
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部未见",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.759
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "全部未见",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.714
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "已见与未见混合",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.792
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "博主可见性",
+        "已见与未见混合",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.766
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "总体",
+        "全测试集",
+        "ECT"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.722
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "generalization",
+      "source_panel": 14,
+      "row_key": [
+        "总体",
+        "全测试集",
+        "RAIF（固定记忆）"
+      ],
+      "columns": [
+        5
+      ],
+      "values": [
+        0.686
+      ],
+      "scale": 1.0,
+      "baseline": null
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除历史检索",
+      "columns": [
+        1
+      ],
+      "values": [
+        5.514433752775738
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 1
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除历史检索",
+      "columns": [
+        3
+      ],
+      "values": [
+        6.925465838509304
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 3
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除历史检索",
+      "columns": [
+        5
+      ],
+      "values": [
+        3.9358600583090153
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 5
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除响应监督检索",
+      "columns": [
+        1
+      ],
+      "values": [
+        4.367135455218363
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 1
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除响应监督检索",
+      "columns": [
+        3
+      ],
+      "values": [
+        4.751552795031055
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 3
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除响应监督检索",
+      "columns": [
+        5
+      ],
+      "values": [
+        3.498542274052463
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 5
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除参考质量权重",
+      "columns": [
+        1
+      ],
+      "values": [
+        3.0347890451517534
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 1
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除参考质量权重",
+      "columns": [
+        3
+      ],
+      "values": [
+        4.006211180124231
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 3
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除参考质量权重",
+      "columns": [
+        5
+      ],
+      "values": [
+        2.186588921282784
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 5
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除时序交叉注意力",
+      "columns": [
+        1
+      ],
+      "values": [
+        3.9600296076980124
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 1
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除时序交叉注意力",
+      "columns": [
+        3
+      ],
+      "values": [
+        4.378881987577632
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 3
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除时序交叉注意力",
+      "columns": [
+        5
+      ],
+      "values": [
+        2.7696793002915276
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 5
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除事件条件编码",
+      "columns": [
+        1
+      ],
+      "values": [
+        2.627683197631403
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 1
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除事件条件编码",
+      "columns": [
+        3
+      ],
+      "values": [
+        2.826086956521734
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 3
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 9,
+      "row_key": "移除事件条件编码",
+      "columns": [
+        5
+      ],
+      "values": [
+        1.8950437317784008
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "完整 RAIF",
+        "column": 5
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 10,
+      "row_key": "输入状态相似性",
+      "columns": [
+        1
+      ],
+      "values": [
+        2.1835677276091703
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "响应相关性",
+        "column": 1
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 10,
+      "row_key": "输入状态相似性",
+      "columns": [
+        3
+      ],
+      "values": [
+        2.795031055900621
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "响应相关性",
+        "column": 3
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 10,
+      "row_key": "输入状态相似性",
+      "columns": [
+        5
+      ],
+      "values": [
+        2.0408163265305923
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "响应相关性",
+        "column": 5
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 10,
+      "row_key": "随机检索",
+      "columns": [
+        1
+      ],
+      "values": [
+        4.145077720207246
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "响应相关性",
+        "column": 1
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 10,
+      "row_key": "随机检索",
+      "columns": [
+        3
+      ],
+      "values": [
+        5.341614906832293
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "响应相关性",
+        "column": 3
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 10,
+      "row_key": "随机检索",
+      "columns": [
+        5
+      ],
+      "values": [
+        3.790087463556846
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "响应相关性",
+        "column": 5
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 10,
+      "row_key": "逆序检索",
+      "columns": [
+        1
+      ],
+      "values": [
+        5.81051073279053
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "响应相关性",
+        "column": 1
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 10,
+      "row_key": "逆序检索",
+      "columns": [
+        3
+      ],
+      "values": [
+        9.006211180124213
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "响应相关性",
+        "column": 3
+      }
+    },
+    {
+      "figure": "ablation",
+      "source_panel": 10,
+      "row_key": "逆序检索",
+      "columns": [
+        5
+      ],
+      "values": [
+        5.8309037900874605
+      ],
+      "scale": 1.0,
+      "baseline": {
+        "row_key": "响应相关性",
+        "column": 5
+      }
+    }
+  ]
+}

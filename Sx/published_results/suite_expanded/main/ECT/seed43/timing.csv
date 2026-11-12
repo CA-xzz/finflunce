@@ -1,2 +1,0 @@
-model,variant,seed,parameters,training_seconds,base_training_seconds,correction_training_seconds,frozen_base_parameters,inference_batch_ms,inference_event_ms,retrieval_batch_ms,timing_batch_size,repetitions,memory_total_mb,key_and_response_memory_mb
-ECT,full,43,29774,23.237040793988854,0.0,22.318416433001403,0,2.6598332391586155,0.04155989436185337,,64,20,0.0,0.0

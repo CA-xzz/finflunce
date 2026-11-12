@@ -1,2 +1,0 @@
-model,variant,seed,parameters,training_seconds,base_training_seconds,correction_training_seconds,frozen_base_parameters,inference_batch_ms,inference_event_ms,retrieval_batch_ms,timing_batch_size,repetitions,memory_total_mb,key_and_response_memory_mb,auxiliary_experiment,history_value
-RAFT_raw_Y_history,full,42,2111,27.206656960013788,0.0,26.26199403998908,0,4.037453900673427,0.0630852171980222,1.0223434423096478,64,20,1.10236,0.72912,RAFT_raw_Y_history,training_standardized_raw_Y

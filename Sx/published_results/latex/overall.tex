@@ -1,0 +1,24 @@
+\begin{table}[!htbp]
+\centering
+\caption{整体增量响应预测性能}\label{tab:overall}
+\fontsize{8.6}{10.6}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrrrrr@{}}
+\toprule
+方法 & \multicolumn{2}{c}{异常收益} & \multicolumn{2}{c}{换手率} & \multicolumn{2}{c}{对数成交量} & \shortstack{方向准确率\\(\%)} & \shortstack{峰值误差\\(交易日)} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+ & \shortstack{平均绝对\\误差} & \shortstack{均方根\\误差} & \shortstack{平均绝对\\误差} & \shortstack{均方根\\误差} & \shortstack{平均绝对\\误差} & \shortstack{均方根\\误差} &  &  \\
+\midrule
+历史均值 & 0.03068 & 0.04585 & 4.050 & 6.740 & 0.771 & 1.010 & 50.8 & 3.18 \\
+DLinear & \shortstack[r]{0.02946\\{\scriptsize $\pm$\,0.00012}} & \shortstack[r]{0.04386\\{\scriptsize $\pm$\,0.00016}} & \shortstack[r]{3.570\\{\scriptsize $\pm$\,0.050}} & \shortstack[r]{6.390\\{\scriptsize $\pm$\,0.071}} & \shortstack[r]{0.745\\{\scriptsize $\pm$\,0.007}} & \shortstack[r]{0.981\\{\scriptsize $\pm$\,0.010}} & 54.1 & 3.00 \\[2pt]
+PatchTST & \shortstack[r]{0.02907\\{\scriptsize $\pm$\,0.00014}} & \shortstack[r]{0.04336\\{\scriptsize $\pm$\,0.00017}} & \shortstack[r]{3.560\\{\scriptsize $\pm$\,0.048}} & \shortstack[r]{6.365\\{\scriptsize $\pm$\,0.075}} & \shortstack[r]{0.733\\{\scriptsize $\pm$\,0.006}} & \shortstack[r]{0.964\\{\scriptsize $\pm$\,0.009}} & 54.7 & 2.88 \\[2pt]
+iTransformer & \shortstack[r]{0.02893\\{\scriptsize $\pm$\,0.00012}} & \shortstack[r]{0.04338\\{\scriptsize $\pm$\,0.00018}} & \shortstack[r]{3.515\\{\scriptsize $\pm$\,0.055}} & \shortstack[r]{6.250\\{\scriptsize $\pm$\,0.082}} & \shortstack[r]{0.737\\{\scriptsize $\pm$\,0.008}} & \shortstack[r]{0.968\\{\scriptsize $\pm$\,0.011}} & 54.4 & 2.91 \\[2pt]
+ECT & \shortstack[r]{0.02878\\{\scriptsize $\pm$\,0.00011}} & \shortstack[r]{0.04295\\{\scriptsize $\pm$\,0.00013}} & \shortstack[r]{3.490\\{\scriptsize $\pm$\,0.041}} & \shortstack[r]{6.190\\{\scriptsize $\pm$\,0.058}} & \shortstack[r]{0.722\\{\scriptsize $\pm$\,0.005}} & \shortstack[r]{0.950\\{\scriptsize $\pm$\,0.007}} & 56.5 & 2.68 \\[2pt]
+RAFT & \shortstack[r]{0.02842\\{\scriptsize $\pm$\,0.00010}} & \shortstack[r]{0.04253\\{\scriptsize $\pm$\,0.00012}} & \shortstack[r]{3.430\\{\scriptsize $\pm$\,0.044}} & \shortstack[r]{6.100\\{\scriptsize $\pm$\,0.061}} & \shortstack[r]{0.712\\{\scriptsize $\pm$\,0.005}} & \shortstack[r]{0.937\\{\scriptsize $\pm$\,0.006}} & 58.0 & 2.55 \\[2pt]
+RATL & \shortstack[r]{0.02826\\{\scriptsize $\pm$\,0.00014}} & \shortstack[r]{0.04234\\{\scriptsize $\pm$\,0.00017}} & \shortstack[r]{3.410\\{\scriptsize $\pm$\,0.058}} & \shortstack[r]{6.112\\{\scriptsize $\pm$\,0.080}} & \shortstack[r]{0.708\\{\scriptsize $\pm$\,0.006}} & \shortstack[r]{0.941\\{\scriptsize $\pm$\,0.009}} & 58.4 & 2.50 \\[2pt]
+\textbf{RAIF} & \textbf{\shortstack[r]{0.02702\\{\scriptsize $\pm$\,0.00009}}} & \textbf{\shortstack[r]{0.04061\\{\scriptsize $\pm$\,0.00012}}} & \textbf{\shortstack[r]{3.220\\{\scriptsize $\pm$\,0.030}}} & \textbf{\shortstack[r]{5.800\\{\scriptsize $\pm$\,0.048}}} & \textbf{\shortstack[r]{0.686\\{\scriptsize $\pm$\,0.004}}} & \textbf{\shortstack[r]{0.903\\{\scriptsize $\pm$\,0.006}}} & \textbf{61.3} & \textbf{2.24} \\[2pt]
+\bottomrule
+\end{tabular*}
+\par\smallskip{\footnotesize 误差为均值 $\pm$ 标准差；粗体为最优值。}
+\end{table}

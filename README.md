@@ -12,10 +12,8 @@ RAIF 金融推荐事件预测实验。全部代码和数据位于 `Sx/`，主任
 | [`Sx/DATA.md`](Sx/DATA.md) | 数据字段、时间划分和参考方案 |
 | [`Sx/论文主表数据.md`](Sx/论文主表数据.md) | 原论文主表的实测数据 |
 | [`Sx/trajectory_comparison.md`](Sx/trajectory_comparison.md) | Full-Trajectory vs. Incremental-Response Forecasting 的设置与实测结果 |
-| [`Sx/published_results/paper_tables/`](Sx/published_results/paper_tables/) | 主表 CSV |
-| [`Sx/published_results/trajectory_comparison/table2_trajectory_comparison.tex`](Sx/published_results/trajectory_comparison/table2_trajectory_comparison.tex) | 新增对照实验的 LaTeX 表格 |
 
-`published_results/` 保存已完成实验的表格、图、配置和汇总指标。重新训练的检查点、逐事件预测及日志写入 `results/` 和 `logs/`。仓库不包含原实验的模型权重和逐事件预测文件；这些文件由训练命令生成。
+当前论文的结果汇总位于 [`Sx/published_results/`](Sx/published_results/)，包含 29 张数据表、三张 LaTeX 表格和四张实验数据图，数值来源为当前 `paper_new`。重新训练生成的检查点、预测和日志写入 `Sx/results/` 与 `Sx/logs/`；这些运行输出单独保存。固定预处理日历和事件清单位于 `Sx/data/market_preflight/`。
 
 ## 安装与数据检查
 
@@ -82,3 +80,9 @@ Direct 方法分别预测推荐股票轨迹与参考股票轨迹，再计算差�
 三个参考方案均为单参考，参考权重为 1。主方案为单近邻的 5,105 个事件。严格匹配采用 AR 路径相关系数不低于 0.70，对应 640 个事件。参考对照在共同的 235 个测试事件上使用相同目标，训练交集对照包含 157 个事件。
 
 行业数据按历史生效区间整理，逐股首次公告日期未核实；受约束单近邻沿用来源更新日期筛选。三组事件不保证嵌套。基线为本项目的统一实现，具体适配见训练配置。数据来源与处理记录保存在各数据目录的 metadata、source manifest 和配置文件中。
+
+校验当前论文结果文件：
+
+```bash
+python3 Sx/sync_paper_results.py --output Sx/published_results --verify
+```

@@ -1,0 +1,21 @@
+\begin{table}[!htbp]
+\centering
+\caption{整体轨迹预测与增量响应预测的比较}\label{tab:incremental_comparison}
+\fontsize{9.2}{11.2}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llrrrrrr@{}}
+\toprule
+方法 & 预测形式 & \multicolumn{2}{c}{异常收益} & \multicolumn{2}{c}{换手率} & \multicolumn{2}{c}{对数成交量} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+ &  & \shortstack{平均绝对\\误差} & \shortstack{均方根\\误差} & \shortstack{平均绝对\\误差} & \shortstack{均方根\\误差} & \shortstack{平均绝对\\误差} & \shortstack{均方根\\误差} \\
+\midrule
+ECT-整体 & 整体轨迹 & \shortstack[r]{0.03005\\{\scriptsize $\pm$\,0.00013}} & \shortstack[r]{0.04505\\{\scriptsize $\pm$\,0.00016}} & \shortstack[r]{3.670\\{\scriptsize $\pm$\,0.050}} & \shortstack[r]{6.480\\{\scriptsize $\pm$\,0.070}} & \shortstack[r]{0.751\\{\scriptsize $\pm$\,0.006}} & \shortstack[r]{0.990\\{\scriptsize $\pm$\,0.008}} \\[3pt]
+ECT-增量 & 增量响应 & \shortstack[r]{0.02878\\{\scriptsize $\pm$\,0.00011}} & \shortstack[r]{0.04295\\{\scriptsize $\pm$\,0.00013}} & \shortstack[r]{3.490\\{\scriptsize $\pm$\,0.041}} & \shortstack[r]{6.190\\{\scriptsize $\pm$\,0.058}} & \shortstack[r]{0.722\\{\scriptsize $\pm$\,0.005}} & \shortstack[r]{0.950\\{\scriptsize $\pm$\,0.007}} \\[3pt]
+RAFT-整体 & 整体轨迹 & \shortstack[r]{0.02955\\{\scriptsize $\pm$\,0.00012}} & \shortstack[r]{0.04415\\{\scriptsize $\pm$\,0.00015}} & \shortstack[r]{3.580\\{\scriptsize $\pm$\,0.047}} & \shortstack[r]{6.330\\{\scriptsize $\pm$\,0.066}} & \shortstack[r]{0.737\\{\scriptsize $\pm$\,0.006}} & \shortstack[r]{0.970\\{\scriptsize $\pm$\,0.008}} \\[3pt]
+RAFT-增量 & 增量响应 & \shortstack[r]{0.02842\\{\scriptsize $\pm$\,0.00010}} & \shortstack[r]{0.04253\\{\scriptsize $\pm$\,0.00012}} & \shortstack[r]{3.430\\{\scriptsize $\pm$\,0.044}} & \shortstack[r]{6.100\\{\scriptsize $\pm$\,0.061}} & \shortstack[r]{0.712\\{\scriptsize $\pm$\,0.005}} & \shortstack[r]{0.937\\{\scriptsize $\pm$\,0.006}} \\[3pt]
+\textbf{RAIF} & 增量响应 & \textbf{\shortstack[r]{0.02702\\{\scriptsize $\pm$\,0.00009}}} & \textbf{\shortstack[r]{0.04061\\{\scriptsize $\pm$\,0.00012}}} & \textbf{\shortstack[r]{3.220\\{\scriptsize $\pm$\,0.030}}} & \textbf{\shortstack[r]{5.800\\{\scriptsize $\pm$\,0.048}}} & \textbf{\shortstack[r]{0.686\\{\scriptsize $\pm$\,0.004}}} & \textbf{\shortstack[r]{0.903\\{\scriptsize $\pm$\,0.006}}} \\[3pt]
+\bottomrule
+\end{tabular*}
+\par\smallskip{\footnotesize 增量响应误差（均值 $\pm$ 标准差）；粗体为最优值。}
+\end{table}

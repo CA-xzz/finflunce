@@ -1,2 +1,0 @@
-model,variant,seed,parameters,training_seconds,base_training_seconds,correction_training_seconds,frozen_base_parameters,inference_batch_ms,inference_event_ms,retrieval_batch_ms,timing_batch_size,repetitions,memory_total_mb,key_and_response_memory_mb
-RAIF,no_attention,42,73973,24.10970140999416,0.0,23.17878821399063,0,4.122619453119114,0.06441592895498616,1.2873675033915788,64,20,0.93744,0.5642

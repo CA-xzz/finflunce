@@ -21,3 +21,5 @@ Sx/data/supplemental_market/stocks/
 Sx/published_results/preflight_expanded/indices.parquet
 Sx/published_results/industry_recovery/*.csv
 Sx/published_results/industry_recovery/*.parquet
+
+Sx/archive/

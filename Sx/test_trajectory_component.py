@@ -224,9 +224,27 @@ class PreparedDataAndExecutionChecks(unittest.TestCase):
         root = Path(directory)
         (root/'data').symlink_to(ROOT/'data', target_is_directory=True)
         (root/'results').mkdir()
-        (root/'results/suite_expanded').symlink_to(ROOT/'published_results/suite_expanded', target_is_directory=True)
         for name in ['models.py','train.py','train_trajectory_component.py']:
             (root/name).symlink_to(ROOT/name)
+        primary = root/'data/prepared_expanded'
+        normal = component.read_json(primary/'normalization.json')
+        for model_name in ['ECT', 'RAFT']:
+            source_run = root/'results/suite_expanded/main'/model_name/'seed41'
+            source_run.mkdir(parents=True)
+            with patch('sys.argv', ['train.py', '--data', str(primary), '--output', str(source_run),
+                                   '--model', model_name, '--seed', '41', '--hidden', '8',
+                                   '--heads', '2', '--layers', '1', '--dropout', '0', '--lr', '.003']):
+                arguments = core.parse_args()
+            source = {key: str(value) if isinstance(value, Path) else value
+                      for key, value in vars(arguments).items()}
+            model_config = configuration()
+            model_config.update(n_platforms=normal['n_platforms'], n_influencers=normal['n_influencers'])
+            source.update(model_config=model_config,
+                          data_hash=core.sha256(primary/'dataset.npz'),
+                          normalization_hash=core.sha256(primary/'normalization.json'),
+                          code_hashes={name: core.sha256(ROOT/name) for name in ['models.py', 'train.py']})
+            core.write_json(source_run/'config.json', source)
+            core.write_json(source_run/'status.json', {'status': 'completed', 'synthetic_test_fixture': True})
         reference = root/'results/trajectory_comparison/components/reference/seed41'
         reference.mkdir(parents=True)
         (reference/'checkpoint.pt').write_bytes(b'SYNTHETIC_TEST_ONLY_NOT_A_MODEL')
@@ -280,7 +298,7 @@ class PreparedDataAndExecutionChecks(unittest.TestCase):
                 self.assertIsNot(core.evaluate, original_evaluate)
                 self.assertEqual(len(memory['y']), 2170)
                 self.assertTrue(bool((memory['split']==0).all()))
-                source = component.read_json(ROOT/'published_results/suite_expanded/main'/('RAFT' if isinstance(model, RAFT) else 'ECT')/'seed41/config.json')
+                source = component.read_json(options.root/'results/suite_expanded/main'/('RAFT' if isinstance(model, RAFT) else 'ECT')/'seed41/config.json')
                 for key in ['epochs','patience','batch_size','lr','weight_decay','huber_delta','lambda_ret']:
                     self.assertEqual(getattr(args,key), source[key])
                 torch.save({'model_state':model.state_dict(), 'epoch':0, 'validation_mae':0., 'model_config':model_config}, args.output/'checkpoint.pt')

@@ -1,2 +1,0 @@
-model,variant,seed,parameters,trainable_parameters,frozen_base_parameters,checkpoint_bytes
-RAIF,full,43,73917,73917,0,308898

@@ -1,9 +1,0 @@
-{
-  "best_epoch": 18,
-  "validation_standardized_mae": 0.6332719326019287,
-  "training_seconds": 18.050046514021233,
-  "n_base_train": 1145,
-  "n_residual_train": 912,
-  "boundary_day": 373,
-  "boundary_gap": 11
-}

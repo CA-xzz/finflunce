@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering
+\caption{参考构造方法比较}\label{tab:reference}
+\fontsize{9.2}{11.2}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrrrr@{}}
+\toprule
+参考方案 & 训练事件 & \multicolumn{2}{c}{异常收益} & \multicolumn{2}{c}{换手率} & \multicolumn{2}{c}{对数成交量} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+ &  & \shortstack{平均绝对\\误差} & \shortstack{均方根\\误差} & \shortstack{平均绝对\\误差} & \shortstack{均方根\\误差} & \shortstack{平均绝对\\误差} & \shortstack{均方根\\误差} \\
+\midrule
+严格匹配 & 278 & \shortstack[r]{0.02148\\{\scriptsize $\pm$\,0.00009}} & \shortstack[r]{0.03547\\{\scriptsize $\pm$\,0.00012}} & \shortstack[r]{2.615\\{\scriptsize $\pm$\,0.056}} & \shortstack[r]{5.180\\{\scriptsize $\pm$\,0.081}} & \shortstack[r]{0.743\\{\scriptsize $\pm$\,0.009}} & \shortstack[r]{1.012\\{\scriptsize $\pm$\,0.014}} \\
+受约束单近邻 & 678 & \shortstack[r]{0.02135\\{\scriptsize $\pm$\,0.00008}} & \shortstack[r]{0.03518\\{\scriptsize $\pm$\,0.00012}} & \shortstack[r]{2.575\\{\scriptsize $\pm$\,0.060}} & \shortstack[r]{5.210\\{\scriptsize $\pm$\,0.079}} & \shortstack[r]{0.741\\{\scriptsize $\pm$\,0.009}} & \shortstack[r]{1.011\\{\scriptsize $\pm$\,0.013}} \\
+单近邻 & 2,170 & \textbf{\shortstack[r]{0.02122\\{\scriptsize $\pm$\,0.00007}}} & \textbf{\shortstack[r]{0.03509\\{\scriptsize $\pm$\,0.00010}}} & \textbf{\shortstack[r]{2.560\\{\scriptsize $\pm$\,0.039}}} & \textbf{\shortstack[r]{5.110\\{\scriptsize $\pm$\,0.057}}} & \textbf{\shortstack[r]{0.737\\{\scriptsize $\pm$\,0.007}}} & \textbf{\shortstack[r]{1.008\\{\scriptsize $\pm$\,0.010}}} \\
+\bottomrule
+\end{tabular*}
+\par\smallskip{\footnotesize 均值 $\pm$ 标准差；粗体为最优值。}
+\end{table}

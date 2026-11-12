@@ -1,7 +1,0 @@
-model,variant,seed,split,label_version,memory_mode,retrieval,evaluation_kind,source_run,channel,horizon,metric,value,n_events,n_dates
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,frozen_retrieval_replacement,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed43,AR,11,MAE,0.030524471821612935,2315,141
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,frozen_retrieval_replacement,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed43,AR,11,RMSE,0.045505425797041345,2315,141
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,frozen_retrieval_replacement,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed43,turnover,11,MAE,3.602565262079164,2315,141
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,frozen_retrieval_replacement,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed43,turnover,11,RMSE,6.550559694308869,2315,141
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,frozen_retrieval_replacement,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed43,log_volume,11,MAE,0.7293339776415072,2315,141
-RAIF,full,43,test,expanded_nearest_a60080fcec64,fixed,random,frozen_retrieval_replacement,/home/ubuntu/Sx/results/suite_expanded/main/RAIF/seed43,log_volume,11,RMSE,0.9586698022552974,2315,141

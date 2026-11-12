@@ -122,7 +122,7 @@
     },
     {
       "path": "reproduce.py",
-      "sha256": "810845beda69ee5e55f33b4f86767bb499a88cb42bffef5bcab2f5fb19079e77",
+      "sha256": "50ff6cb9bab5fcdf65c0ffdf81a9e6be3d15dd8caa79131106466c962aa1cb11",
       "original_experiment_source_unchanged": false
     },
     {
@@ -217,7 +217,7 @@
     },
     {
       "path": "test_trajectory_component.py",
-      "sha256": "70148f187878f5de6c8424ab4807f0c323cb2c6ec14271a4ebf0fec8c3b57736",
+      "sha256": "12cbc7967661437fb97872a40c7595d464bb42c92575fdfb81bcb09284abda5f",
       "original_experiment_source_unchanged": false
     },
     {
@@ -259,12 +259,18 @@
       "path": "write_main_tables_md.py",
       "sha256": "4b7a1a0128f764aa408014fa49969340bf7e55f40607fad7bab1fe155749401b",
       "original_experiment_source_unchanged": true
+    },
+    {
+      "path": "sync_paper_results.py",
+      "sha256": "14120ded6f0bac56a670c385d20b08bc0f05b5a3196d65870a0c6d3c64428c4d",
+      "original_experiment_source_unchanged": false
     }
   ],
   "publication_helpers": [
     "check_dataset.py",
     "reproduce.py",
-    "replay_main_predictions.py"
+    "replay_main_predictions.py",
+    "sync_paper_results.py"
   ],
-  "test_fixture_change": "test_trajectory_component.py reads published_results configs in a clean clone"
+  "test_fixture_change": "Trajectory component tests generate synthetic source configs in temporary directories."
 }

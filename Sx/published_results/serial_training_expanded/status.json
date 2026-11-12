@@ -1,9 +1,0 @@
-{
-  "status": "completed",
-  "mode": "all",
-  "training_runs": 22,
-  "inference_runs": 22,
-  "finished_unix": 1793952947.057569,
-  "no_observed_contention": true,
-  "gpu_pid_ownership_method": "inferred_unique_new_pid_after_idle_start_and_cuda_warmup"
-}

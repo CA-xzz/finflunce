@@ -1,2 +1,0 @@
-model,variant,seed,parameters,trainable_parameters,frozen_base_parameters,checkpoint_bytes,auxiliary_experiment,history_value
-RAFT_raw_Y_history,full,42,2111,2111,0,15266,RAFT_raw_Y_history,training_standardized_raw_Y
