@@ -176,7 +176,7 @@ def finish(root):
         "参考质量为 exp(-平衡偏差/训练尺度-参考距离/训练尺度)，下限为 1e-8。主方案为 5,105 个事件的单近邻，行业、板块和市值不限制候选股票范围。", "",
         "效率表统一使用 912 条历史记忆。训练时间、测试误差和单事件延迟对应同一组重训检查点，原主检查点的单事件计时另存。训练时间含验证、缓存刷新和检查点写入；RATL 的基础、残差及 gamma 选择分别列示。参考构造耗时沿用原先固定参考股票及标签时的一次实测；此次 q 更新保留参考股票与标签，q 重算、行情及属性下载耗时未计入该项。", "",
         "历史行业记录具有有效区间，逐股首次公告时间仍未知。推荐记录只有日期，盘中发布时间无法核实。主方案中的行业与市值用于样本描述。严格匹配采用历史生效区间，受约束单近邻保留保守日期筛选规则。", "",
-        "Table 1–7 的数据与 Figure 3–4 的实测图位于 Sx，论文正文另行维护。", "",
+        "Table 1–7 的数据与 Figure 3–4 的实测图位于 RAIF，论文正文另行维护。", "",
         link("完整文件清单", "results/paper_experiment_manifest.csv") + " · " + link("运行汇总", "results/paper_experiment_completion.json") + " · " + link("数据说明", "results/industry_recovery/DATA_SCOPE.md")]
     if revision_provenance:
         labels = {"data_migration_verification": "数据版本核验", "independent_predictions_validation": "预测结果核验"}

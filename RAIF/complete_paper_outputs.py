@@ -467,12 +467,12 @@ def write_documentation(args, data, auxiliary, counts, source_details):
         'Figure 3 前状态图沿用主报告的六个固定案例和顺序，覆盖事件前第 10 至第 1 个交易日。各面板使用原单位和独立纵轴；数据由 float32 模型输入反标准化。图与已有检索轨迹图通过 case_id 和 event_id 对应。', '',
         '本批数据采用允许跨行业、跨板块的最近邻参考。推荐记录只有日期；历史行业来自固定版本的公开副本，其逐股首次公告时间未确认。这些限制沿用主数据说明。分组差异为描述性比较，不作因果推断。']
     (args.output / 'RESULTS.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
-    command = ('python Sx/complete_paper_outputs.py --data Sx/data/prepared_expanded '
-               '--suite Sx/results/suite_expanded --report Sx/results/report_expanded '
-               '--rolling Sx/results/rolling_expanded --frozen Sx/results/frozen_retrieval_expanded '
-               '--output Sx/results/paper_completion')
+    command = ('python RAIF/complete_paper_outputs.py --data RAIF/data/prepared_expanded '
+               '--suite RAIF/results/suite_expanded --report RAIF/results/report_expanded '
+               '--rolling RAIF/results/rolling_expanded --frozen RAIF/results/frozen_retrieval_expanded '
+               '--output RAIF/results/paper_completion')
     (args.output / 'README.md').write_text('# 脚本说明\n\n运行环境：Python 3.9+、numpy、pandas、matplotlib。仅读取本地结果，不调用训练模型或网络。\n\n```sh\n' + command +
-        '\npython Sx/complete_paper_outputs.py --self-test\n```\n\n辅助指标：auxiliary_metrics.csv 和逐种子表；峰值平坦与并列数量见 peak_time_diagnostics_seeds.csv，逐事件值见 peak_time_events.csv。\n\n分组对照：memory_group_metrics.csv、memory_group_differences.csv 及逐种子表；group_counts.csv 包含所有组的规模和可报告状态。source_group_event_assignments.csv、source_group_record_links.csv、source_author_training_status.csv 保存来源分组依据。\n\n案例图：figure3_query_prestate.png/.pdf/.svg；源值见同名 CSV，案例清单见 figure3_case_manifest.csv。\n\nsource_manifest.csv 保存所有读取文件的哈希；output_manifest.csv 为输出清单。未修改主报告、原有脚本或准备数据。\n', encoding='utf-8')
+        '\npython RAIF/complete_paper_outputs.py --self-test\n```\n\n辅助指标：auxiliary_metrics.csv 和逐种子表；峰值平坦与并列数量见 peak_time_diagnostics_seeds.csv，逐事件值见 peak_time_events.csv。\n\n分组对照：memory_group_metrics.csv、memory_group_differences.csv 及逐种子表；group_counts.csv 包含所有组的规模和可报告状态。source_group_event_assignments.csv、source_group_record_links.csv、source_author_training_status.csv 保存来源分组依据。\n\n案例图：figure3_query_prestate.png/.pdf/.svg；源值见同名 CSV，案例清单见 figure3_case_manifest.csv。\n\nsource_manifest.csv 保存所有读取文件的哈希；output_manifest.csv 为输出清单。未修改主报告、原有脚本或准备数据。\n', encoding='utf-8')
 
 
 def main():

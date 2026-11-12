@@ -118,8 +118,9 @@ class Report:
             return path.resolve()
         if not path.is_absolute():
             return self.root / path
-        if "Sx" in path.parts:
-            return self.root.joinpath(*path.parts[path.parts.index("Sx") + 1:])
+        marker = next((i for i, part in enumerate(path.parts) if part in {"RAIF", "Sx"}), None)
+        if marker is not None:
+            return self.root.joinpath(*path.parts[marker + 1:])
         return path
 
     def checked(self, group, name, function):

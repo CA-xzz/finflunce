@@ -62,8 +62,8 @@ def write_json(path, value):
 
 
 def classifications(source, output):
-    events = pd.read_csv(source / "Sx/results/industry_recovery/missing_price_events.csv", dtype={"stock": str})
-    names = pd.read_csv(source / "Sx/results/industry_recovery/missing_price_names.csv", dtype={"stock": str})
+    events = pd.read_csv(source / "RAIF/results/industry_recovery/missing_price_events.csv", dtype={"stock": str})
+    names = pd.read_csv(source / "RAIF/results/industry_recovery/missing_price_names.csv", dtype={"stock": str})
     counts = events.groupby("stock").size()
     crosswalk_path = output / "canonical_code_crosswalk.csv"
     canonical = pd.read_csv(crosswalk_path, dtype=str).set_index("original_code").canonical_code.to_dict() if crosswalk_path.exists() else {}
@@ -345,7 +345,7 @@ def execute(args):
         combined_path = output / "stocks" / "supplemental_stock_daily.parquet"
         stock.to_parquet(combined_path, index=False)
         manifest["combined_stock"] = dict(file=str(combined_path), sha256=sha256(combined_path), rows=len(stock), codes=stock.code.nunique())
-    indices_path = source / "Sx/results/preflight/indices.parquet"
+    indices_path = source / "RAIF/results/preflight/indices.parquet"
     original_indices = pd.read_parquet(indices_path)
     original_indices["date"] = pd.to_datetime(original_indices.date)
     supplements = []

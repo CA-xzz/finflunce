@@ -1,4 +1,4 @@
-"""Summarize completed Sx runs without training or changing the manuscript.
+"""Summarize completed RAIF runs without training or changing the manuscript.
 
 Every accepted main-run prediction is checked against the prepared test tensor.
 Missing runs remain missing. Seed-level RMSE is averaged only after each seed's

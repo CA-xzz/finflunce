@@ -30,6 +30,16 @@ def fixture(root):
 
 
 class SupplementarySummaryTests(unittest.TestCase):
+    def test_relocated_paths_accept_current_and_legacy_project_names(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory) / 'RAIF'
+            report = Report(root, root / 'report')
+            suffix = Path('results/suite_expanded/main/RAIF/seed41/config.json')
+            for name in ['RAIF', 'Sx']:
+                with self.subTest(project=name):
+                    historical = Path('/old/server') / name / suffix
+                    self.assertEqual(report.resolve(historical), root.resolve() / suffix)
+
     def test_previous_quality_rule_is_rejected(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)

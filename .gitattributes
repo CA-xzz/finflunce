@@ -4,5 +4,5 @@
 *.parquet binary
 
 # Preserve published data and measurement hashes across platforms.
-Sx/data/** -text
-Sx/published_results/** -text
+RAIF/data/** -text
+RAIF/published_results/** -text

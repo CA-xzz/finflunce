@@ -51,7 +51,7 @@ def build(source, output):
     raw = pd.read_csv(raw_path, dtype=str, keep_default_na=False)
     master_path = source / "control_stock_finder/data/all_stocks_info.csv"
     master = pd.read_csv(master_path, dtype={"code": str}).set_index("code")["name"].to_dict()
-    missing = pd.read_csv(source / "Sx/results/industry_recovery/missing_price_names.csv", dtype={"stock": str})
+    missing = pd.read_csv(source / "RAIF/results/industry_recovery/missing_price_names.csv", dtype={"stock": str})
     clear_missing_pairs = set(zip(missing[missing.stock.isin(STOCK_CODES)].stock,
                                  missing[missing.stock.isin(STOCK_CODES)].recommended_stock_name))
     rows = []

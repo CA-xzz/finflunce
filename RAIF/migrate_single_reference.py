@@ -69,11 +69,13 @@ def migrate_one(source, destination, display_name, expected_count):
         if frozen:
             frozen_distance_source = Path(frozen['configuration'])
             if not frozen_distance_source.exists():
-                ancestors = [p for p in source.resolve().parents if p.name == 'Sx']
-                if not ancestors or 'Sx' not in frozen_distance_source.parts:
-                    raise FileNotFoundError(frozen_distance_source)
+                roots = {'RAIF', 'Sx'}  # Older provenance records retain the original directory name.
+                ancestors = [p for p in source.resolve().parents if p.name in roots]
                 parts = frozen_distance_source.parts
-                frozen_distance_source = ancestors[0].joinpath(*parts[parts.index('Sx')+1:])
+                marker = next((i for i, part in enumerate(parts) if part in roots), None)
+                if not ancestors or marker is None:
+                    raise FileNotFoundError(frozen_distance_source)
+                frozen_distance_source = ancestors[0].joinpath(*parts[marker+1:])
             assert digest(frozen_distance_source) == frozen['sha256']
             config['frozen_distance_fit'] = dict(frozen,
                 configuration='provenance/distance_fit_config.json', path_basis='prepared_dataset_directory')
